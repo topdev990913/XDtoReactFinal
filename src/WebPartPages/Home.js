@@ -12,13 +12,19 @@ import LeftBarHighlight from "../Components/LeftBarHighlight";
 import MainMiddleBar from "../Components/MainMiddleBar";
 import MainBarEdit from "../Components/MainBar_Edit";
 import MainBarComments from "../Components/MainBarComments";
-import VPRightBarSubTopBar from "../Components/ViewProfile/VPRightBarSubTopBar";
-import VPRigthBarSub1 from "../Components/ViewProfile/VPRigthBarSub1";
 import VPRigthBarSub2 from "../Components/ViewProfile/VPRightBarSub2";
 import VPRigthBarSub3 from "../Components/ViewProfile/VPRightBarSub3";
 import MyCommentsEditProfileStar from "../Components/ViewProfile/MyCommentsEditProfileStar";
 import VPRightTopBarStar from "../Components/ViewProfile/VPRightTopBarStar";
-const Home = () => {
+import VPRightBarSubTopBarStar from "../Components/ViewProfile/VPRightBarSubTopBarStar";
+import VPRightBarSubTopBarStar1 from "../Components/ViewProfile/VPRightBarSubTopBarStar1";
+import VPRightBarSubTopBarFavourite from "../Components/ViewProfile/VPRightBarSubTopBarFavourite";
+import VPRightBarSubscriber2 from "../Components/ViewProfile/VPRightBarSubscriber2";
+import VPRightBarSubscriberTransaction from "../Components/ViewProfile/VPRightBarSubscriberTransaction";
+import MyCommentsEditProfileStar1 from "../Components/ViewProfile/MyCommentsEditProfileStar1";
+import VPRigthBarFavourite1 from "../Components/ViewProfile/VPRigthBarFavourite1";
+import VPRigthBarFavourite2 from "../Components/ViewProfile/VPRigthBarFavourite2";
+const Home = ({ checkedFavourite, setCheckedFavourite }) => {
     const [checkedCommentStar, setCheckedCommentStar] = useState(1)
     const [checkedForYou, setCheckedForYou] = useState(1);
     const [checkedMainOption, setCheckedMainOption] = useState(1)
@@ -32,18 +38,42 @@ const Home = () => {
         if (checkedMainOption === 3) return <MainBarComments />
 
     }
+    const displaystarsubtopbar = () => {
+        if (checkedCommentStar === 1) return <VPRightBarSubTopBarStar />
+        if (checkedCommentStar === 2) return <VPRightBarSubTopBarStar1 />
+        if (checkedCommentStar === 3) return <VPRightBarSubTopBarFavourite checkedFavourite={checkedFavourite} setCheckedFavourite={setCheckedFavourite} />
+    }
+    const displaysubtitle1 = () => {
+        if (checkedCommentStar === 1) return <>
+            <VPRightBarSubscriber2 />
+        </>
+        if (checkedCommentStar === 2) return <>
+            <VPRightBarSubscriberTransaction />
+        </>
+        if (checkedCommentStar === 3 & checkedFavourite === true) return <>
+            <VPRigthBarFavourite1 />
+            <VPRigthBarFavourite1 />
+        </>
+        if (checkedCommentStar === 3 & checkedFavourite === false) return <>
+        <VPRigthBarFavourite2 />
+    </>
+    }
     const displaystar = () => {
         if (checkedMainOption === 4) return <>
+
             <div className="ViewProfile_Mycomments_1">
-                <MyCommentsEditProfileStar />
+                {checkedCommentStar === 1 ?
+                    <MyCommentsEditProfileStar />
+                    :
+                    <MyCommentsEditProfileStar1 />
+                }
             </div>
             <div className="ViewProfile_Mycomments_2">
-                <VPRightTopBarStar checkedCommentStar={checkedCommentStar} setCheckedCommentStar={setCheckedCommentStar}/>
+                <VPRightTopBarStar checkedCommentStar={checkedCommentStar} setCheckedCommentStar={setCheckedCommentStar} />
                 <div className="d-flex">
                     <div className="VP_RightBarSub1_out">
-                        <VPRightBarSubTopBar />
-                        <VPRigthBarSub1 />
-                        <VPRigthBarSub1 />
+                        {displaystarsubtopbar()}
+                        {displaysubtitle1()}
                     </div>
                     <div className="VP_RightBarSub2_out">
                         <VPRigthBarSub2 />
@@ -52,18 +82,18 @@ const Home = () => {
                 </div>
             </div>
         </>
-        else return<>
-        <div style={{ width: "calc(100% - 74px)" }}>
-                    <div className="row">
-                        <div className="MainBar_out">
-                            {displayCase()}
-                        </div>
-                        <div className="RightBar_out">
-                            <AdvertisementBanner />
-                            <LeftBarHighlight />
-                        </div>
+        else return <>
+            <div style={{ width: "calc(100% - 74px)" }}>
+                <div className="row">
+                    <div className="MainBar_out">
+                        {displayCase()}
+                    </div>
+                    <div className="RightBar_out">
+                        <AdvertisementBanner />
+                        <LeftBarHighlight />
                     </div>
                 </div>
+            </div>
         </>
     }
 

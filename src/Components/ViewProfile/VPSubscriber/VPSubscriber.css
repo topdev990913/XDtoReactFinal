@@ -7,6 +7,17 @@
     margin-top: 23px;
 }
 
+.VPSubTransactionCard_out {
+    background-color: #0B2447;
+    height: 55px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin-top: 23px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .VPFavouriteCard_out {
     background-color: #0B2447;
     height: 83px;
@@ -101,4 +112,25 @@
     height: 34px;
     border-radius: 6px;
     font-size: 18px;
+}
+
+.VPSubTransactionCard_1 {
+    color: #E6E6E6;
+    font-size: 20px;
+}
+
+.VPSubTransactionCard_2{
+    color: #4DD5FF;
+    font-size: 20px;
+    font-weight: medium;
+}
+
+.VPSubTransactionCard_3{
+    color: #E6E6E6;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.VPSubTransactionCard_4 {
+    font-size: 13px;
 }

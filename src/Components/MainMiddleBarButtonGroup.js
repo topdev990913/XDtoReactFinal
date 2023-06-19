@@ -8,7 +8,7 @@ const MainMiddleBarButtonGroup = ({ checkedForYou, setCheckedForYou }) => {
     return (
         <div className={checkedForYou === 2? "MainMiddleBarButtonGroup_out_none" : "MainMiddleBarButtonGroup_out"}>
             <Button type="submit" color="info" className="MainMiddleBarButton_1" outline>Subscribe</Button>
-            <Button type="submit" color="info" className="MainMiddleBarButton_2" outline style={{marginLeft: "30px"}}>Follow</Button>
+            <Button type="submit" color="info" className="MainMiddleBarButton_2" outline>Follow</Button>
         </div>
     );
 };

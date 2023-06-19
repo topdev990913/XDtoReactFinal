@@ -11,11 +11,13 @@ import MainMiddleBarFooter from "./MainMiddleBarFooter";
 const MainMiddleBar = ({ checkedForYou, setCheckedForYou }) => {
     return (
         <div className="MainMiddleBar_out">
-            <div className="d-flex">
-                <HighLightAvatar />
-                <HighLightMiddleExpert />
+            <div className="d-flex flex-wrap" style={{ justifyContent: "space-between", flexGrow: "1" }}>
+                <div className="d-flex">
+                    <HighLightAvatar />
+                    <HighLightMiddleExpert />
+                </div>
                 <MainMiddleBarMiddle />
-                <MainMiddleBarButtonGroup checkedForYou={checkedForYou} setCheckedForYou={setCheckedForYou}/>
+                <MainMiddleBarButtonGroup checkedForYou={checkedForYou} setCheckedForYou={setCheckedForYou} />
             </div>
             <MainMiddleBarBody checkedForYou={checkedForYou} setCheckedForYou={setCheckedForYou} />
             <MainMiddleBarFooter />

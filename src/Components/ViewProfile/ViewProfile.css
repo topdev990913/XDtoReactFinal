@@ -1453,6 +1453,12 @@
     margin-top: 10px;
 }
 
+.VP_MC_EP_out_star_2_1 {
+    color: #E6E6E6;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
 .VP_MC_EP_out_star_1 {
     padding-top: 8.5px;
 }
@@ -1509,5 +1515,26 @@
     border-radius: 6px;
     font-size: 23px;
     font-weight: medium;
+    margin-top: 40px;
+}
+
+.VP_Right_TopBar_out_none {
+    display: none;
+}
+
+.VPRightBarSubscriberTransaction_1{
+    color: #E6E6E6;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.VP_MC_EP_out_star_100 {
+    color: #E6E6E6;
+    font-size: 19px;
+    font-weight: medium;
+}
+
+.VP_MC_EP_out_star_101 {
+    grid-gap: 20px;
     margin-top: 40px;
 }
