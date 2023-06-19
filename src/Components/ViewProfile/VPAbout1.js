@@ -2,7 +2,7 @@ import React from "react";
 import "./ViewProfile.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
-const VPAbout1 = () => {
+const VPAbout1 = ({checkedBall, setCheckedBall}) => {
     return (
         <div className="VP_MC_EP_About_out">
             <div className="VP_MC_EP_About_1">

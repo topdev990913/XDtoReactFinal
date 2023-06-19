@@ -1,14 +1,19 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import "./ViewProfile.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import HighlightLogo from '../../assets/lifebuoy.png';
-import { Button} from "reactstrap";
+import { Button } from "reactstrap";
 import Modal from 'react-bootstrap/Modal';
+import ModalSupport from "../ModalSupport";
+import ModalFinancial from "../ModalFinancial";
 const VPRigthBarSub3 = () => {
     const [show1, setShow1] = useState(false);
     const handleShow1 = () => setShow1(true);
     const handleClose1 = () => setShow1(false);
+    const [show2, setShow2] = useState(false);
+    const handleShow2 = () => setShow2(true);
+    const handleClose2 = () => setShow2(false);
     return (
         <div className="VPRigthBarSub3_out">
             <div className="VPRigthBarSub2_1">
@@ -19,7 +24,10 @@ const VPRigthBarSub3 = () => {
                 <div className="VPRigthBarSub3_2">
                     Do you need help?
                 </div>
-                <Button type="button" className="Support_Button" inline>Create Support Ticket</Button>
+                <Button type="button" className="Support_Button" onClick={handleShow2} inline>Create Support Ticket</Button>
+                <Modal show={show2} onHide={handleClose2} dialogClassName="modal_out" id="ModalSupport">
+                        <ModalSupport />
+                </Modal>
             </div>
             <div className="VPRigthBarSub3_3">
                 Support Requests
@@ -46,15 +54,8 @@ const VPRigthBarSub3 = () => {
                     Waiting
                 </div>
             </div>
-            <Modal show={show1} onHide={handleClose1} dialogClassName="modal_out1">
-                <Modal.Header closeButton>
-                </Modal.Header>
-                <Modal.Body>
-                    
-                </Modal.Body>
-                <Modal.Footer style={{ display: "flex", justifyContent: "center", marginTop: "-10px" }}>
-                    <Button type="submit" color="info" className="modal_Footer_Button" outline>Approve</Button>
-                </Modal.Footer>
+            <Modal show={show1} onHide={handleClose1} dialogClassName="modal_out1" id="Financial">
+                <ModalFinancial />
             </Modal>
             <div className="VPRigthBarSub3_4">
                 <div className="d-flex" style={{ alignItems: "center" }}>

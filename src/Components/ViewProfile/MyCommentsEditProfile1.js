@@ -6,7 +6,7 @@ import HighLightAvatarVP from "../highlight/HighLightAvatarVP";
 import PieChatBack from '../../assets/Path 160.png';
 import PieChatProgress from '../../assets/Path 159.png';
 import { Button, Col } from "reactstrap";
-const MyCommentsEditProfile1 = ({checkedSubComment, setCheckedSubComment}) => {
+const MyCommentsEditProfile1 = ({checkedSubComment, setCheckedSubComment}, {checkedBall, setCheckedBall}) => {
     return (
         <div className="VP_MC_EP_out">
             <div className="d-flex display_VP">

@@ -484,3 +484,140 @@ body {
 .modal_Footer_Button.btn-outline-info {
     border-color: #D2DB08;
 }
+
+#notification .modal-content {
+    width: 473px;
+    height: 553px;
+    margin-left: 579px;
+    margin-top: 100px;
+}
+
+#PromoteMe .modal-content {
+    width: 567px;
+    height: 851px;
+    margin-top: 50px;
+}
+
+#ModalSupport .modal-content {
+    width: 567px;
+    height: 696px;
+    margin-top: 131px;
+}
+
+.ModalSupport_1 {
+    background-color: transparent;
+    color: #E6E6E6;
+    margin-top: 17px;
+}
+
+.subject_out {
+    background-color: transparent;
+    width: 100%;
+    border-radius: 8px;
+    background-color: #0B2447;
+    color: #E6E6E6;
+    border: none;
+    height: 42.5px;
+    margin-top: 10px;
+}
+
+.subject_out:focus-visible {
+    border: none;
+}
+
+.message_out {
+    background-color: transparent;
+    width: 100%;
+    border-radius: 8px;
+    background-color: #0B2447;
+    color: #E6E6E6;
+    border: none;
+    height: 168px;
+    margin-top: 10px;
+}
+
+.message_out:focus-visible {
+    border: none;
+}
+
+.Support_send_button{
+    width: 160px;
+    height: 53px;
+    color: #D2DB08;
+    border-color: #D2DB08;
+    border-radius: 8px;
+    font-size: 25px;
+    margin-top: 49.5px;
+}
+
+.ModalSupport_2 {
+    color: #E6E6E6;
+    font-size: 18px;
+    text-align: center;
+    padding: 0;
+    margin-top: 19px;
+}
+
+#Financial .modal-content {
+    width: 567px;
+    height: 606px;
+    margin-top: 150px;
+}
+
+.ModalFinancial_1 {
+    justify-content: space-between;
+}
+
+.ModalFinancial_2 {
+    color: #D2DB08;
+    font-size: 20px;
+}
+
+.ModalFinancial_3 {
+    color: #E6E6E6;
+    font-size: 20px;
+}
+
+.ModalFinancial_4 {
+    color: #4DD5FF;
+    font-size: 20px;
+}
+
+.ModalFinancial_5 {
+    background-color: #0B2447;
+    height: 168px;
+    color: #E6E6E6;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+
+.Financail_reply_button {
+    color: #D2DB08;
+    border-color: #D2DB08;
+    width: 183px;
+    height: 53px;
+    border-radius: 8px;
+    font-size: 25px;
+}
+
+.Financial_CloseRequest_button {
+    color: #FF7171;
+    border-color: #FF7171;
+    width: 183px;
+    height: 53px;
+    border-radius: 8px;
+    font-size: 25px;
+}
+
+#Reply .modal-content {
+    width: 567px;
+    height: 829px;
+    margin-top: 50px;
+}
+
+.modal-content {
+    z-index: 10000000000;
+}

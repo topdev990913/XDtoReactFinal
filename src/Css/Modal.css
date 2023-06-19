@@ -1,0 +1,144 @@
+.modal_notification_1 {
+    color: #4DD5FF;
+    font-size: 25px;
+    font-weight: medium;
+}
+
+.modal_notification_2 {
+    color: #E6E6E6;
+}
+
+.modal_PromoteMe {
+    grid-gap: 40px;
+    margin-top: -30px;
+}
+
+.modal_PromoteMe_1 {
+    color: #E6E6E6;
+    font-size: 52px;
+    font-family: 'Coolvetica';
+}
+
+.modal_PromoteMe_2 {
+    color: #E6E6E6;
+    font-size: 36px;
+    font-family: 'Berlin Sans FB';
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.modal_PromoteMe_3 {
+    padding-left: 84px;
+    color: #E6E6E6;
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: medium;
+    margin-top: 20px;
+}
+
+.modal_PromoteMe_4 {
+    padding-left: 30.4px;
+    padding-right: 34.2px;
+    justify-content: space-between;
+    grid-gap: 3px;
+    align-items: center;
+    margin-top: 7px;
+}
+
+.modal_PromoteMe_5 {
+    width: 314.77px;
+    height: 40.95px;
+    background-color: #0B2447;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: medium;
+    color: #E6E6E6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modal_PromoteMe_6 {
+    width: 91.73px;
+    height: 49.63px;
+    background-color: #0B2447;
+    border-radius: 0px 16px 16px 0px;
+    color: #E6E6E6;
+    font-size: 20px;
+    font-weight: medium;
+    display: flex;
+    align-items: center;
+}
+
+.modal_PromoteMe_7 {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.modal_PromoteMe_9 {
+    color: #7BFFAB;
+    font-size: 24px;
+    font-weight: medium;
+    margin-right: 61px;
+}
+
+.modal_PromoteMe_10 {
+    color: #7BFFAB;
+    font-size: 15px;
+    font-weight: medium;
+    margin-top: -5px;
+}
+
+.modal_PromoteMe_11 {
+    color: #7BFFAB;
+    font-size: 19px;
+    font-weight: medium;
+}
+
+.modal_PromoteMe_12 {
+    color: #E6E6E6;
+    font-size: 25px;
+    font-weight: medium;
+    margin-top: 15px;
+}
+
+.modal_PromoteMe_13 {
+    color: #E6E6E6;
+    font-size: 43px;
+    font-weight: medium;
+    margin-top: -18px;
+}
+    
+.modal_PromoteMe_14 {
+    font-size: 22px;
+}
+
+.modal_PromoteMe_15 {
+    font-size: 20px;
+    color: #E6E6E6;
+}
+
+.modal_PromoteMe_16 {
+    color: #D2DB08;
+    cursor: pointer;
+}
+
+.HighLight_Checkout_button{
+    color: #D2DB08;
+    border-color: #D2DB08;
+    width: 161px;
+    height: 53px;
+    border-radius: 8px;
+    font-size: 25px;
+    margin-top: 38px;
+}
+
+
+.modal_PromoteMe_17 {
+    text-align: center;
+    font-size: 15px;
+    color: #E6E6E6;
+    margin-top: 28px;
+}

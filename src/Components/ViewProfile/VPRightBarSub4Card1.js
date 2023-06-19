@@ -12,7 +12,7 @@ const VPRightBarSub4Card1 = () => {
             <div className="VPRightBarSub4Card_1">
                 %62
             </div>
-            <div className="VPRightBarSub4Card_2">
+            <div className="VPRightBarSub4Card_2_1">
                 Over - Under
             </div>
         </div>

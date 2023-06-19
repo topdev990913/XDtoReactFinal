@@ -13,14 +13,14 @@ import VPRightBarSub4Card_Spain from "../../assets/indir (3).png";
 import VPRightBarSub4Card_Germany from "../../assets/indir (4).png";
 import VPRightBarSub4Card_France from "../../assets/indir (5).png";
 import VPRightBarSub4Card_Poland from "../../assets/indir (6).png";
-const VPRigthBarSub4 = () => {    
+const VPRigthBarSub4 = ({checkedBall, setCheckedBall}) => {    
     return (
         <div className="VPRigthBarSub4_out">
             <div className="d-flex justify-content-end">
-                <div className="VPRigthBarSub4_1">
+                <div className={checkedBall?"VPRigthBarSub4_1":"VPRigthBarSub4_1_1"} onClick={() => {setCheckedBall(true)}}>
                     Football
                 </div>
-                <div className="VPRigthBarSub4_2">
+                <div className={checkedBall?"VPRigthBarSub4_2":"VPRigthBarSub4_2_1"} onClick={() => {setCheckedBall(false)}}>
                     Basketball
                 </div>
             </div>

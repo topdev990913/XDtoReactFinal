@@ -4,10 +4,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import { Button, Col, Row } from "reactstrap";
 import Modal from 'react-bootstrap/Modal';
-const VPRightTopBar = ({checkedComment, setCheckedComment}) => {
+import ModalPromoteMe from "../ModalPromoteMe";
+const VPRightTopBar = ({ checkedComment, setCheckedComment }) => {
     const [show, setShow] = useState(false);
     const handleShow = () => setShow(true);
     const handleClose = () => setShow(false);
+    const [show2, setShow2] = useState(false);
+    const handleShow2 = () => setShow2(true);
+    const handleClose2 = () => setShow2(false);
     const [show1, setShow1] = useState(false);
     const handleShow1 = () => setShow1(true);
     const handleClose1 = () => setShow1(false);
@@ -115,7 +119,7 @@ const VPRightTopBar = ({checkedComment, setCheckedComment}) => {
                     }
                 </div>
                 <div className="d-flex justify-content-end">
-                    <Button type="submit" color="info" className={checkedComment === 1?"VP_Right_TopBar_Button1":"VP_Right_TopBar_Button1_1"} onClick={handleShow} outline>Add Comment</Button>
+                    <Button type="submit" color="info" className={checkedComment === 1 ? "VP_Right_TopBar_Button1" : "VP_Right_TopBar_Button1_1"} onClick={handleShow} outline>Add Comment</Button>
                     <Modal show={show} onHide={handleClose} dialogClassName="modal_out">
                         <Modal.Header closeButton>
                         </Modal.Header>
@@ -336,7 +340,10 @@ const VPRightTopBar = ({checkedComment, setCheckedComment}) => {
                             </div>
                         </Modal.Footer>
                     </Modal>
-                    <Button type="submit" color="info" className="VP_Right_TopBar_Button2" outline>Promote Me</Button>
+                    <Button type="submit" color="info" className="VP_Right_TopBar_Button2" onClick={handleShow2} outline>Promote Me</Button>
+                    <Modal show={show2} onHide={handleClose2} dialogClassName="modal_out" id="PromoteMe">
+                        <ModalPromoteMe />
+                    </Modal>
                 </div>
             </div>
         </div>

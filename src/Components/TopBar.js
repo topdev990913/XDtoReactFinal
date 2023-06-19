@@ -1,10 +1,12 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { Container, Row, Col, Form, Button, Navbar } from "reactstrap";
 import "../Css/Components.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import header_logo from '../assets/portrait-of-happy-and-cheerful-handsome-adult-man-2022-02-07-02-02-56-utc.png'
 import Modal from 'react-bootstrap/Modal';
+import "../Css/Modal.css"
+import ModalNotification from "./ModalNotification";
 const TopBar = () => {
     const [show1, setShow1] = useState(false);
     const handleShow1 = () => setShow1(true);
@@ -35,15 +37,8 @@ const TopBar = () => {
                                 <path id="Path_105" data-name="Path 105" d="M22.4,8.59A16.573,16.573,0,0,0,18.206,3" transform="translate(8.78 1.5)" fill="none" stroke="#e6e6e6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
                                 <path id="Path_106" data-name="Path 106" d="M3,8.59A16.573,16.573,0,0,1,7.188,3" transform="translate(1.5 1.5)" fill="none" stroke="#e6e6e6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
                             </svg>
-                            <Modal show={show1} onHide={handleClose1} dialogClassName="modal_out1">
-                                <Modal.Header closeButton>
-                                </Modal.Header>
-                                <Modal.Body>
-
-                                </Modal.Body>
-                                <Modal.Footer style={{ display: "flex", justifyContent: "center", marginTop: "-10px" }}>
-                                    <Button type="submit" color="info" className="modal_Footer_Button" outline>Approve</Button>
-                                </Modal.Footer>
+                            <Modal show={show1} onHide={handleClose1} dialogClassName="modal_out1" id="notification">
+                                <ModalNotification />
                             </Modal>
                             <div className="header_dashboard_out" style={{ marginLeft: "10px" }}>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="97" height="27" viewBox="0 0 97 27">

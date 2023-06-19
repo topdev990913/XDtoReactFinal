@@ -12,7 +12,7 @@ function App() {
     <div>
       <Router>
         <Routes>
-          <Route exact path="/" element={<Home  checkedFavourite={checkedFavourite} setCheckedFavourite={setCheckedFavourite}/>} />
+          <Route exact path="/" element={<Home checkedFavourite={checkedFavourite} setCheckedFavourite={setCheckedFavourite}/>} />
           <Route exact path="/ViewProfile" element={<ViewProfile checkedFavourite={checkedFavourite} setCheckedFavourite={setCheckedFavourite} />} />
           <Route exact path="/FavoriteViewProfile" element={<FavoriteViewProfile />} />
         </Routes>

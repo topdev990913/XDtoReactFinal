@@ -27,9 +27,8 @@ import VPRightBarWalletAccount from "../Components/ViewProfile/VPRightBarWalletA
 import VPRightBarSubTopBarFavourite from "../Components/ViewProfile/VPRightBarSubTopBarFavourite";
 import VPRigthBarFavourite1 from "../Components/ViewProfile/VPRigthBarFavourite1";
 import VPRigthBarFavourite2 from "../Components/ViewProfile/VPRigthBarFavourite2";
-const ViewProfile = () => {
+const ViewProfile = ({checkedFavourite, setCheckedFavourite}) => {
     const [checkedWallet, setCheckedWallet] = useState(true)
-    const [checkedFavourite, setCheckedFavourite] = useState(true);
     const [checkedSubscriber, setCheckedSubscriber] = useState(true);
     const [checkedComment, setCheckedComment] = useState(1);
     const [checkedBall, setCheckedBall] = useState(true);
@@ -83,8 +82,8 @@ const ViewProfile = () => {
                 <div className="ViewProfile_Mycomments_1">
                     {checkedSubComment === 3 && checkedBall === true ?
                         <>
-                            <MyCommentsEditProfile1 checkedSubComment={checkedSubComment} setCheckedSubComment={setCheckedSubComment} />
-                            <VPAbout1 checkedSubComment={checkedSubComment} setCheckedSubComment={setCheckedSubComment} />
+                            <MyCommentsEditProfile1 checkedBall={checkedBall} setCheckedBall={setCheckedBall} checkedSubComment={checkedSubComment} setCheckedSubComment={setCheckedSubComment} />
+                            <VPAbout1 checkedBall={checkedBall} setCheckedBall={setCheckedBall} checkedSubComment={checkedSubComment} setCheckedSubComment={setCheckedSubComment} />
                         </>
                         :
                         <>
