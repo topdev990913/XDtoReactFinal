@@ -1,0 +1,1513 @@
+.VP_MC_EP_out {
+    background-color: #0D2A53;
+    height: 752px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+}
+
+.VP_MC_EP_out_star {
+    background-color: #0D2A53;
+    height: 402px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+}
+
+.display_VP {
+    justify-content: space-between;
+}
+
+.VP_EP_Left {
+    margin-top: 63.5px;
+    text-align: center;
+}
+
+.VP_EP_LEFT_Text_field {
+    color: #E6E6E6;
+    width: 118.06px;
+    height: 29.92px;
+    background-color: #0B2447;
+    font-size: 18px;
+}
+
+.VP_EP_LEFT_Text2 {
+    color: #D2DB08;
+    font-size: 35px;
+}
+
+.VP_EP_LEFT_Text3 {
+    color: #D2DB08;
+    font-size: 20px;
+}
+
+.VP_EP_LEFT_Text5 {
+    color: #37FF80;
+    font-size: 35px;
+}
+
+.VP_EP_Middle_1 {
+    color: #E6E6E6;
+    font-size: 20px;
+}
+
+.VP_EP_Middle_2 {
+    color: #E6E6E6;
+    font-size: 15px;
+}
+
+.VP_EP_Middle {
+    text-align: center;
+}
+
+.VP_EP_Right_1 {
+    color: #E6E6E6;
+    font-size: 17px;
+}
+
+
+
+.VP_EP_Right {
+    text-align: center;
+}
+
+.VP_EP_Right_viewProfile {
+    text-align: center;
+    margin-top: 51px;
+}
+
+.VP_EP_Right_3 {
+    color: #FFA200;
+    font-size: 35px;
+}
+
+.VP_EP_Right_4 {
+    color: #FF5757;
+    font-size: 35px;
+}
+
+.VP_EP_LEFT_Text6 {
+    color: #E6E6E6;
+    font-size: 18px;
+    margin-top: 76.3px;
+}
+
+.VP_EP_LEFT_Text7 {
+    color: #E6E6E6;
+    font-size: 25px;
+}
+
+.PieChatBack {
+    position: absolute;
+}
+
+.PieChatProgress {
+    position: absolute;
+    padding-left: 50px;
+    margin-top: 53px;
+    margin-left: -64px;
+}
+
+.VP_EP_Middle_3 {
+    margin-left: -251px;
+}
+
+.VP_EP_Middle_4 {
+    position: absolute;
+    margin-top: 84px;
+    margin-left: 292px;
+}
+
+.VP_EP_LEFT_Middle_5 {
+    color: #FFA200;
+    font-size: 45px;
+}
+
+.VP_EP_LEFT_Middle_6 {
+    color: #FFA200;
+    font-size: 23px;
+    font-weight: medium;
+    margin-top: 10px;
+}
+
+.VP_EP_Button {
+    width: 117.03px;
+    height: 30.28px;
+    border-radius: 18px;
+    font-size: 18px;
+    color: #FFA200;
+    margin-left: 77px;
+    margin-top: 146px;
+    position: absolute;
+}
+
+.VP_EP_LEFT_SUB_out {
+    height: 42.61px;
+    background-color: #0B2447;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 90px;
+}
+
+.VP_EP_LEFT_SUB_out_1 {
+    height: 42.61px;
+    background-color: #0B2447;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 7px;
+}
+
+.VP_EP_LEFT_SUB_1 {
+    color: #E6E6E6;
+    font-size: 17px;
+}
+
+.VP_MC_EP_About_out {
+    background-color: #0D2A53;
+    height: 147px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+}
+
+.VP_MC_EP_About_1 {
+    color: #E6E6E6;
+    font-size: 22px;
+    font-weight: medium;
+    padding-top: 14.2px;
+}
+
+.VP_MC_EP_About_2 {
+    color: #E6E6E6;
+    font-size: 20px;
+}
+
+.VP_Right_TopBar_out {
+    height: 77px;
+    margin-top: 20px;
+    background-color: #0D2A53;
+    margin-left: 20px;
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.VP_Right_TopBar_1 {
+    color: #D2DB08;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.VP_Right_TopBar_1_1 {
+    color: #E6E6E6;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.VP_Right_TopBar_2 {
+    color: #E6E6E6;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.VP_Right_TopBar_2_1 {
+    color: #D2DB08;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.VP_Right_TopBar_Button1 {
+    width: 170px;
+    height: 46px;
+    border-radius: 6px;
+    font-size: 18px;
+    color: #0CC6FF;
+    margin-top: 15px;
+}
+
+.VP_Right_TopBar_Button1_1 {
+    display: none;
+}
+
+.VP_Right_TopBar_Button2 {
+    width: 170px;
+    height: 46px;
+    border-radius: 6px;
+    font-size: 18px;
+    color: #37FF80;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.VP_Right_TopBar_Button1.btn-outline-info {
+    border-color: #0CC6FF;
+}
+
+.VP_Right_TopBar_Button2.btn-outline-info {
+    border-color: #37FF80;
+}
+
+.VPRightBarSubTopBar_out {
+    height: 77px;
+    background-color: #0D2A53;
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.VPRightBarSubTopBar_1 {
+    color: #D2DB08;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.VPRightBarSubTopBar_1_1 {
+    color: #E6E6E6;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.VPRightBarSubTopBar_1_uncomment {
+    color: #E6E6E6;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.VPRightBarSubTopBar_2 {
+    color: #E6E6E6;
+    margin-top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 24.3px;
+}
+
+.VPRightBarSubTopBar_2_1 {
+    color: #D2DB08;
+    margin-top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 24.3px;
+}
+
+.VPRightBarSubTopBar_2_uncomment {
+    color: #D2DB08;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 24.3px;
+}
+
+.VPRigthBarSub1_13 {
+    color: #FF7171;
+    font-size: 15px;
+    margin-left: 237px;
+    margin-top: 30px;
+}
+
+.VPRigthBarSub1_out {
+    background-color: #0D2A53;
+    height: 322px;
+    border-radius: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.VPRigthBarSub1_1 {
+    color: #E6E6E6;
+    font-size: 17px;
+    padding-top: 22px;
+}
+
+.VPRigthBarSub1_2 {
+    height: 163px;
+    background: #0B2447;
+    border-radius: 8px;
+    margin-top: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.VPRigthBarSub1_3 {
+    color: #E6E6E6;
+    font-size: 20px;
+    margin-top: 20.5px;
+    margin-left: 5px;
+}
+
+.TurkeyLogo {
+    margin-top: 14.1px;
+}
+
+.VPRigthBarSub1_4 {
+    color: #E6E6E6;
+    font-size: 20px;
+}
+
+.RightBar_VP {
+    justify-content: center;
+}
+
+.VPRigthBarSub1_5 {
+    text-align: center;
+}
+
+.RightLogo {
+    margin-top: -69px;
+}
+
+.VPRigthBarSub1_6 {
+    margin-top: -134px;
+    color: #E6E6E6;
+    font-size: 20px;
+}
+
+.VPRigthBarSub1_7 {
+    margin-top: 21px;
+    color: #E6E6E6;
+    font-size: 20px;
+}
+
+.VPRigthBarSub2_out {
+    height: 355px;
+    border-radius: 8px;
+    background-color: #0D2A53;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.VPRigthBarSub2_1 {
+    color: #E6E6E6;
+    font-size: 25px;
+    font-weight: medium;
+}
+
+.VPRigthBarSub2_2 {
+    color: #4DD5FF;
+    font-size: 25px;
+    font-weight: medium;
+}
+
+.VPRightBarHighlight_out {
+    height: 76px;
+    background-color: #0B2447;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 10px;
+}
+
+.VPRightBarHighlight_2 {
+    color: #E6E6E6;
+    font-size: 17px;
+    font-weight: medium;
+}
+
+.VPRightBarHighlight_2_win {
+    color: #37FF80;
+    font-size: 17px;
+    font-weight: medium;
+}
+
+.VPRightBarHighlight_2_New {
+    color: #D2DB08;
+    font-size: 17px;
+    font-weight: medium;
+}
+
+.VPRightBarHighlight_3 {
+    color: #E6E6E6;
+    font-size: 13px;
+}
+
+.VPRightBarHighlight_4 {
+    color: #E6E6E6;
+    font-size: 16px;
+}
+
+.display_highlight {
+    justify-content: space-between;
+}
+
+.RightBarhighlightLogo_back {
+    position: absolute;
+}
+
+.RightBarhighlightLogo1 {
+    position: absolute;
+    padding-left: 53px;
+    margin-left: -33px;
+    margin-top: 20px;
+}
+
+.VPRigthBarSub3_out {
+    height: 447px;
+    background-color: #0D2A53;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 20px;
+    border-radius: 8px;
+    padding-top: 15px;
+    margin-top: 20px;
+}
+
+.VPRigthBarSub3_1 {
+    text-align: center;
+}
+
+.VPRigthBarSub3_2 {
+    color: #E6E6E6;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.Support_Button {
+    width: 231px;
+    height: 46px;
+    border-radius: 6px;
+    color: #19376D;
+    background-color: #E6E6E6;
+    font-size: 20px;
+    margin-top: 28px;
+}
+
+.HighlightLogo {
+    margin-top: -5px;
+}
+
+.VPRigthBarSub3_3 {
+    color: #E6E6E6;
+    font-size: 20px;
+    margin-top: 20.6px;
+}
+
+.VPRigthBarSub3_4 {
+    height: 44px;
+    background-color: #0B2447;
+    display: flex;
+    border-radius: 8px;
+    margin-top: 13px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.VPRigthBarSub3_5 {
+    color: #E6E6E6;
+    font-size: 20px;
+    margin-left: 4.3px;
+}
+
+.VPRigthBarSub3_6 {
+    color: #E6E6E6;
+    font-size: 16px;
+    margin-left: 92.3px;
+}
+
+.VPRigthBarSub3_7 {
+    position: absolute;
+    color: #E6E6E6;
+    margin-left: 346px;
+    margin-top: 10px;
+}
+
+.Modal_field_out {
+    background-color: #0B2447;
+    height: 44.5px;
+    border-radius: 8px;
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+}
+
+.Modal_field_Text_1 {
+    color: #E6E6E6;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.Modal_field_Text_2 {
+    width: 66px;
+    height: 34px;
+    background-color: #0D2A53;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 49px;
+    border-radius: 8px;
+}
+
+.Modal_field_Text_3 {
+    color: #E6E6E6;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.Modal_field_Text_4 {
+    color: #E6E6E6;
+    font-size: 20px;
+}
+
+.Modal_field_Text_5 {
+    color: #FF5757;
+    font-size: 13px;
+    font-weight: medium;
+}
+
+.Add_comment_out {
+    width: 516px;
+    height: 167.5px;
+    border-radius: 8px;
+    background-color: #0B2447;
+    margin-top: 10px;
+    color: #E6E6E6;
+    border: none;
+}
+
+.Add_comment_out:focus-visible {
+    border: none;
+}
+
+.Modal_field_Text_6 {
+    color: #E6E6E6;
+    font-size: 15px;
+}
+
+.Modal_field_Text_7 {
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+}
+
+.Modal_field_Text_8 {
+    color: #E6E6E6;
+    font-size: 20px;
+}
+
+.Modal_field_Text_9 {
+    color: #D2DB08;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.Modal_field_Text_10 {
+    color: #E6E6E6;
+    font-size: 18px;
+}
+
+.Terms_modal_1 {
+    color: #D2DB08;
+    font-size: 30px;
+    margin-top: 17.1px;
+}
+
+.Terms_modal_2 {
+    height: 506px;
+}
+
+.Terms_modal_3 {
+    color: #E6E6E6;
+    font-size: 19px;
+}
+
+.modal_out1.modal-content {
+    width: 595.38px;
+    height: 693.5px;
+    border-radius: 8px;
+}
+
+.VPRigthBarSub4_out {
+    margin-top: 20px;
+    background-color: #0D2A53;
+    height: 725px;
+    border-radius: 8px;
+    margin-left: 20px;
+    padding-top: 17px;
+}
+
+.VPRigthBarSub41_out {
+    margin-top: 20px;
+    width: 769px;
+    background-color: #0D2A53;
+    height: 725px;
+    border-radius: 8px;
+    margin-left: 20px;
+    padding-top: 17px;
+}
+.VPRightBarSubscriber1_out {
+    margin-top: 20px;
+    background-color: #0D2A53;
+    height: 725px;
+    border-radius: 8px;
+    margin-left: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 17px;
+}
+
+.VPRightBarWallet_out {
+    margin-top: 20px;
+    background-color: #0D2A53;
+    height: 725px;
+    border-radius: 8px;
+    margin-left: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 17px;
+}
+
+.VPRigthBarSub4_1 {
+    color: #D2DB08;
+    font-size: 20px;
+    margin-right: 25.7px;
+    cursor: pointer;
+}
+
+.VPRigthBarSub4_1_1 {
+    color: #E6E6E6;
+    font-size: 20px;
+    margin-right: 25.7px;
+    cursor: pointer;
+}
+
+.VPRigthBarSub4_2 {
+    color: #E6E6E6;
+    font-size: 20px;
+    margin-right: 56.4px;
+    cursor: pointer;
+}
+
+.VPRigthBarSub4_2_1 {
+    color: #D2DB08;
+    font-size: 20px;
+    margin-right: 56.4px;
+    cursor: pointer;
+}
+
+.VPRigthBarSub4_3 {
+    padding-left: 39.5px;
+    padding-right: 30px;
+    color: #E6E6E6;
+    font-size: 25px;
+}
+
+.VPRigthBarSub4_4 {
+    padding-left: 39.5px;
+    padding-right: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.VPRigthBarSub4_5 {
+    padding-left: 39.5px;
+    padding-right: 30px;
+    color: #E6E6E6;
+    font-size: 25px;
+    margin-top: 40.7px;
+}
+
+.VPRigthBarSub4_6 {
+    color: #E6E6E6;
+    font-size: 15px;
+    margin-right: 13.5px;
+}
+
+.VPRigthBarSub4_7 {
+    color: #37FF80;
+    font-size: 35px;
+    margin-top: -20px;
+    margin-right: 83px;
+}
+
+.VPRightBarSub4Card_out {
+    width: 132.14px;
+    height: 132.14px;
+    display: flex;
+    vertical-align: center;
+}
+
+.VPRightBarSub4CardLogo1 {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.VPRightBarSub4CardLogo2 {
+    position: absolute;
+    padding-left: 53px;
+    margin-top: 12px;
+    margin-left: -59px;
+}
+
+.VPRightBarSub4Card_1 {
+    position: absolute;
+    padding-left: 53px;
+    margin-top: 45px;
+    margin-left: -16px;
+    color: #E6E6E6;
+    font-size: 36px;
+}
+
+.VPRightBarSub4Card_2 {
+    position: absolute;
+    padding-left: 53px;
+    margin-top: 98px;
+    margin-left: -16px;
+    color: #E6E6E6;
+    font-size: 17px;
+}
+
+.VPRigthBarSub4_8 {
+    padding-left: 72.4px;
+    padding-right: 60.4px;
+}
+
+.VPRigthBarSub4_9 {
+    padding-left: 39.5px;
+    padding-right: 30px;
+    color: #E6E6E6;
+    font-size: 25px;
+    margin-top: 29px;
+}
+
+.VPRigthBarSub4_10 {
+    padding-left: 42.4px;
+    padding-right: 61.1px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -32px;
+}
+
+.VPRigthBarSub4_17 {
+    padding-left: 42.4px;
+    padding-right: 61.1px;
+    display: flex;
+    margin-left: -32px;
+}
+
+.VPRigthBarSub4_11 {
+    width: 167px;
+    height: 30px;
+    border-radius: 22px;
+    background-color: #0B2447;
+    color: #E6E6E6;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 10px;
+    margin-left: -30px;
+}
+
+.VPRigthBarSub4_12 {
+    width: 108px;
+    height: 30px;
+    border-radius: 22px;
+    background-color: #0B2447;
+    color: #E6E6E6;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 10px;
+    margin-left: -30px;
+}
+
+.VPRigthBarSub4_13 {
+    width: 124px;
+    height: 30px;
+    border-radius: 22px;
+    background-color: #0B2447;
+    color: #E6E6E6;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 10px;
+    margin-left: -30px;
+}
+
+.VPRigthBarSub4_14 {
+    width: 111px;
+    height: 30px;
+    border-radius: 22px;
+    background-color: #0B2447;
+    color: #E6E6E6;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 10px;
+    margin-left: -30px;
+}
+
+.VPRigthBarSub4_15 {
+    width: 136px;
+    height: 30px;
+    border-radius: 22px;
+    background-color: #0B2447;
+    color: #E6E6E6;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 10px;
+    margin-left: -30px;
+}
+
+.VPRigthBarSub4_16 {
+    width: 122px;
+    height: 30px;
+    border-radius: 22px;
+    background-color: #0B2447;
+    color: #E6E6E6;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 10px;
+    margin-left: -30px;
+}
+
+.VPRigthBarSub4_18 {
+    width: 139px;
+    height: 30px;
+    border-radius: 22px;
+    background-color: #0B2447;
+    color: #E6E6E6;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 10px;
+    margin-left: -30px;
+}
+
+.VPRightBarSub4Card_UK {
+    z-index: 100000;
+}
+
+.VP_Comment_static_Update_button {
+    color: #FFCC00;
+    width: 117px;
+    height: 47px;
+    border-radius: 6px;
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+.VP_Comment_static_Update_button.btn-outline-info {
+    border-color: #FFCC00;
+}
+
+.request_withdrawl_button {
+    width: 203px;
+    height: 46px;
+    background-color: transparent;
+    color: #0CC6FF;
+    border-color: #0CC6FF;
+    font-size: 20px;
+    border-radius: 6px;
+    margin-left: 294px;
+    margin-top: 12px;
+}
+
+.VPRightBarWallet_1 {
+    width: 274px;
+    height: 206px;
+    background-color: #0B2447;
+    border-radius: 8px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.VPRightBarWallet_2 {
+    width: 436px;
+    height: 206px;
+    background-color: #0B2447;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+
+.VPRightBarWallet_3 {
+    color: #E6E6E6;
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+.VPRightBarWallet_4 {
+    color: #E6E6E6;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.VPRightBarWallet_5 {
+    font-size: 22px;
+    font-weight: medium;
+    margin-top: 15px;
+}
+
+.VPRightBarWallet_6 {
+    justify-content: space-between;
+    margin-top: 11px;
+}
+
+.VPRightBarWallet_8 {
+    color: #E6E6E6;
+    font-size: 18px;
+}
+
+.VPRightBarWallet_11 {
+    color: #37FF80;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.VPRightBarWallet_10 {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.VPRightBarWallet_12 {
+    color: #E6E6E6;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.VPRightBarWallet_14 {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.VPRightBarWallet_13 {
+    color: #D2DB08;
+    font-size: 18px;
+    font-weight: medium;
+    margin-top: -10px;
+}
+
+.VPRightBarWallet_15 {
+    justify-content: space-evenly;
+    color: #E6E6E6;
+    font-size: 15px;
+    font-weight: medium;
+    margin-top: 167px;
+}
+
+.WalletTransactionButton {
+    width: 95px;
+    height: 38px;
+    border-radius: 8px;
+    border-color: #3F77DB;
+    color: #3F77DB;
+    background-color: transparent;
+}
+
+.VPRightBarWallet_16 {
+    display: flex;
+    height: 60px;
+    background-color: #0B2447;
+    border-radius: 8px;
+    align-items: center;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.VPRightBarWallet_17 {
+    color: #FF5757;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.VPRightBarWallet_18 {
+    color: #E6E6E6;
+    font-size: 20px;
+    margin-left: 65px;
+}
+
+.VPRightBarWallet_19 {
+    color: #E6E6E6;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 36px;
+}
+
+.VPRightBarWallet_20 {
+    background-color: #0B2447;
+    height: 55px;
+    border-radius: 8px;
+    align-items: center;
+    display: flex;
+    padding-left: 10px;
+    margin-top: 10px;
+
+}
+
+.VPRightBarWallet_21 {
+    color: #E6E6E6;
+    font-size: 20px;
+}
+
+.VPRightBarWallet_22 {
+    color: #E6E6E6;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.VPRightBarWallet_23 {
+    color: #4DD5FF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.VPRightBarWallet_24 {
+    color: #37FF80;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.VPRightBarWallet_25 {
+    color: #E6E6E6;
+    font-size: 20px;
+    font-weight: bold;
+    z-index: 10000;
+}
+
+.VPRightBarWallet_26 {
+    color: #E6E6E6;
+    font-size: 13px;
+    font-weight: medium;
+}
+
+.VPRightBarWallet_27 {
+    position: absolute;
+    padding-left: 53px;
+    margin-left: 600px;
+}
+
+.VPRightBarWallet_28 {
+    color: #FF5757;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.VPRightBarWalletAccount_1 {
+    width: 194px;
+    height: 206px;
+    background-color: #0B2447;
+    border-radius: 8px;
+    margin-left: 5.8px;
+    text-align: center;
+}
+
+
+.VPRightBarWalletAccount_2 {
+    margin-left: 20px;
+    height: 206px;
+    width: 524px;
+    background-color: #0B2447;
+    border-radius: 8px;
+    padding-left: 23.1px;
+    padding-top: 8px;
+}
+
+.Journeyman_button {
+    width: 114.26px;
+    height: 27.23px;
+    color: #4DD5FF;
+    border-color: #4DD5FF;
+    border-radius: 29px;
+    font-size: 17px;
+    margin-top: 21.7px;
+}
+
+.VPRightBarWalletAccount_3 {
+    color: #E6E6E6;
+    font-size: 15px;
+    margin-top: 9px;
+    margin-left: 16px;
+}
+
+.VPRightBarWalletAccount_4 {
+    color: #37FF80;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 9px;
+    margin-left: 19px;
+}
+
+.CrownLogo {
+    margin-top: 7px;
+}
+
+.VPRightBarWalletAccount_5 {
+    color: #4DD5FF;
+    font-size: 25px;
+    font-weight: medium;
+}
+
+.VPRightBarWalletAccount_6 {
+    color: #E6E6E6;
+    font-size: 25px;
+    font-weight: medium;
+    margin-left: 10px;
+}
+
+.VPRightBarWalletAccount_7 {
+    text-align: center;
+}
+
+.VPRightBarWalletAccount_8 {
+    color: #E6E6E6;
+    font-size: 18px;
+}
+
+.VPRightBarWalletAccount_9 {
+    color: #E6E6E6;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.VPRightBarWalletAccount_10 {
+    color: #E6E6E6;
+    font-size: 13px;
+    font-weight: medium;
+}
+
+.VPRightBarWalletAccount_11 {
+    color: #E6E6E6;
+    font-size: 15px;
+}
+
+.VPRightBarWalletAccount_12 {
+    color: #4DD5FF;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.VPRightBarWalletAccount_15 {
+    color: #4DD5FF;
+    font-size: 30px;
+    font-weight: medium;
+    margin-top: 31px;
+}
+
+.VPRightBarWalletAccount_18 {
+    font-size: 23px;
+}
+
+.VPRightBarWalletAccount_16 {
+    color: #E6E6E6;
+    font-size: 15px;
+    margin-top: 36px;
+}
+
+.VPRightBarWalletAccount_17 {
+    color: #FFA200;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.Logo1 {
+    position: absolute;
+    margin-left: -92px;
+    margin-top: -172px;
+}
+
+.Logo2 {
+    position: absolute;
+    margin-left: -94px;
+    margin-top: -133px;
+}
+
+.VPRightBarWalletAccount_19 {
+    background-color: #0B2447;
+    height: 226px;
+    width: 194px;
+    border-radius: 8px;
+    margin-left: 5.8px;
+    text-align: center;
+}
+
+.VPRightBarWalletAccount_20 {
+    color: #E6E6E6;
+    font-size: 15px;
+    margin-top: 9px;
+}
+
+.CheckLogo {
+    margin-top: 32px;
+}
+
+.Verify_account_button {
+    width: 144px;
+    height: 33px;
+    color: #0CC6FF;
+    border-color: #0CC6FF;
+    border-radius: 6px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.VPRightBarWalletAccount_21 {
+    margin-left: 20px;
+    height: 103px;
+    width: 524px;
+    background-color: #0B2447;
+    border-radius: 8px;
+    padding-left: 23.1px;
+    padding-top: 8px;
+}
+
+.VPRightBarWalletAccount_27 {
+    margin-left: 20px;
+    height: 103px;
+    width: 524px;
+    background-color: #0B2447;
+    border-radius: 8px;
+    padding-top: 8px;
+}
+
+.VPRightBarWalletAccount_22 {
+    color: #FFA200;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.VPRightBarWalletAccount_23 {
+    color: #E6E6E6;
+    font-size: 20px;
+}
+
+.VPRightBarWalletAccount_24 {
+    color: #E6E6E6;
+    font-size: 18px;
+}
+
+.VPRightBarWalletAccount_25 {
+    color: #FFA200;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.VPRightBarWalletAccount_26 {
+    font-size: 13px;
+    font-weight: medium;
+}
+
+.VPRightBarWalletAccount_28 {
+    color: #E6E6E6;
+    font-size: 15px;
+    font-weight: medium;
+}
+
+.VPRightBarWalletAccount_29 {
+    color: #4DD5FF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.VPRightBarWalletAccount_30 {
+    color: #E6E6E6;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.VPRightBarWalletAccount_31 {
+    color: #E6E6E6;
+    font-size: 15px;
+}
+
+.VPRightBarWalletAccount_32 {
+    color: #E6E6E6;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.VPRightBarWalletAccount_33 {
+    font-size: 13px;
+    font-weight: medium;
+}
+
+.VPRightBarWalletAccount_40 {
+    background-color: #0B2447;
+    height: 103px;
+    border-radius: 8px;
+    padding-left: 11.1px;
+    margin-top: 20px;
+    padding-top: 13px;
+}
+
+.VPRightBarWalletAccount_34 {
+    color: #E6E6E6;
+    font-size: 15px;
+}
+
+.VPRightBarWalletAccount_35 {
+    color: #E6E6E6;
+    font-size: 20px;
+}
+
+.VPRightBarWalletAccount_36 {
+    color: #4DD5FF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Account_Renew_button {
+    color: #D2DB08;
+    border-color: #D2DB08;
+    width: 148px;
+    height: 46px;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+.Admin_Logo_text {
+    color: #E6E6E6;
+    font-size: 20px;
+    font-weight: medium;
+}
+
+.VPVP_1 {
+    color: #E6E6E6;
+    font-size: 15px;
+    font-weight: medium;
+}
+
+.VPVP_2 {
+    color: #E6E6E6;
+    font-size: 32px;
+    font-weight: medium;
+}
+
+.VPVP_3 {
+    color: #E6E6E6;
+    font-size: 20px;
+    font-weight: medium;
+}
+
+.VPVP_Subscribe_button {
+    color: #6BFFC4;
+    border-color: #6BFFC4;
+    width: 116.31px;
+    height: 44.73px;
+    border-radius: 6px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.VPVP_Follow_button {
+    color: #0CC6FF;
+    border-color: #0CC6FF;
+    width: 189px;
+    height: 45px;
+    border-radius: 6px;
+    font-size: 23px;
+}
+
+.VPVP_Add_Favorite_button {
+    color: #FFCC00;
+    border-color: #FFCC00;
+    width: 189px;
+    height: 45px;
+    border-radius: 6px;
+    font-size: 23px;
+}
+
+.VPVP_Cancel_Subscription {
+    color: #FF5757;
+    border-color: #FF5757;
+    width: 255px;
+    height: 47px;
+    border-radius: 6px;
+    font-size: 23px;
+}
+
+.VPVP_Renew_Subscription {
+    color: #4DD5FF;
+    border-color: #4DD5FF;
+    width: 255px;
+    height: 47px;
+    border-radius: 6px;
+    font-size: 23px;
+}
+
+.VP_MC_EP_out_star_2 {
+    color: #4DD5FF;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.VP_MC_EP_out_star_1 {
+    padding-top: 8.5px;
+}
+
+.User_Star_Logo {
+    position: absolute;
+    margin-top: -23px;
+}
+
+.camera_Star_Logo {
+    position: absolute;
+    margin-top: 36px;
+    margin-left: -136px;
+}
+
+.VP_MC_EP_out_star_3 {
+    color: #E6E6E6;
+    font-size: 22px;
+    font-weight: medium;
+    text-align: center;
+    margin-top: 120px;
+}
+.VP_MC_EP_out_star_4 {
+    color: #E6E6E6;
+    font-size: 15px;
+    text-align: center;
+}
+
+.VP_MC_EP_out_star_5 {
+    justify-content: space-between;
+}
+
+
+.VP_MC_EP_out_star_6 {
+    color: #E6E6E6;
+    font-size: 18px;    
+}
+
+.VP_MC_EP_out_star_7 {
+    color: #E6E6E6;
+    font-size: 25px; 
+    font-weight: medium;   
+}
+
+.VP_MC_EP_out_star_0 {
+    text-align: center;
+}
+
+.Deactivate_account_button {
+    color: #FF5757;
+    border-color: #FF5757;
+    width: 255px;
+    height: 47px;
+    border-radius: 6px;
+    font-size: 23px;
+    font-weight: medium;
+    margin-top: 40px;
+}

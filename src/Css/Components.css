@@ -1,0 +1,485 @@
+:root {
+    --bs-background: #0B2447;
+    --padding-x: 24px;
+    --padding-y: 0;
+}
+
+body {
+    background-color: var(--bs-background);
+    padding: var(--padding-y) var(--padding-x);
+}
+
+/* TopBar CSS */
+.header_style {
+    height: 87px;
+    background-color: #0D2A53;
+    border-radius: 8px;
+}
+
+.header_button {
+    width: 196px;
+    height: 44px;
+    color: #D2DB08;
+    border-radius: 6px;
+    padding: 0 19px;
+    font-size: 22px;
+    font-family: 'Roboto';
+    left: 1173px;
+}
+
+.header_button.btn-outline-info {
+    border-color: #D2DB08;
+}
+
+.btn {
+    padding: 0;
+}
+
+.btn.header_button:hover {
+    width: 196px;
+    height: 44px;
+    color: #D2DB08;
+    border-radius: 6px;
+    padding: 0 19px;
+    font-size: 22px;
+    font-family: 'Roboto';
+    left: 1173px;
+    background-color: transparent;
+    border-color: #D2DB08
+}
+
+.header_dashboard_out {
+    width: 209px;
+    height: 39px;
+    background-color: #0B2447;
+    padding: 0 55px;
+    border-radius: 6px;
+}
+
+.header_logo {
+    width: 72px;
+    height: 72px;
+}
+
+/* SideBar CSS */
+.SideBar_out {
+    width: 74px;
+    height: 920px;
+    background-color: #0D2A53;
+    border-radius: 8px;
+}
+
+.MainOption {
+    cursor: pointer;
+}
+
+/* MainTopBar CSS */
+.MainTopBar_out {
+    height: 77px;
+    background-color: #0D2A53;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.MainTopHeader_button {
+    width: 149px;
+    height: 44px;
+    color: #E6E6E6;
+    background-color: transparent;
+    border-color: #E6E6E6;
+    border-radius: 8px;
+}
+
+.MainTopHeader_button.btn-outline-info {
+    border-color: #E6E6E6;
+}
+
+.Dropdown_style {
+    margin-left: -6px;
+    margin-top: -49px;
+    background-color: #0B2447;
+    color: #0D2A53;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.Dropdown_item_color {
+    color: #E6E6E6;
+    display: flex;
+    justify-content: center;
+    background-color: #0D2A53;
+    margin-top: 5px;
+}
+
+.Dropdown_item_color1 {
+    color: #D2DB08;
+    display: flex;
+    justify-content: center;
+    background-color: #0D2A53;
+    margin-top: 5px;
+}
+
+.Dropdown_item_color2 {
+    color: #FFA200;
+    display: flex;
+    justify-content: center;
+    background-color: #0D2A53;
+    margin-top: 5px;
+}
+
+.Dropdown_item_color3 {
+    color: #FBFFA2;
+    display: flex;
+    justify-content: center;
+    background-color: #0D2A53;
+    margin-top: 5px;
+}
+
+/* MainMiddleBar CSS */
+.MainMiddleBar_out {
+    height: 522px;
+    background-color: #0D2A53;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-radius: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* AdvertisementBanner_out */
+.AdvertisementBanner_out {
+    height: 318px;
+    background-color: #0D2A53;
+    border-radius: 8px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: bold;
+    color: #E6E6E6;
+}
+
+/* LeftBarHighlight_out */
+.LeftBarHighlight_out {
+    margin-top: 20px;
+    height: 590px;
+    background-color: #0D2A53;
+    border-radius: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 16px;
+}
+
+.LeftBarHighlight_header_text {
+    font-weight: bold;
+    font-family: 'Roboto';
+    color: #E6E6E6;
+    font-size: 25px;
+}
+
+/* LeftBarHighlightCard_out */
+.LeftBarHighlightCard_out {
+    height: 141px;
+    background-color: #0B2447;
+    border-radius: 8px;
+    display: flex;
+    margin-top: 20px;
+}
+
+/* MainMiddleBarMiddle_out */
+.MainMiddleBarMiddle_out {
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.MainMiddleBarMiddle_1_1 {
+    color: #E6E6E6;
+    font-size: 19px;
+}
+
+.MainMiddleBarMiddle_1_2 {
+    color: #D2DB08;
+    font-size: 38px;
+}
+
+.MainMiddleBarMiddle_2_2 {
+    color: #FF9100;
+    font-size: 38px;
+}
+
+.MainMiddleBarButtonGroup_out {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 128px;
+}
+
+.MainMiddleBarButtonGroup_out_none {
+    display: none;    
+}
+
+.MainMiddleBarButton_1 {
+    width: 134px;
+    height: 47px;
+    font-size: 17px;
+    color: #77FFA9;
+    border-radius: 6px;
+}
+
+.MainMiddleBarButton_1.btn-outline-info {
+    border-color: #77FFA9;
+}
+
+.MainMiddleBarButton_2 {
+    width: 134px;
+    height: 47px;
+    font-size: 17px;
+    color: #4DD5FF;
+    border-radius: 6px;
+}
+
+.MainMiddleBarButton_2.btn-outline-info {
+    border-color: #4DD5FF;
+}
+
+/* MainMiddleBarMiddleBody */
+.MatchDetails_out {
+    width: 55%;
+    margin-top: 21.17px;
+}
+
+.Analysis_out {
+    width: 45%;
+    margin-top: 21.17px;
+}
+
+.Analysis_sub {
+    color: #E6E6E6;
+}
+
+.MatchDetails_header_text {
+    color: #E6E6E6;
+    font-size: 20px;
+}
+
+.MatchDetailsBox_out {
+    height: 241px;
+    background-color: #0B2447;
+    border-radius: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 15.13px;
+    margin-right: 10px;
+    padding-top: 8px;
+}
+
+.Champion_text {
+    color: #E6E6E6;
+    font-size: 20px;
+}
+
+.Champion_text_public {
+    font-size: 17px;
+    color: #E6E6E6;
+}
+
+.display_MatchDetail {
+    justify-content: space-between;
+    margin-top: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.AnalysisBox_out {
+    height: 241px;
+    background-color: #0B2447;
+    border-radius: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 15.13px;
+    margin-right: 10px;
+    padding-top: 8px;
+}
+
+.Clock_logo_Size {
+    /* position: absolute; */
+    margin-top: -49px;
+    margin-left: -15px;
+}
+
+.Champion_text_1 {
+    /* position: absolute; */
+    color: #E6E6E6;
+    margin-top: -100px;
+    margin-left: 40px;
+
+}
+
+.MatchingDetailFooterButton {
+    margin-top: 40px;
+}
+
+.MainMiddleBarFooter_out {
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.Footer_text {
+    color: #E6E6E6;
+    font-size: 21px;
+}
+
+/* MainBarEdit */
+.MainBar_Edit_out {
+    background-color: #0D2A53;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 929px;
+}
+
+.MainBarCommentMiddle_out {
+    height: 522px;
+    margin-top: 20px;
+    align-items: center;
+    border-radius: 8px;
+}
+.MainBar_Comment_out {
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.MainBarEdit_Header {
+    color: #E6E6E6;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding-top: 26px;
+}
+
+.MainBar_Edit_Search {
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.MainBar_Edit_Search_Comments {
+    justify-content: space-between;
+    margin-top: 15px;
+    height: 77px;
+    align-items: center;
+    background-color: #0D2A53;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.searchBar_Style {
+    width: 223px;
+    height: 44px;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 2px solid #E6E6E6;
+    color: #E6E6E6;
+}
+
+.MainBar_Edit_Highlight_Card_out {
+    height: 130px;
+    border-radius: 8px;
+    background-color: #0D2A53;
+}
+
+.searchBar_Style:focus-visible {
+    border: 2px solid #E6E6E6;
+}
+
+.MainTopHeader_button_Comment {
+    width: 85px;
+    height: 44px;
+    color: #E6E6E6;
+    background-color: transparent;
+    border-color: #E6E6E6;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+/* Filter Modal Css */
+.modal-content {
+    background-clip: none;
+    background-color: #0D2A53;
+    width: 567px;
+    height: 862px;
+    padding-left: 23.92px;
+    padding-right: 23.92px;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-body {
+    padding: 0;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+.Filter_Modal_Label {
+    color: #E6E6E6;
+    font-size: 20px;
+    font-weight: medium;
+}
+
+.form-select {
+    background-image: none;
+    border: none;
+    background-color: #0B2447;
+    color: #E6E6E6;
+    text-align: center;
+}
+
+.form-select:focus-visible {
+    background-image: none;
+    border: none;
+}
+.form-select:focus {
+    background-image: none;
+    border: none;
+}
+
+.Filter_Modal_Label {
+    margin-top: 0.5px;
+}
+.crypto_dropdown {
+    margin-top: 7px;
+}
+
+.modal_Footer_Button {
+    width: 160px;
+    height: 53px;
+    color: #D2DB08;
+    border-radius: 8px;
+    padding: 0 19px;
+    font-size: 22px;
+    font-family: 'Roboto';
+}
+
+.modal_Footer_Button.btn-outline-info {
+    border-color: #D2DB08;
+}
