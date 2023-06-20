@@ -1,6 +1,6 @@
 :root {
     --bs-background: #0B2447;
-    --bs-background-white: #fff;
+    --bs-background-white: #F6F6F6;
     --padding-x: 24px;
     --padding-y: 0;
 }
@@ -21,10 +21,28 @@ body.white {
     border-radius: 8px;
 }
 
+.header_style_white {
+    height: 87px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+
 .header_button {
     width: 196px;
     height: 44px;
     color: #D2DB08;
+    border-radius: 6px;
+    padding: 0 19px;
+    font-size: 22px;
+    font-family: 'Roboto';
+    left: 1173px;
+}
+
+.header_button_white {
+    width: 196px;
+    height: 44px;
+    color: #A237FF;
+    border-color: #A237FF;
     border-radius: 6px;
     padding: 0 19px;
     font-size: 22px;
@@ -61,6 +79,14 @@ body.white {
     border-radius: 6px;
 }
 
+.header_dashboard_out_white {
+    width: 209px;
+    height: 39px;
+    background-color: #F6F6F6;
+    padding: 0 55px;
+    border-radius: 6px;
+}
+
 .header_logo {
     width: 72px;
     height: 72px;
@@ -71,6 +97,13 @@ body.white {
     width: 74px;
     height: 920px;
     background-color: #0D2A53;
+    border-radius: 8px;
+}
+
+.SideBar_out_white {
+    width: 74px;
+    height: 920px;
+    background-color: #FFFFFF;
     border-radius: 8px;
 }
 
@@ -90,6 +123,17 @@ body.white {
     padding-right: 20px;
 }
 
+.MainTopBar_out_white {
+    background-color: #FFFFFF;
+    height: 77px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 
 .MainTopHeader_button {
     width: 149px;
@@ -97,6 +141,15 @@ body.white {
     color: #E6E6E6;
     background-color: transparent;
     border-color: #E6E6E6;
+    border-radius: 8px;
+}
+
+.MainTopHeader_button_white {
+    width: 149px;
+    height: 44px;
+    color: #0D2A53;
+    background-color: transparent;
+    border-color: #0D2A53;
     border-radius: 8px;
 }
 
@@ -160,6 +213,16 @@ body.white {
     padding-right: 25px;
 }
 
+.MainMiddleBar_out_white {
+    height: 522px;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-radius: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
 /* AdvertisementBanner_out */
 .AdvertisementBanner_out {
     height: 318px;
@@ -174,6 +237,19 @@ body.white {
     font-weight: bold;
     color: #E6E6E6;
 }
+.AdvertisementBanner_out_white {
+    height: 318px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: bold;
+    color: #0D2A53;
+}
 
 /* LeftBarHighlight_out */
 .LeftBarHighlight_out {
@@ -185,11 +261,27 @@ body.white {
     padding-right: 30px;
     padding-top: 16px;
 }
+.LeftBarHighlight_out_white {
+    margin-top: 20px;
+    height: 590px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 16px;
+}
+
 
 .LeftBarHighlight_header_text {
     font-weight: bold;
     font-family: 'Roboto';
     color: #E6E6E6;
+    font-size: 25px;
+}
+.LeftBarHighlight_header_text_white {
+    font-weight: bold;
+    font-family: 'Roboto';
+    color: #0D2A53;
     font-size: 25px;
 }
 
@@ -201,7 +293,13 @@ body.white {
     display: flex;
     margin-top: 20px;
 }
-
+.LeftBarHighlightCard_out_white {
+    height: 141px;
+    background-color: #F6F6F6;
+    border-radius: 8px;
+    display: flex;
+    margin-top: 20px;
+}
 /* MainMiddleBarMiddle_out */
 .MainMiddleBarMiddle_out {
     width: 250px;
@@ -216,8 +314,18 @@ body.white {
     font-size: 19px;
 }
 
+.MainMiddleBarMiddle_1_1_white {
+    color: #0D2A53;
+    font-size: 19px;
+}
+
 .MainMiddleBarMiddle_1_2 {
     color: #D2DB08;
+    font-size: 38px;
+}
+
+.MainMiddleBarMiddle_1_2_white {
+    color: #00659D;
     font-size: 38px;
 }
 
@@ -245,6 +353,15 @@ body.white {
     border-radius: 6px;
 }
 
+.MainMiddleBarButton_1_white {
+    width: 134px;
+    height: 47px;
+    font-size: 17px;
+    color: #00659D;
+    border-radius: 6px;
+    border-color: #00659D;
+}
+
 .MainMiddleBarButton_1.btn-outline-info {
     border-color: #77FFA9;
 }
@@ -255,6 +372,15 @@ body.white {
     font-size: 17px;
     color: #4DD5FF;
     border-radius: 6px;
+}
+
+.MainMiddleBarButton_2_white {
+    width: 134px;
+    height: 47px;
+    font-size: 17px;
+    color: #3F77DB;
+    border-radius: 6px;
+    border-color: #3F77DB;
 }
 
 .MainMiddleBarButton_2.btn-outline-info {
@@ -276,14 +402,32 @@ body.white {
     color: #E6E6E6;
 }
 
+.Analysis_sub_white {
+    color: #0D2A53;
+}
 .MatchDetails_header_text {
     color: #E6E6E6;
     font-size: 20px;
 }
 
+.MatchDetails_header_text_white {
+    color: #0D2A53;
+    font-size: 20px;
+}
 .MatchDetailsBox_out {
     height: 241px;
     background-color: #0B2447;
+    border-radius: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 15.13px;
+    margin-right: 10px;
+    padding-top: 8px;
+}
+
+.MatchDetailsBox_out_white {
+    height: 241px;
+    background-color: #F6F6F6;
     border-radius: 8px;
     padding-left: 12px;
     padding-right: 12px;
@@ -297,11 +441,20 @@ body.white {
     font-size: 20px;
 }
 
+.Champion_text_white {
+    color: #0D2A53;
+    font-size: 20px;
+}
+
 .Champion_text_public {
     font-size: 17px;
     color: #E6E6E6;
 }
 
+.Champion_text_public_white {
+    font-size: 17px;
+    color: #0D2A53;
+}
 .display_MatchDetail {
     justify-content: space-between;
     margin-top: 7px;
@@ -319,6 +472,16 @@ body.white {
     margin-right: 10px;
     padding-top: 8px;
 }
+.AnalysisBox_out_white {
+    height: 241px;
+    background-color: #F6F6F6;
+    border-radius: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 15.13px;
+    margin-right: 10px;
+    padding-top: 8px;
+}
 
 .Clock_logo_Size {
     /* position: absolute; */
@@ -329,6 +492,12 @@ body.white {
 .Champion_text_1 {
     /* position: absolute; */
     color: #E6E6E6;
+    margin-top: -100px;
+    margin-left: 40px;    
+}
+.Champion_text_1_white {
+    /* position: absolute; */
+    color: #0D2A53;
     margin-top: -100px;
     margin-left: 40px;
 
@@ -817,7 +986,7 @@ body.white {
 }
 
 .css-1yjjitx-MuiSwitch-track {
-    background-color: red!important;
+    background-color: red !important;
 }
 
 .Toggle_theme {

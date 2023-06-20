@@ -24,6 +24,12 @@ import VPRightBarSubscriberTransaction from "../Components/ViewProfile/VPRightBa
 import MyCommentsEditProfileStar1 from "../Components/ViewProfile/MyCommentsEditProfileStar1";
 import VPRigthBarFavourite1 from "../Components/ViewProfile/VPRigthBarFavourite1";
 import VPRigthBarFavourite2 from "../Components/ViewProfile/VPRigthBarFavourite2";
+import TopBarWhite from "../Components/TopBarWhite";
+import SideBarWhite from "../Components/SideBarWhite";
+import MainTopBarWhite from "../Components/MainTopBarWhite";
+import MainMiddleBarWhite from "../Components/MainMiddleBarWhite";
+import AdvertisementBannerWhite from "../Components/AdvertisementBannerWhite";
+import LeftBarHighlightWhite from "../Components/LeftBarHighlightWhite";
 const Home = ({ checkedFavourite, setCheckedFavourite, checked, setChecked }) => {
     const [checkedCommentStar, setCheckedCommentStar] = useState(1)
     const [checkedForYou, setCheckedForYou] = useState(1);
@@ -38,12 +44,42 @@ const Home = ({ checkedFavourite, setCheckedFavourite, checked, setChecked }) =>
         if (checkedMainOption === 3) return <MainBarComments />
 
     }
+    const displayCaseWhite = () => {
+        if (checkedMainOption === 1) return <>
+            <MainTopBarWhite checkedForYou={checkedForYou} setCheckedForYou={setCheckedForYou} />
+            <MainMiddleBarWhite checkedForYou={checkedForYou} setCheckedForYou={setCheckedForYou} />
+            <MainMiddleBarWhite checkedForYou={checkedForYou} setCheckedForYou={setCheckedForYou} />
+        </>
+        if (checkedMainOption === 2) return <MainBarEdit />
+        if (checkedMainOption === 3) return <MainBarComments />
+
+    }
     const displaystarsubtopbar = () => {
         if (checkedCommentStar === 1) return <VPRightBarSubTopBarStar />
         if (checkedCommentStar === 2) return <VPRightBarSubTopBarStar1 />
         if (checkedCommentStar === 3) return <VPRightBarSubTopBarFavourite checkedFavourite={checkedFavourite} setCheckedFavourite={setCheckedFavourite} />
     }
+    const displaystarsubtopbarWhite = () => {
+        if (checkedCommentStar === 1) return <VPRightBarSubTopBarStar />
+        if (checkedCommentStar === 2) return <VPRightBarSubTopBarStar1 />
+        if (checkedCommentStar === 3) return <VPRightBarSubTopBarFavourite checkedFavourite={checkedFavourite} setCheckedFavourite={setCheckedFavourite} />
+    }
     const displaysubtitle1 = () => {
+        if (checkedCommentStar === 1) return <>
+            <VPRightBarSubscriber2 />
+        </>
+        if (checkedCommentStar === 2) return <>
+            <VPRightBarSubscriberTransaction />
+        </>
+        if (checkedCommentStar === 3 & checkedFavourite === true) return <>
+            <VPRigthBarFavourite1 />
+            <VPRigthBarFavourite1 />
+        </>
+        if (checkedCommentStar === 3 & checkedFavourite === false) return <>
+            <VPRigthBarFavourite2 />
+        </>
+    }
+    const displaysubtitle1White = () => {
         if (checkedCommentStar === 1) return <>
             <VPRightBarSubscriber2 />
         </>
@@ -96,17 +132,53 @@ const Home = ({ checkedFavourite, setCheckedFavourite, checked, setChecked }) =>
             </div>
         </>
     }
+    const displaystarWhite = () => {
+        if (checkedMainOption === 4) return <>
 
-
+            <div className="ViewProfile_Mycomments_1">
+                {checkedCommentStar === 1 ?
+                    <MyCommentsEditProfileStar />
+                    :
+                    <MyCommentsEditProfileStar1 />
+                }
+            </div>
+            <div className="ViewProfile_Mycomments_2">
+                <VPRightTopBarStar checkedCommentStar={checkedCommentStar} setCheckedCommentStar={setCheckedCommentStar} />
+                <div className="d-flex">
+                    <div className="VP_RightBarSub1_out">
+                        {displaystarsubtopbarWhite()}
+                        {displaysubtitle1White()}
+                    </div>
+                    <div className="VP_RightBarSub2_out">
+                        <VPRigthBarSub2 />
+                        <VPRigthBarSub3 />
+                    </div>
+                </div>
+            </div>
+        </>
+        else return <>
+            <div style={{ width: "calc(100% - 74px)" }}>
+                <div className="row">
+                    <div className="MainBar_out">
+                        {displayCaseWhite()}
+                    </div>
+                    <div className="RightBar_out">
+                        <AdvertisementBannerWhite />
+                        <LeftBarHighlightWhite />
+                    </div>
+                </div>
+            </div>
+        </>
+    }
     return (<>
         {checked ?
             <>
-                <TopBar checked={checked} setChecked={setChecked} />
+                <TopBarWhite checked={checked} setChecked={setChecked} />
                 <div className="d-flex">
                     <div className="SideBar_Home_out">
-                        <SideBar checkedMainOption={checkedMainOption} setCheckedMainOption={setCheckedMainOption} />
+                        <SideBarWhite checkedMainOption={checkedMainOption} setCheckedMainOption={setCheckedMainOption} />
                     </div>
-                    {/* {displaystar()} */}
+                    {displaystarWhite()}
                 </div>
             </>
             :

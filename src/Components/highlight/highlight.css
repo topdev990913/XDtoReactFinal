@@ -33,6 +33,7 @@
     margin-top: 66px;
     margin-left: 5px;
 }
+
 .HighLightMiddle_out {
     margin-left: 0px;
 }
@@ -47,6 +48,12 @@
     font-family: 'Roboto';
     margin-top: 10px;
 }
+.HighLightMiddle_1_white {
+    font-size: 29px;
+    color: #00659D;
+    font-family: 'Roboto';
+    margin-top: 10px;
+}
 
 .HighLightMiddle_2 {
     font-size: 26px;
@@ -54,9 +61,20 @@
     font-family: 'Roboto';
 }
 
+.HighLightMiddle_2_white {
+    font-size: 26px;
+    color: #0D2A53;
+    font-family: 'Roboto';
+}
+
 .HighLightMiddle_2_origin {
     font-size: 18px;
     color: #E6E6E6;
+    font-family: 'Roboto';
+}
+.HighLightMiddle_2_origin_white {
+    font-size: 18px;
+    color: #0D2A53;
     font-family: 'Roboto';
 }
 
@@ -73,6 +91,12 @@
     font-family: 'Roboto';
     margin-top: 5px;
 }
+.HighLightMiddle_3_white {
+    font-size: 20px;
+    color: #0D2A53;
+    font-family: 'Roboto';
+    margin-top: 5px;
+}
 
 .HighLightMiddle_3_Edit {
     font-size: 20px;
@@ -85,10 +109,14 @@
     color: #4DD5FF;
     font-size: 20px;
 }
+.highlight_number_white {
+    color: #3F77DB;
+    font-size: 20px;
+}
 
 .highlight_number_Edit {
     color: #4DD5FF;
-    font-size: 29px;    
+    font-size: 29px;
 }
 
 .HighLightEnd_out {
@@ -114,6 +142,13 @@
     font-size: 17px;
     color: #77FFA9;
 }
+.highlight_button_White {
+    width: 95px;
+    height: 34px;
+    font-size: 17px;
+    color: #00659D;
+    border-color: #00659D;
+}
 
 .highlight_button.btn-outline-info {
     border-color: #77FFA9;
@@ -134,6 +169,12 @@
 .HighLightMiddle_3_expert {
     font-size: 17px;
     color: #E6E6E6;
+    margin-top: -7px;
+}
+
+.HighLightMiddle_3_expert_white {
+    font-size: 17px;
+    color: #0D2A53;
     margin-top: -7px;
 }
 

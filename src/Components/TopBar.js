@@ -7,26 +7,20 @@ import header_logo from '../assets/portrait-of-happy-and-cheerful-handsome-adult
 import Modal from 'react-bootstrap/Modal';
 import "../Css/Modal.css"
 import ModalNotification from "./ModalNotification";
-import Switch from '@mui/material/Switch';
-const TopBar = ({checked, setChecked}) => {
+const TopBar = ({ checked, setChecked }) => {
     const [show1, setShow1] = useState(false);
     const handleShow1 = () => setShow1(true);
-    const handleClose1 = () => setShow1(false);   
-     
+    const handleClose1 = () => setShow1(false);
+
     console.log("checked", checked)
     return (
         <Navbar fixed="top" expand="xs" className="header_style mt-4 position-relative">
             <Container style={{ marginRight: "0px" }}>
                 <Row noGutters className="position-relative p-0 w-100 align-items-center">
                     <Col className="d-lg-flex justify-content-end">
-                        <Form inline className="d-flex align-items-center" style={{gridGap: "10px"}}>
-                            <div className="d-flex align-items-center">
-                                <div className="Toggle_theme">Dark</div>
-                                <Switch checked={checked} onChange={()=>setChecked()} className="DarkTheme" />
-                                <div className="Toggle_theme">White</div>
-                            </div>
+                        <Form inline className="d-flex align-items-center" style={{ gridGap: "10px" }}>
                             <Button type="submit" color="info" className="header_button" outline>Become a Editor</Button>
-                            <svg id="brightness-up" xmlns="http://www.w3.org/2000/svg" width="43.954" height="43.954" viewBox="0 0 43.954 43.954" style={{ marginLeft: "10px" }}>
+                            <svg id="brightness-up" xmlns="http://www.w3.org/2000/svg" width="43.954" height="43.954" viewBox="0 0 43.954 43.954" style={{ marginLeft: "10px" }} onClick={() => setChecked()}>
                                 <path id="Path_384" data-name="Path 384" d="M0,0H43.954V43.954H0Z" fill="none" />
                                 <path id="Path_385" data-name="Path 385" d="M14.494,14.494,9,14.494A5.494,5.494,0,1,0,14.494,9,5.494,5.494,0,0,0,9,14.494" transform="translate(7.483 7.483)" fill="none" stroke="#e6e6e6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
                                 <path id="Path_386" data-name="Path 386" d="M12,6.663V3" transform="translate(9.977 2.494)" fill="none" stroke="#e6e6e6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
