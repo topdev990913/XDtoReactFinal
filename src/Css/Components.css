@@ -1,5 +1,6 @@
 :root {
     --bs-background: #0B2447;
+    --bs-background-white: #fff;
     --padding-x: 24px;
     --padding-y: 0;
 }
@@ -7,6 +8,10 @@
 body {
     background-color: var(--bs-background);
     padding: var(--padding-y) var(--padding-x);
+}
+
+body.white {
+    background-color: var(--bs-background-white);
 }
 
 /* TopBar CSS */
@@ -635,6 +640,7 @@ body {
     width: 567px;
     height: 906px;
 }
+
 #Renew1 .modal-content {
     width: 567px;
     height: 745px;
@@ -793,7 +799,7 @@ body {
     margin-top: 40px;
 }
 
-.ModalWithdrawal_8{
+.ModalWithdrawal_8 {
     text-align: center;
     font-size: 20px;
     color: #E6E6E6;
@@ -804,4 +810,17 @@ body {
     color: #5BDEAA;
     font-size: 17px;
     text-align: center;
+}
+
+.css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked {
+    color: #D2DB08 !important;
+}
+
+.css-1yjjitx-MuiSwitch-track {
+    background-color: red!important;
+}
+
+.Toggle_theme {
+    color: #E6E6E6;
+    font-size: 20px;
 }

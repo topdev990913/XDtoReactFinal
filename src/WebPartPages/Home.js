@@ -24,7 +24,7 @@ import VPRightBarSubscriberTransaction from "../Components/ViewProfile/VPRightBa
 import MyCommentsEditProfileStar1 from "../Components/ViewProfile/MyCommentsEditProfileStar1";
 import VPRigthBarFavourite1 from "../Components/ViewProfile/VPRigthBarFavourite1";
 import VPRigthBarFavourite2 from "../Components/ViewProfile/VPRigthBarFavourite2";
-const Home = ({ checkedFavourite, setCheckedFavourite }) => {
+const Home = ({ checkedFavourite, setCheckedFavourite, checked, setChecked }) => {
     const [checkedCommentStar, setCheckedCommentStar] = useState(1)
     const [checkedForYou, setCheckedForYou] = useState(1);
     const [checkedMainOption, setCheckedMainOption] = useState(1)
@@ -55,8 +55,8 @@ const Home = ({ checkedFavourite, setCheckedFavourite }) => {
             <VPRigthBarFavourite1 />
         </>
         if (checkedCommentStar === 3 & checkedFavourite === false) return <>
-        <VPRigthBarFavourite2 />
-    </>
+            <VPRigthBarFavourite2 />
+        </>
     }
     const displaystar = () => {
         if (checkedMainOption === 4) return <>
@@ -98,17 +98,29 @@ const Home = ({ checkedFavourite, setCheckedFavourite }) => {
     }
 
 
-    return (
-        <>
-            <TopBar />
-            <div className="d-flex">
-                <div className="SideBar_Home_out">
-                    <SideBar checkedMainOption={checkedMainOption} setCheckedMainOption={setCheckedMainOption} />
+    return (<>
+        {checked ?
+            <>
+                <TopBar checked={checked} setChecked={setChecked} />
+                <div className="d-flex">
+                    <div className="SideBar_Home_out">
+                        <SideBar checkedMainOption={checkedMainOption} setCheckedMainOption={setCheckedMainOption} />
+                    </div>
+                    {/* {displaystar()} */}
                 </div>
-                {displaystar()}
-            </div>
-        </>
-        // </div>
+            </>
+            :
+            <>
+                <TopBar checked={checked} setChecked={setChecked} />
+                <div className="d-flex">
+                    <div className="SideBar_Home_out">
+                        <SideBar checkedMainOption={checkedMainOption} setCheckedMainOption={setCheckedMainOption} />
+                    </div>
+                    {displaystar()}
+                </div>
+            </>
+        }
+    </>
     );
 };
 export default Home;
