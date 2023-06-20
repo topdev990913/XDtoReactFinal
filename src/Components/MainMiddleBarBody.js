@@ -6,7 +6,7 @@ import MatchDetailsBox from "./MatchDetailsBox";
 import AnalysisBox from "./AnalysisBox";
 const MainMiddleBarBody = ({checkedForYou, setCheckedForYou}) => {
     return (
-        <div className="d-flex">
+        <div className="d-flex flex-wrap">
             <div className="MatchDetails_out">
                 <div className="MatchDetails_header_text">
                     Match Details

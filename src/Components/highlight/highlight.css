@@ -15,14 +15,15 @@
 
 .hightlight_avatar {
     position: absolute;
-    margin-top: 20px;
-    margin-left: 5px;
+    margin-top: 13px;
+    margin-left: -12px;
+    width: 113.6px;
 }
 
 .highlight_logo {
     position: absolute;
     padding-left: 53px;
-    margin-top: 20px;
+    margin-top: 13px;
     margin-left: 5px;
 }
 

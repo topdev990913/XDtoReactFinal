@@ -8,7 +8,7 @@ import Clock_logo from '../assets/Path 694.png';
 const MatchDetailsBox = ({ checkedForYou, setCheckedForYou }) => {
     return (
         <div className="MatchDetailsBox_out">
-            <div className="d-flex display_MatchDetail">
+            <div className="d-flex flex-wrap display_MatchDetail">
                 <div className="d-flex justify-content-start align-items-center">
                     <img src={Champion} alt="Champion" className="Champion_Logo_Size" />
                     <div className="Champion_text" style={{marginLeft: "4px"}}>Champions League</div>
@@ -18,7 +18,7 @@ const MatchDetailsBox = ({ checkedForYou, setCheckedForYou }) => {
                     <img src={Earth} alt="Earth" className="Earth_Logo_Size" />
                 </div>
             </div>
-            <div className="d-flex justify-content-center Champion_text" style={{ marginTop: "-28px" }}>
+            <div className="d-flex justify-content-center Champion_text" style={{ marginTop: "-9px" }}>
                 07.05.2023
             </div>
             <div className="d-flex justify-content-center">
