@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import "./VPSubscriber.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
@@ -7,9 +7,9 @@ import { Button } from "reactstrap";
 import Modal from 'react-bootstrap/Modal';
 import ModalRenew from "../../ModalRenew";
 const VPSubscriptionCard1 = ({ checkedSubscriber, setCheckedSubscriber }) => {
-    const [show1, setShow1] = useState(false);
-    const handleShow1 = () => setShow1(true);
-    const handleClose1 = () => setShow1(false);
+    const [show, setShow] = useState(false);
+    const handleShow = () => setShow(true);
+    const handleClose = () => setShow(false);    
     return (
         <div className="VPSubscriberCard_out">
             <img src={SubscriberLogo} alt="SubscriberLogo" className="SubscriberLogo" />
@@ -30,10 +30,10 @@ const VPSubscriptionCard1 = ({ checkedSubscriber, setCheckedSubscriber }) => {
             <div className="VPSubscriberCard_1_1" style={{ marginLeft: "44.9px" }}>
                 Ended
             </div>
-            <div className="VPSubscriberCard_2_3" style={{ marginLeft: "100.1px" }} onClick={handleShow1}>
+            <div className="VPSubscriberCard_2_3" onClick={handleShow} style={{ marginLeft: "100.1px" }}>
                 Renew
             </div>
-            <Modal show={show1} onHide={handleClose1} dialogClassName="modal_out1" id="Renew">
+            <Modal show={show} onHide={handleClose} dialogClassName="modal_out1" id="Renew">
                 <ModalRenew />
             </Modal>
         </div>

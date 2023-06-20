@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import "./ViewProfile.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
@@ -6,9 +6,14 @@ import { Button } from "reactstrap";
 import CrownLogo from '../../assets/Path - crown-circle-outline.png'
 import Logo1 from '../../assets/Path 205.png';
 import Logo2 from '../../assets/Path 206.png';
+import Modal from 'react-bootstrap/Modal';
 import CheckLogo from '../../assets/Path - check-decagram.png';
+import ModalRenew1 from "../ModalRenew1";
 // import { MDBRange } from "mdb-react-ui-kit";
 const VPRightBarWalletAccount = ({ checkedWallet, setCheckedWallet }) => {
+    const [show1, setShow1] = useState(false);
+    const handleShow1 = () => setShow1(true);
+    const handleClose1 = () => setShow1(false);
     return (
         <div className="VPRightBarWallet_out">
             <div className="d-flex">
@@ -173,20 +178,23 @@ const VPRightBarWalletAccount = ({ checkedWallet, setCheckedWallet }) => {
                     <div className="VPRightBarWalletAccount_34">
                         Membership Date 22.05.2023
                     </div>
-                    <div className="d-flex" style={{marginTop: "5px"}}>
+                    <div className="d-flex" style={{ marginTop: "5px" }}>
                         <div className="VPRightBarWalletAccount_35">
                             Active Level
                         </div>
-                        <div className="VPRightBarWalletAccount_36" style={{marginLeft: "3.8px"}}>
+                        <div className="VPRightBarWalletAccount_36" style={{ marginLeft: "3.8px" }}>
                             Journeyman
                         </div>
-                        <div className="VPRightBarWalletAccount_35" style={{marginLeft: "12.2px"}}>
+                        <div className="VPRightBarWalletAccount_35" style={{ marginLeft: "12.2px" }}>
                             Membership Plan Price
                         </div>
-                        <div className="VPRightBarWalletAccount_32" style={{marginLeft: "14.9px"}}>
+                        <div className="VPRightBarWalletAccount_32" style={{ marginLeft: "14.9px" }}>
                             249.90<span className="VPRightBarWalletAccount_33">₺</span>
                         </div>
-                        <Button type="submit" className="Account_Renew_button" outline style={{marginLeft: "21.8px", marginTop: "-10px"}}>Renew</Button>
+                        <Button type="submit" className="Account_Renew_button" outline style={{ marginLeft: "21.8px", marginTop: "-10px" }} onClick={handleShow1}>Renew</Button>
+                        <Modal show={show1} onHide={handleClose1} dialogClassName="modal_out1" id="Renew1">
+                            <ModalRenew1 />
+                        </Modal>
                     </div>
                 </div>
             </div>

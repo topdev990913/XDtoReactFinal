@@ -3,6 +3,7 @@ import "./ViewProfile.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import { Button } from "reactstrap";
+import { Link } from "react-router-dom";
 const VPRightBarWalletTransaction = ({ checkedWallet, setCheckedWallet }) => {
     return (
         <div className="VPRightBarWallet_out">
@@ -30,9 +31,11 @@ const VPRightBarWalletTransaction = ({ checkedWallet, setCheckedWallet }) => {
                             <div className="VPRightBarWallet_12">
                                 8.750<span className="VPRightBarWallet_14">₺</span>
                             </div>
-                            <div className="VPRightBarWallet_13">
-                                Check
-                            </div>
+                            <Link to="/PendingPage">
+                                <div className="VPRightBarWallet_13">
+                                    Check
+                                </div>
+                            </Link>
                         </div>
                     </div>
                 </div>

@@ -48,6 +48,7 @@
 
 .modal_PromoteMe_5 {
     width: 314.77px;
+    padding-left: 10px;
     height: 40.95px;
     background-color: #0B2447;
     border-radius: 8px;
@@ -69,6 +70,7 @@
     font-weight: medium;
     display: flex;
     align-items: center;
+    padding-left: 15px;
 }
 
 .modal_PromoteMe_7 {

@@ -6,6 +6,7 @@ import {
 import Home from './WebPartPages/Home'
 import ViewProfile from "./WebPartPages/ViewProfile";
 import FavoriteViewProfile from "./WebPartPages/FavoriteViewProfile";
+import PendingPage from "./WebPartPages/PendingPage";
 function App() {
   const [checkedFavourite, setCheckedFavourite] = useState(true);
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route exact path="/" element={<Home checkedFavourite={checkedFavourite} setCheckedFavourite={setCheckedFavourite}/>} />
           <Route exact path="/ViewProfile" element={<ViewProfile checkedFavourite={checkedFavourite} setCheckedFavourite={setCheckedFavourite} />} />
           <Route exact path="/FavoriteViewProfile" element={<FavoriteViewProfile />} />
+          <Route exact path="/PendingPage" element={<PendingPage />} />
         </Routes>
       </Router>
     </div>

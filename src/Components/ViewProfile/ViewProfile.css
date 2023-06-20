@@ -1585,3 +1585,71 @@
     height: 696px;
     margin-top: 50px;
 }
+
+.VPRightBarWalletTransactionPending_1{
+    color: #D2DB08;
+    font-size: 20px;
+    font-weight: medium;
+}
+
+.VPRightBarWalletTransactionPending_2 {
+    justify-content: space-between
+}
+
+.VPRightBarWalletTransactionPending_3 {
+    color: #E6E6E6;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+    font-weight: medium;
+}
+
+.VPRightBarWalletTransactionPending_4 {
+    color: #E6E6E6;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;    
+    grid-gap: 10px;
+    margin-top: 10px;
+}
+
+.VPRightBarWalletTransactionPending_5 {
+    width: 13.3%;
+    padding: 0px!important;
+}
+
+.VPRightBarWalletTransactionPending_6 {
+    width: 21.4%;
+    padding: 0px!important;
+}
+
+.VPRightBarWalletTransactionPending_7 {
+    width: 16.4%;
+    padding: 0px!important;
+}
+
+.VPRightBarWalletTransactionPending_8 {
+    width: 16.2%;
+    padding: 0px!important;
+}
+
+.VPRightBarWalletTransactionPending_9 {
+    width: 16.3%;
+}
+
+.VPRightBarWalletTransactionPending_10 {
+    width: 16.2%;
+    padding: 0px!important;
+}
+
+.VPRightBarWalletTransactionPending_11 {
+    color: #E6E6E6;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 85px;
+}
+
+.VPRightBarWalletTransactionPending_12 {
+    color: #37FF80;
+    font-size: 18px;
+}

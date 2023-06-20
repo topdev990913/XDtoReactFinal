@@ -229,7 +229,7 @@ body {
 }
 
 .MainMiddleBarButtonGroup_out_none {
-    display: none;    
+    display: none;
 }
 
 .MainMiddleBarButton_1 {
@@ -360,6 +360,7 @@ body {
     align-items: center;
     border-radius: 8px;
 }
+
 .MainBar_Comment_out {
     align-items: center;
     margin-top: 20px;
@@ -459,6 +460,7 @@ body {
     background-image: none;
     border: none;
 }
+
 .form-select:focus {
     background-image: none;
     border: none;
@@ -467,6 +469,7 @@ body {
 .Filter_Modal_Label {
     margin-top: 0.5px;
 }
+
 .crypto_dropdown {
     margin-top: 7px;
 }
@@ -540,7 +543,7 @@ body {
     border: none;
 }
 
-.Support_send_button{
+.Support_send_button {
     width: 160px;
     height: 53px;
     color: #D2DB08;
@@ -562,6 +565,12 @@ body {
     width: 567px;
     height: 606px;
     margin-top: 150px;
+}
+
+#Withdrawal .modal-content {
+    width: 567px;
+    height: 577.92px;
+    margin-top: 200px;
 }
 
 .ModalFinancial_1 {
@@ -620,4 +629,179 @@ body {
 
 .modal-content {
     z-index: 10000000000;
+}
+
+#Renew .modal-content {
+    width: 567px;
+    height: 906px;
+}
+#Renew1 .modal-content {
+    width: 567px;
+    height: 745px;
+    margin-top: 100px;
+}
+
+.ModalRenew_1 {
+    justify-content: center;
+    grid-gap: 30px
+}
+
+.ModalRenew_2 {
+    width: 118.06px;
+    height: 29.92px;
+    background-color: #0B2447;
+    color: #E6E6E6;
+    font-size: 18px;
+    text-align: center;
+}
+
+.ModalRenew_3 {
+    color: #D2DB08;
+    font-size: 40px;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.ModalRenew_4 {
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+.ModalRenew_5 {
+    color: #37FF80;
+    font-size: 35px;
+    font-weight: medium;
+}
+
+.Renew_avatar {
+    position: absolute;
+    padding-left: 53px;
+    margin-top: -34px;
+    margin-left: -49px;
+}
+
+.Renew_crawn {
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 131px;
+}
+
+.ModalRenew_7 {
+    color: #E6E6E6;
+    font-size: 22px;
+    font-weight: medium;
+}
+
+.ModalRenew_9 {
+    color: #E6E6E6;
+    font-size: 15px;
+}
+
+.ModalRenew_11 {
+    grid-gap: 10px
+}
+
+.ModalRenew_12 {
+    color: #FF9100;
+    font-size: 40px;
+    margin-top: -10px;
+}
+
+.ModalRenew_13 {
+    color: #FF5757;
+    font-size: 35px;
+    font-weight: medium;
+}
+
+.ModalRenew_14 {
+    color: #E6E6E6;
+    font-size: 25px;
+    font-weight: medium;
+    padding-left: 72px;
+    margin-top: 20px;
+}
+
+.ModalWithdrawal_1 {
+    color: #E6E6E6;
+    font-size: 20px;
+    font-weight: medium;
+}
+
+.ModalWithdrawal_2 {
+    width: 199px;
+    height: 42.5px;
+    text-align: center;
+    background-color: #0B2447;
+    font-size: 20px;
+    color: #E6E6E6;
+    padding-top: 3px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.ModalWithdrawal_0 {
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+}
+
+.ModalWithdrawal_3 {
+    color: #E6E6E6;
+    font-size: 20px;
+    font-weight: medium;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
+}
+
+.ModalWithdrawal_4 {
+    text-align: center;
+    height: 42.5px;
+    background-color: #0B2447;
+    color: #E6E6E6;
+    font-size: 20px;
+    border-radius: 8px;
+    padding-top: 5px;
+}
+
+.ModalWithdrawal_5 {
+    color: #E6E6E6;
+    margin-top: 40.1px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: medium;
+}
+
+.ModalWithdrawal_6 {
+    color: #E6E6E6;
+    font-size: 40px;
+}
+
+.ModalWithdrawal_7 {
+    font-size: 26px;
+    margin-top: 10px;
+}
+
+.Withdrawal_button {
+    color: #D2DB08;
+    border-color: #D2DB08;
+    width: 160px;
+    height: 53px;
+    border-radius: 8px;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.ModalWithdrawal_8{
+    text-align: center;
+    font-size: 20px;
+    color: #E6E6E6;
+    margin-top: 10px;
+}
+
+.ModalWithdrawal_9 {
+    color: #5BDEAA;
+    font-size: 17px;
+    text-align: center;
 }

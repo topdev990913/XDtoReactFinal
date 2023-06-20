@@ -5,7 +5,7 @@ import "../Css/Modal.css"
 import { Button, Row } from "reactstrap";
 import Renew_avatar from '../assets/Renew_avatar.png';
 import Renew_crawn from '../assets/Renew_crawn.png';
-const ModalRenew = () => {
+const ModalRenew1 = () => {
     const [show1, setShow1] = useState(false);
     const handleShow1 = () => {
         setShow1(true);
@@ -85,7 +85,7 @@ const ModalRenew = () => {
                     </div>
                 </div>
                 <div className="ModalRenew_14">
-                    Subscription Plans
+                    Membership Plan
                 </div>
                 <div className="d-flex modal_PromoteMe_4">
                     <svg xmlns="http://www.w3.org/2000/svg" width="29.666" height="29.666" viewBox="0 0 29.666 29.666">
@@ -98,55 +98,11 @@ const ModalRenew = () => {
                         1 Month
                     </div>
                     <div className="modal_PromoteMe_6">
-                        69.90<span className="modal_PromoteMe_7">₺</span>
-                    </div>
-                </div>
-                <div className="d-flex modal_PromoteMe_4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="29.666" height="29.666" viewBox="0 0 29.666 29.666">
-                        <g id="Ellipse_58" data-name="Ellipse 58" fill="none" stroke="#d2db08" stroke-width="2">
-                            <circle cx="14.833" cy="14.833" r="14.833" stroke="none" />
-                            <circle cx="14.833" cy="14.833" r="13.833" fill="none" />
-                        </g>
-                    </svg>
-                    <div className="modal_PromoteMe_5">
-                        <div>3 Month</div>
-                        <div className="modal_PromoteMe_9">20<span className="modal_PromoteMe_10">%</span><span className="modal_PromoteMe_11">Save!</span></div>
-                    </div>
-                    <div className="modal_PromoteMe_6">
-                        129.90<span className="modal_PromoteMe_7">₺</span>
-                    </div>
-                </div>
-                <div className="d-flex modal_PromoteMe_4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="29.666" height="29.666" viewBox="0 0 29.666 29.666">
-                        <g id="Ellipse_60" data-name="Ellipse 60" fill="#d2db08" stroke="#d2db08" stroke-width="2">
-                            <circle cx="14.833" cy="14.833" r="14.833" stroke="none" />
-                            <circle cx="14.833" cy="14.833" r="13.833" fill="none" />
-                        </g>
-                    </svg>
-                    <div className="modal_PromoteMe_5">
-                        <div>6 Month</div>
-                        <div className="modal_PromoteMe_9">30<span className="modal_PromoteMe_10">%</span><span className="modal_PromoteMe_11">Save!</span></div>
-                    </div>
-                    <div className="modal_PromoteMe_6">
                         229.90<span className="modal_PromoteMe_7">₺</span>
                     </div>
                 </div>
-                <div className="d-flex modal_PromoteMe_4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="29.666" height="29.666" viewBox="0 0 29.666 29.666">
-                        <g id="Ellipse_58" data-name="Ellipse 58" fill="none" stroke="#d2db08" stroke-width="2">
-                            <circle cx="14.833" cy="14.833" r="14.833" stroke="none" />
-                            <circle cx="14.833" cy="14.833" r="13.833" fill="none" />
-                        </g>
-                    </svg>
-                    <div className="modal_PromoteMe_5">
-                        <div>1 Year</div>
-                        <div className="modal_PromoteMe_9">20<span className="modal_PromoteMe_10">%</span><span className="modal_PromoteMe_11">Save!</span></div>
-                    </div>
-                    <div className="modal_PromoteMe_6">
-                        699.90<span className="modal_PromoteMe_7">₺</span>
-                    </div>
-                </div>
-                <div className="d-flex justify-content-center modal_PromoteMe_12" style={{marginTop: "50px"}}>
+
+                <div className="d-flex justify-content-center modal_PromoteMe_12" style={{ marginTop: "50px" }}>
                     Total Amount
                 </div>
                 <div className="d-flex justify-content-center modal_PromoteMe_13">
@@ -220,10 +176,10 @@ const ModalRenew = () => {
                         </Modal>
                     </div>
                 </div>
-                <div className="d-flex justify-content-center" style={{marginTop: "-20px"}}>
-                    <Button type="submit" className="HighLight_Checkout_button" outline>Checkout</Button>
+                <div className="d-flex justify-content-center" style={{ marginTop: "-20px" }}>
+                    <Button type="submit" className="HighLight_Checkout_button" outline>Renew</Button>
                 </div>
-                <div className="d-flex justify-content-center modal_PromoteMe_17" style={{marginTop: "5px"}}>
+                <div className="d-flex justify-content-center modal_PromoteMe_17" style={{ marginTop: "5px" }}>
                     With Highlights, your profile and contents will be prominently displayed
                     at the top of the lists for the duration of the plan you purchased.
                 </div>
@@ -234,4 +190,4 @@ const ModalRenew = () => {
         </>
     );
 };
-export default ModalRenew;
+export default ModalRenew1;

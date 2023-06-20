@@ -27,7 +27,7 @@ import VPRightBarWalletAccount from "../Components/ViewProfile/VPRightBarWalletA
 import VPRightBarSubTopBarFavourite from "../Components/ViewProfile/VPRightBarSubTopBarFavourite";
 import VPRigthBarFavourite1 from "../Components/ViewProfile/VPRigthBarFavourite1";
 import VPRigthBarFavourite2 from "../Components/ViewProfile/VPRigthBarFavourite2";
-const ViewProfile = ({checkedFavourite, setCheckedFavourite}) => {
+const ViewProfile = ({ checkedFavourite, setCheckedFavourite }) => {
     const [checkedWallet, setCheckedWallet] = useState(true)
     const [checkedSubscriber, setCheckedSubscriber] = useState(true);
     const [checkedComment, setCheckedComment] = useState(1);
