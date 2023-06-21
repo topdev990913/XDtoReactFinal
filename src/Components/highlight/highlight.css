@@ -20,6 +20,15 @@
     width: 113.6px;
 }
 
+.hightlight_avatar_VP {
+    position: absolute;
+    margin-top: 46px;
+    margin-left: 15px;
+    /* width: 113.6px; */
+    width: 139.85px;
+
+}
+
 .highlight_logo {
     position: absolute;
     padding-left: 53px;
@@ -30,8 +39,8 @@
 .highlight_logo_VP {
     position: absolute;
     padding-left: 116px;
-    margin-top: 66px;
-    margin-left: 5px;
+    margin-top: 84px;
+    margin-left: 2px;
 }
 
 .HighLightMiddle_out {
@@ -48,6 +57,7 @@
     font-family: 'Roboto';
     margin-top: 10px;
 }
+
 .HighLightMiddle_1_white {
     font-size: 29px;
     color: #00659D;
@@ -72,6 +82,7 @@
     color: #E6E6E6;
     font-family: 'Roboto';
 }
+
 .HighLightMiddle_2_origin_white {
     font-size: 18px;
     color: #0D2A53;
@@ -84,6 +95,7 @@
     font-family: 'Roboto';
     margin-top: 1px;
 }
+
 .HighLightMiddle_2_Edit_white {
     font-size: 25px;
     color: #0D2A53;
@@ -97,6 +109,7 @@
     font-family: 'Roboto';
     margin-top: 5px;
 }
+
 .HighLightMiddle_3_white {
     font-size: 20px;
     color: #0D2A53;
@@ -110,16 +123,19 @@
     font-family: 'Roboto';
     margin-top: 1px;
 }
+
 .HighLightMiddle_3_Edit_white {
     font-size: 20px;
     color: #0D2A53;
     font-family: 'Roboto';
     margin-top: 1px;
 }
+
 .highlight_number {
     color: #4DD5FF;
     font-size: 20px;
 }
+
 .highlight_number_white {
     color: #3F77DB;
     font-size: 20px;
@@ -129,6 +145,7 @@
     color: #4DD5FF;
     font-size: 29px;
 }
+
 .highlight_number_Edit_white {
     color: #3F77DB;
     font-size: 29px;
@@ -157,6 +174,7 @@
     font-size: 17px;
     color: #77FFA9;
 }
+
 .highlight_button_White {
     width: 95px;
     height: 34px;
@@ -200,6 +218,7 @@
     display: flex;
     margin-top: 20px;
 }
+
 .HighLightEditMainBar_out_white {
     height: 130px;
     border-radius: 8px;
@@ -215,6 +234,7 @@
     font-size: 25px;
     display: flex;
 }
+
 .EditMainBar_1_white {
     margin-left: -5px;
     align-items: center;
@@ -275,12 +295,26 @@
     margin-top: 13px;
     margin-left: 58px;
 }
+
 .highlight_button_Edit {
     width: 135px;
     height: 44px;
     font-size: 17px;
     color: #4DD5FF;
 }
+
+.white_back_VP {
+    position: absolute;
+    margin-top: 84px;
+    margin-left: 118px;
+}
+
+.back {
+    position: absolute;
+    margin-top: 84px;
+    margin-left: 118px;
+}
+
 .highlight_button_Edit_white {
     width: 135px;
     height: 44px;
@@ -288,6 +322,7 @@
     color: #3F77DB;
     border-color: #3F77DB;
 }
+
 .highlight_button_Edit.btn-outline-info {
     border-color: #4DD5FF;
 }

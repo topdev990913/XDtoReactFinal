@@ -5,7 +5,13 @@
     padding-right: 30px;
     margin-top: 20px;
 }
-
+.VP_MC_EP_out_white {
+    background-color: #FFFFFF;
+    height: 752px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+}
 .VP_MC_EP_out_star {
     background-color: #0D2A53;
     height: 402px;
@@ -37,17 +43,29 @@
     background-color: #0B2447;
     font-size: 18px;
 }
-
+.VP_EP_LEFT_Text_field_white {
+    color: #0D2A53;
+    width: 118.06px;
+    height: 29.92px;
+    background-color: #F6F6F6;
+    font-size: 18px;
+}
 .VP_EP_LEFT_Text2 {
     color: #D2DB08;
     font-size: 35px;
 }
-
+.VP_EP_LEFT_Text2_white {
+    color: #00659D;
+    font-size: 35px;
+}
 .VP_EP_LEFT_Text3 {
     color: #D2DB08;
     font-size: 20px;
 }
-
+.VP_EP_LEFT_Text3_white {
+    color: #00659D;
+    font-size: 20px;
+}
 .VP_EP_LEFT_Text5 {
     color: #37FF80;
     font-size: 35px;
@@ -57,12 +75,18 @@
     color: #E6E6E6;
     font-size: 20px;
 }
-
+.VP_EP_Middle_1_white {
+    color: #0D2A53;
+    font-size: 20px;
+}
 .VP_EP_Middle_2 {
     color: #E6E6E6;
     font-size: 15px;
 }
-
+.VP_EP_Middle_2_white {
+    color: #0D2A53;
+    font-size: 15px;
+}
 .VP_EP_Middle {
     text-align: center;
 }
@@ -71,8 +95,10 @@
     color: #E6E6E6;
     font-size: 17px;
 }
-
-
+.VP_EP_Right_1_white {
+    color: #0D2A53;
+    font-size: 17px;
+}
 
 .VP_EP_Right {
     text-align: center;
@@ -98,12 +124,19 @@
     font-size: 18px;
     margin-top: 76.3px;
 }
-
+.VP_EP_LEFT_Text6_white {
+    color: #0D2A53;
+    font-size: 18px;
+    margin-top: 76.3px;
+}
 .VP_EP_LEFT_Text7 {
     color: #E6E6E6;
     font-size: 25px;
 }
-
+.VP_EP_LEFT_Text7_white {
+    color: #0D2A53;
+    font-size: 25px;
+}
 .PieChatBack {
     position: absolute;
 }
@@ -146,6 +179,7 @@
     margin-left: 77px;
     margin-top: 146px;
     position: absolute;
+    border-color: #FFA200;
 }
 
 .VP_EP_LEFT_SUB_out {
@@ -156,7 +190,14 @@
     padding-right: 10px;
     margin-top: 90px;
 }
-
+.VP_EP_LEFT_SUB_out_white {
+    height: 42.61px;
+    background-color: #F6F6F6;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 90px;
+}
 .VP_EP_LEFT_SUB_out_1 {
     height: 42.61px;
     background-color: #0B2447;
@@ -165,12 +206,22 @@
     padding-right: 10px;
     margin-top: 7px;
 }
-
+.VP_EP_LEFT_SUB_out_1_white {
+    height: 42.61px;
+    background-color: #F6F6F6;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 7px;
+}
 .VP_EP_LEFT_SUB_1 {
     color: #E6E6E6;
     font-size: 17px;
 }
-
+.VP_EP_LEFT_SUB_1_white {
+    color: #0D2A53;
+    font-size: 17px;
+}
 .VP_MC_EP_About_out {
     background-color: #0D2A53;
     height: 147px;
@@ -178,19 +229,33 @@
     padding-right: 30px;
     margin-top: 20px;
 }
-
+.VP_MC_EP_About_out_white {
+    background-color: #FFFFFF;
+    height: 147px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+}
 .VP_MC_EP_About_1 {
     color: #E6E6E6;
     font-size: 22px;
     font-weight: medium;
     padding-top: 14.2px;
 }
-
+.VP_MC_EP_About_1_white {
+    color: #0D2A53;
+    font-size: 22px;
+    font-weight: medium;
+    padding-top: 14.2px;
+}
 .VP_MC_EP_About_2 {
     color: #E6E6E6;
     font-size: 20px;
 }
-
+.VP_MC_EP_About_2_white {
+    color: #0D2A53;
+    font-size: 20px;
+}
 .VP_Right_TopBar_out {
     height: 77px;
     margin-top: 20px;

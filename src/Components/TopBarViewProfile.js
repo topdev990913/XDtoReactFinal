@@ -6,7 +6,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import header_logo from '../assets/portrait-of-happy-and-cheerful-handsome-adult-man-2022-02-07-02-02-56-utc.png'
 const TopBarViewProfile = () => {
     return (
-            <Navbar fixed="top" expand="xs" className="header_style mt-4 position-relative">
+            <Navbar expand="xs" className="header_style position-relative">
                 <Container style={{ marginRight: "0px" }}>
                     <Row noGutters className="position-relative p-0 w-100 align-items-center">
                         <Col className="d-lg-flex justify-content-end">

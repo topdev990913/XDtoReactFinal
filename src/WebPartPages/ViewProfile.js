@@ -27,7 +27,11 @@ import VPRightBarWalletAccount from "../Components/ViewProfile/VPRightBarWalletA
 import VPRightBarSubTopBarFavourite from "../Components/ViewProfile/VPRightBarSubTopBarFavourite";
 import VPRigthBarFavourite1 from "../Components/ViewProfile/VPRigthBarFavourite1";
 import VPRigthBarFavourite2 from "../Components/ViewProfile/VPRigthBarFavourite2";
-const ViewProfile = ({ checkedFavourite, setCheckedFavourite }) => {
+import TopBarWhite from "../Components/TopBarWhite";
+import SideBarWhite from "../Components/SideBarWhite";
+import MyCommentsEditProfileWhite from "../Components/ViewProfile/MyCommentsEditProfileWhite";
+import VPAboutWhite from "../Components/ViewProfile/VPAboutWhite";
+const ViewProfile = ({ checkedFavourite, setCheckedFavourite, checked, setChecked }) => {
     const [checkedWallet, setCheckedWallet] = useState(true)
     const [checkedSubscriber, setCheckedSubscriber] = useState(true);
     const [checkedComment, setCheckedComment] = useState(1);
@@ -74,39 +78,79 @@ const ViewProfile = ({ checkedFavourite, setCheckedFavourite }) => {
     }
     return (
         <>
-            <TopBar />
-            <div className="d-flex">
-                <div className="SideBar_Home_out">
-                    <SideBar />
-                </div>
-                <div className="ViewProfile_Mycomments_1">
-                    {checkedSubComment === 3 && checkedBall === true ?
-                        <>
-                            <MyCommentsEditProfile1 checkedBall={checkedBall} setCheckedBall={setCheckedBall} checkedSubComment={checkedSubComment} setCheckedSubComment={setCheckedSubComment} />
-                            <VPAbout1 checkedBall={checkedBall} setCheckedBall={setCheckedBall} checkedSubComment={checkedSubComment} setCheckedSubComment={setCheckedSubComment} />
-                        </>
-                        :
-                        <>
-                            <MyCommentsEditProfile />
-                            <VPAbout />
-                        </>
-                    }
-
-                </div>
-                <div className="ViewProfile_Mycomments_2">
-                    <VPRightTopBar checkedComment={checkedComment} setCheckedComment={setCheckedComment} />
+            {checked ?
+                <>
+                    <TopBarWhite checked={checked} setChecked={setChecked}/>
                     <div className="d-flex">
-                        <div className="VP_RightBarSub1_out">
-                            {displayCommentTopBar()}
-                            {displaySubComment()}
+                        <div className="SideBar_Home_out">
+                            <SideBarWhite />
                         </div>
-                        <div className="VP_RightBarSub2_out">
-                            <VPRigthBarSub2 />
-                            <VPRigthBarSub3 />
+                        <div className="ViewProfile_Mycomments_1">
+                            {checkedSubComment === 3 && checkedBall === true ?
+                                <>
+                                    <MyCommentsEditProfile1 checkedBall={checkedBall} setCheckedBall={setCheckedBall} checkedSubComment={checkedSubComment} setCheckedSubComment={setCheckedSubComment} />
+                                    <VPAbout1 checkedBall={checkedBall} setCheckedBall={setCheckedBall} checkedSubComment={checkedSubComment} setCheckedSubComment={setCheckedSubComment} />
+                                </>
+                                :
+                                <>
+                                    <MyCommentsEditProfileWhite />
+                                    <VPAboutWhite />
+                                </>
+                            }
+
+                        </div>
+                        <div className="ViewProfile_Mycomments_2">
+                            <VPRightTopBar checkedComment={checkedComment} setCheckedComment={setCheckedComment} />
+                            <div className="d-flex">
+                                <div className="VP_RightBarSub1_out">
+                                    {displayCommentTopBar()}
+                                    {displaySubComment()}
+                                </div>
+                                <div className="VP_RightBarSub2_out">
+                                    <VPRigthBarSub2 />
+                                    <VPRigthBarSub3 />
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
+                </>
+                :
+                <>
+                    <TopBar checked={checked} setChecked={setChecked}/>
+                    <div className="d-flex">
+                        <div className="SideBar_Home_out">
+                            <SideBar />
+                        </div>
+                        <div className="ViewProfile_Mycomments_1">
+                            {checkedSubComment === 3 && checkedBall === true ?
+                                <>
+                                    <MyCommentsEditProfile1 checkedBall={checkedBall} setCheckedBall={setCheckedBall} checkedSubComment={checkedSubComment} setCheckedSubComment={setCheckedSubComment} />
+                                    <VPAbout1 checkedBall={checkedBall} setCheckedBall={setCheckedBall} checkedSubComment={checkedSubComment} setCheckedSubComment={setCheckedSubComment} />
+                                </>
+                                :
+                                <>
+                                    <MyCommentsEditProfile />
+                                    <VPAbout />
+                                </>
+                            }
+
+                        </div>
+                        <div className="ViewProfile_Mycomments_2">
+                            <VPRightTopBar checkedComment={checkedComment} setCheckedComment={setCheckedComment} />
+                            <div className="d-flex">
+                                <div className="VP_RightBarSub1_out">
+                                    {displayCommentTopBar()}
+                                    {displaySubComment()}
+                                </div>
+                                <div className="VP_RightBarSub2_out">
+                                    <VPRigthBarSub2 />
+                                    <VPRigthBarSub3 />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </>
+            }
         </>
     );
 };

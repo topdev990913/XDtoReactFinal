@@ -14,7 +14,7 @@ const TopBar = ({ checked, setChecked }) => {
 
     console.log("checked", checked)
     return (
-        <Navbar fixed="top" expand="xs" className="header_style mt-4 position-relative">
+        <Navbar expand="xs" className="header_style position-relative">
             <Container style={{ marginRight: "0px" }}>
                 <Row noGutters className="position-relative p-0 w-100 align-items-center">
                     <Col className="d-lg-flex justify-content-end">
