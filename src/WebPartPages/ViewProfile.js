@@ -44,6 +44,12 @@ import VPRightBarSubTopBarFavouriteWhite from "../Components/ViewProfile/VPRight
 import VPRigthBarSub1White from "../Components/ViewProfile/VPRigthBarSub1White";
 import VPRigthBarSub1GreenWhite from "../Components/ViewProfile/VPRigthBarSub1GreenWhite";
 import VPRigthBarSub1YellowWhite from "../Components/ViewProfile/VPRigthBarSub1YellowWhite";
+import VPRightBarSubscriber1White from "../Components/ViewProfile/VPRightBarSubscriber1White";
+import VPRightBarSubscriber2White from "../Components/ViewProfile/VPRightBarSubscriber2White";
+import VPRightBarWalletTransactionWhite from "../Components/ViewProfile/VPRightBarWalletTransactionWhite";
+import VPRigthBarFavourite1White from "../Components/ViewProfile/VPRigthBarFavourite1White";
+import VPRightBarWalletAccountWhite from "../Components/ViewProfile/VPRightBarWalletAccountWhite";
+import VPRigthBarFavourite2White from "../Components/ViewProfile/VPRigthBarFavourite2White";
 const ViewProfile = ({ checkedFavourite, setCheckedFavourite, checked, setChecked }) => {
     const [checkedWallet, setCheckedWallet] = useState(true)
     const [checkedSubscriber, setCheckedSubscriber] = useState(true);
@@ -80,15 +86,15 @@ const ViewProfile = ({ checkedFavourite, setCheckedFavourite, checked, setChecke
             <VPRigthBarSub1YellowWhite checkedSubComment={checkedSubComment} setCheckedSubComment={setCheckedSubComment} />
         </>
         if (checkedComment === 1 & checkedSubComment === 3) return <VPRigthBarSub4White checkedBall={checkedBall} setCheckedBall={setCheckedBall} />
-        if (checkedComment === 2 & checkedSubscriber === true) return <VPRightBarSubscriber1 checkedComment={checkedComment} setCheckedComment={setCheckedComment} checkedSubscriber={checkedSubscriber} setCheckedSubscriber={setCheckedSubscriber} />
-        if (checkedComment === 2 & checkedSubscriber === false) return <VPRightBarSubscriber2 checkedComment={checkedComment} setCheckedComment={setCheckedComment} checkedSubscriber={checkedSubscriber} setCheckedSubscriber={setCheckedSubscriber} />
-        if (checkedComment === 3 & checkedWallet === true) return <VPRightBarWalletTransaction checkedComment={checkedComment} setCheckedComment={setCheckedComment} checkedWallet={checkedWallet} setCheckedWallet={setCheckedWallet} />
-        if (checkedComment === 3 & checkedWallet === false) return <VPRightBarWalletAccount checkedComment={checkedComment} setCheckedComment={setCheckedComment} checkedWallet={checkedWallet} setCheckedWallet={setCheckedWallet} />
+        if (checkedComment === 2 & checkedSubscriber === true) return <VPRightBarSubscriber1White checkedComment={checkedComment} setCheckedComment={setCheckedComment} checkedSubscriber={checkedSubscriber} setCheckedSubscriber={setCheckedSubscriber} />
+        if (checkedComment === 2 & checkedSubscriber === false) return <VPRightBarSubscriber2White checkedComment={checkedComment} setCheckedComment={setCheckedComment} checkedSubscriber={checkedSubscriber} setCheckedSubscriber={setCheckedSubscriber} />
+        if (checkedComment === 3 & checkedWallet === true) return <VPRightBarWalletTransactionWhite checkedComment={checkedComment} setCheckedComment={setCheckedComment} checkedWallet={checkedWallet} setCheckedWallet={setCheckedWallet} />
+        if (checkedComment === 3 & checkedWallet === false) return <VPRightBarWalletAccountWhite checkedComment={checkedComment} setCheckedComment={setCheckedComment} checkedWallet={checkedWallet} setCheckedWallet={setCheckedWallet} />
         if (checkedComment === 4 & checkedFavourite === true) return <>
-            <VPRigthBarFavourite1 checkedComment={checkedComment} setCheckedComment={setCheckedComment} checkedFavourite={checkedFavourite} setCheckedFavourite={setCheckedFavourite} />
-            <VPRigthBarFavourite1 checkedComment={checkedComment} setCheckedComment={setCheckedComment} checkedFavourite={checkedFavourite} setCheckedFavourite={setCheckedFavourite} />
+            <VPRigthBarFavourite1White checkedComment={checkedComment} setCheckedComment={setCheckedComment} checkedFavourite={checkedFavourite} setCheckedFavourite={setCheckedFavourite} />
+            <VPRigthBarFavourite1White checkedComment={checkedComment} setCheckedComment={setCheckedComment} checkedFavourite={checkedFavourite} setCheckedFavourite={setCheckedFavourite} />
         </>
-        if (checkedComment === 4 & checkedFavourite === false) return <VPRigthBarFavourite2 checkedComment={checkedComment} setCheckedComment={setCheckedComment} checkedFavourite={checkedFavourite} setCheckedFavourite={setCheckedFavourite} />
+        if (checkedComment === 4 & checkedFavourite === false) return <VPRigthBarFavourite2White checkedComment={checkedComment} setCheckedComment={setCheckedComment} checkedFavourite={checkedFavourite} setCheckedFavourite={setCheckedFavourite} />
     }
     const displayCommentTopBar = () => {
         switch (checkedComment) {

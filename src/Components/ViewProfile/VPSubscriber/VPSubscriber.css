@@ -90,7 +90,15 @@
     color: #FFCC00;
     text-align: center;
 }
-
+.VPSubscriberCard_2_1_white {
+    font-size: 18px;
+    width: 121px;
+    height: 31px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    color: #FFCC00;
+    text-align: center;
+}
 .VPSubscriberCard_2_2 {
     font-size: 18px;
     width: 121px;
@@ -100,7 +108,15 @@
     color: #FF5757;
     text-align: center;
 }
-
+.VPSubscriberCard_2_2_white {
+    font-size: 18px;
+    width: 121px;
+    height: 31px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    color: #FF5757;
+    text-align: center;
+}
 .Subscription_expert_button {
     width: 71.77px;
     height: 20.57px;

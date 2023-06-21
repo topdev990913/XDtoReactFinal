@@ -13,14 +13,15 @@ import VPRightBarSub4CardWhite from "./VPRightBarSub4CardWhite";
 import VPRightBarSub4Card1White from "./VPRightBarSub4Card1White";
 import VPRightBarSub4Card2White from "./VPRightBarSub4Card2White";
 import VPRightBarSub4Card3White from "./VPRightBarSub4Card3White";
-const VPRightBarSub4White = ({ checkedBall, setCheckedBall }) => {
+const VPRightBarSub41White = ({ checkedVPball, setCheckedVpball }) => {
+    console.log("checkedVPball", checkedVPball)
     return (
-        <div className="VPRigthBarSub4_out_white">
+        <div className="VPRigthBarSub41_out_white">
             <div className="d-flex justify-content-end">
-                <div className={checkedBall ? "VPRigthBarSub4_1" : "VPRigthBarSub4_1_1_white"} onClick={() => { setCheckedBall(true) }}>
+                <div className={checkedVPball === 1 ? "VPRigthBarSub4_1" : "VPRigthBarSub4_1_1_white"} onClick={() => { setCheckedVpball(1) }}>
                     Football
                 </div>
-                <div className={checkedBall ? "VPRigthBarSub4_2_white" : "VPRigthBarSub4_2_1"} onClick={() => { setCheckedBall(false) }}>
+                <div className={checkedVPball === 2 ? "VPRigthBarSub4_2_1" : "VPRigthBarSub4_2_white"} onClick={() => { setCheckedVpball(2) }}>
                     Basketball
                 </div>
             </div>
@@ -278,4 +279,4 @@ const VPRightBarSub4White = ({ checkedBall, setCheckedBall }) => {
         </div>
     );
 };
-export default VPRightBarSub4White;
+export default VPRightBarSub41White;

@@ -1110,7 +1110,15 @@
     margin-left: 20px;
     padding-top: 17px;
 }
-
+.VPRigthBarSub41_out_white {
+    margin-top: 20px;
+    width: 769px;
+    background-color: #FFFFFF;
+    height: 725px;
+    border-radius: 8px;
+    margin-left: 20px;
+    padding-top: 17px;
+}
 .VPRightBarSubscriber1_out {
     margin-top: 20px;
     background-color: #0D2A53;
@@ -1143,7 +1151,16 @@
     padding-left: 20px;
     padding-top: 17px;
 }
-
+.VPRightBarWallet_out_white {
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    height: 725px;
+    border-radius: 8px;
+    margin-left: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 17px;
+}
 .VPRigthBarSub4_1 {
     color: #D2DB08;
     font-size: 20px;
@@ -1485,7 +1502,18 @@
     margin-top: 10px;
     margin-left: -30px;
 }
-
+.VPRigthBarSub4_16_white {
+    width: 122px;
+    height: 30px;
+    border-radius: 22px;
+    background-color: #F6F6F6;
+    color: #0D2A53;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 10px;
+    margin-left: -30px;
+}
 .VPRigthBarSub4_18 {
     width: 139px;
     height: 30px;
@@ -1498,7 +1526,18 @@
     margin-top: 10px;
     margin-left: -30px;
 }
-
+.VPRigthBarSub4_18_white {
+    width: 139px;
+    height: 30px;
+    border-radius: 22px;
+    background-color: #F6F6F6;
+    color: #0D2A53;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 10px;
+    margin-left: -30px;
+}
 .VPRightBarSub4Card_UK {
     z-index: 100000;
 }
@@ -1558,7 +1597,14 @@
     padding-left: 14px;
     padding-right: 14px;
 }
-
+.VPRightBarWallet_1_white {
+    width: 274px;
+    height: 206px;
+    background-color: #F6F6F6;
+    border-radius: 8px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
 .VPRightBarWallet_2 {
     width: 436px;
     height: 206px;
@@ -1566,20 +1612,35 @@
     border-radius: 8px;
     margin-left: 20px;
 }
-
+.VPRightBarWallet_2_white {
+    width: 436px;
+    height: 206px;
+    background-color: #F6F6F6;
+    border-radius: 8px;
+    margin-left: 20px;
+}
 .VPRightBarWallet_3 {
     color: #E6E6E6;
     font-size: 20px;
     margin-top: 12px;
 }
-
+.VPRightBarWallet_3_white {
+    color: #0D2A53;
+    font-size: 20px;
+    margin-top: 12px;
+}
 .VPRightBarWallet_4 {
     color: #E6E6E6;
     font-size: 40px;
     font-weight: bold;
     margin-top: -10px;
 }
-
+.VPRightBarWallet_4_white {
+    color: #0D2A53;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: -10px;
+}
 .VPRightBarWallet_5 {
     font-size: 22px;
     font-weight: medium;
@@ -1595,14 +1656,16 @@
     color: #E6E6E6;
     font-size: 18px;
 }
-
+.VPRightBarWallet_8_white {
+    color: #0D2A53;
+    font-size: 18px;
+}
 .VPRightBarWallet_11 {
     color: #37FF80;
     font-size: 28px;
     font-weight: bold;
     margin-top: -10px;
 }
-
 .VPRightBarWallet_10 {
     font-size: 16px;
     font-weight: 100;
@@ -1614,7 +1677,12 @@
     font-weight: bold;
     margin-top: -10px;
 }
-
+.VPRightBarWallet_12_white {
+    color: #0D2A53;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: -10px;
+}
 .VPRightBarWallet_14 {
     font-size: 16px;
     font-weight: 100;
@@ -1626,7 +1694,12 @@
     font-weight: medium;
     margin-top: -10px;
 }
-
+.VPRightBarWallet_13_white {
+    color: #00659D;
+    font-size: 18px;
+    font-weight: medium;
+    margin-top: -10px;
+}
 .VPRightBarWallet_15 {
     justify-content: space-evenly;
     color: #E6E6E6;
@@ -1634,7 +1707,13 @@
     font-weight: medium;
     margin-top: 167px;
 }
-
+.VPRightBarWallet_15_white {
+    justify-content: space-evenly;
+    color: #0D2A53;
+    font-size: 15px;
+    font-weight: medium;
+    margin-top: 167px;
+}
 .WalletTransactionButton {
     width: 95px;
     height: 38px;
@@ -1654,7 +1733,16 @@
     padding-left: 20px;
     padding-right: 20px;
 }
-
+.VPRightBarWallet_16_white {
+    display: flex;
+    height: 60px;
+    background-color: #F6F6F6;
+    border-radius: 8px;
+    align-items: center;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 .VPRightBarWallet_17 {
     color: #FF5757;
     font-size: 20px;
@@ -1666,14 +1754,23 @@
     font-size: 20px;
     margin-left: 65px;
 }
-
+.VPRightBarWallet_18_white {
+    color: #0D2A53;
+    font-size: 20px;
+    margin-left: 65px;
+}
 .VPRightBarWallet_19 {
     color: #E6E6E6;
     font-size: 25px;
     font-weight: bold;
     margin-top: 36px;
 }
-
+.VPRightBarWallet_19_white {
+    color: #0D2A53;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 36px;
+}
 .VPRightBarWallet_20 {
     background-color: #0B2447;
     height: 55px;
@@ -1684,24 +1781,44 @@
     margin-top: 10px;
 
 }
+.VPRightBarWallet_20_white {
+    background-color: #F6F6F6;
+    height: 55px;
+    border-radius: 8px;
+    align-items: center;
+    display: flex;
+    padding-left: 10px;
+    margin-top: 10px;
 
+}
 .VPRightBarWallet_21 {
     color: #E6E6E6;
     font-size: 20px;
 }
-
+.VPRightBarWallet_21_white {
+    color: #0D2A53;
+    font-size: 20px;
+}
 .VPRightBarWallet_22 {
     color: #E6E6E6;
     font-size: 20px;
     font-weight: bold;
 }
-
+.VPRightBarWallet_22_white {
+    color: #0D2A53;
+    font-size: 20px;
+    font-weight: bold;
+}
 .VPRightBarWallet_23 {
     color: #4DD5FF;
     font-size: 20px;
     font-weight: bold;
 }
-
+.VPRightBarWallet_23_white {
+    color: #3F77DB;
+    font-size: 20px;
+    font-weight: bold;
+}
 .VPRightBarWallet_24 {
     color: #37FF80;
     font-size: 20px;
@@ -1714,7 +1831,12 @@
     font-weight: bold;
     z-index: 10000;
 }
-
+.VPRightBarWallet_25_white {
+    color: #0D2A53;
+    font-size: 20px;
+    font-weight: bold;
+    z-index: 10000;
+}
 .VPRightBarWallet_26 {
     color: #E6E6E6;
     font-size: 13px;
@@ -1741,6 +1863,14 @@
     margin-left: 5.8px;
     text-align: center;
 }
+.VPRightBarWalletAccount_1_white {
+    width: 194px;
+    height: 206px;
+    background-color: #F6F6F6;
+    border-radius: 8px;
+    margin-left: 5.8px;
+    text-align: center;
+}
 
 
 .VPRightBarWalletAccount_2 {
@@ -1748,6 +1878,15 @@
     height: 206px;
     width: 524px;
     background-color: #0B2447;
+    border-radius: 8px;
+    padding-left: 23.1px;
+    padding-top: 8px;
+}
+.VPRightBarWalletAccount_2_white {
+    margin-left: 20px;
+    height: 206px;
+    width: 524px;
+    background-color: #F6F6F6;
     border-radius: 8px;
     padding-left: 23.1px;
     padding-top: 8px;
@@ -1769,7 +1908,12 @@
     margin-top: 9px;
     margin-left: 16px;
 }
-
+.VPRightBarWalletAccount_3_white {
+    color: #0D2A53;
+    font-size: 15px;
+    margin-top: 9px;
+    margin-left: 16px;
+}
 .VPRightBarWalletAccount_4 {
     color: #37FF80;
     font-size: 15px;
@@ -1794,7 +1938,12 @@
     font-weight: medium;
     margin-left: 10px;
 }
-
+.VPRightBarWalletAccount_6_white {
+    color: #0D2A53;
+    font-size: 25px;
+    font-weight: medium;
+    margin-left: 10px;
+}
 .VPRightBarWalletAccount_7 {
     text-align: center;
 }
@@ -1803,24 +1952,39 @@
     color: #E6E6E6;
     font-size: 18px;
 }
+.VPRightBarWalletAccount_8_white {
+    color: #0D2A53;
+    font-size: 18px;
+}
 
 .VPRightBarWalletAccount_9 {
     color: #E6E6E6;
     font-size: 20px;
     font-weight: bold;
 }
-
+.VPRightBarWalletAccount_9_white {
+    color: #0D2A53;
+    font-size: 20px;
+    font-weight: bold;
+}
 .VPRightBarWalletAccount_10 {
     color: #E6E6E6;
     font-size: 13px;
     font-weight: medium;
 }
-
+.VPRightBarWalletAccount_10_white {
+    color: #0D2A53;
+    font-size: 13px;
+    font-weight: medium;
+}
 .VPRightBarWalletAccount_11 {
     color: #E6E6E6;
     font-size: 15px;
 }
-
+.VPRightBarWalletAccount_11_white {
+    color: #0D2A53;
+    font-size: 15px;
+}
 .VPRightBarWalletAccount_12 {
     color: #4DD5FF;
     font-size: 20px;
@@ -1844,7 +2008,11 @@
     font-size: 15px;
     margin-top: 36px;
 }
-
+.VPRightBarWalletAccount_16_white {
+    color: #0D2A53;
+    font-size: 15px;
+    margin-top: 36px;
+}
 .VPRightBarWalletAccount_17 {
     color: #FFA200;
     font-size: 20px;
@@ -1873,12 +2041,24 @@
     text-align: center;
 }
 
+.VPRightBarWalletAccount_19_white {
+    background-color: #F6F6F6;
+    height: 226px;
+    width: 194px;
+    border-radius: 8px;
+    margin-left: 5.8px;
+    text-align: center;
+}
 .VPRightBarWalletAccount_20 {
     color: #E6E6E6;
     font-size: 15px;
     margin-top: 9px;
 }
-
+.VPRightBarWalletAccount_20_white {
+    color: #0D2A53;
+    font-size: 15px;
+    margin-top: 9px;
+}
 .CheckLogo {
     margin-top: 32px;
 }
@@ -1911,7 +2091,14 @@
     border-radius: 8px;
     padding-top: 8px;
 }
-
+.VPRightBarWalletAccount_27_white {
+    margin-left: 20px;
+    height: 103px;
+    width: 524px;
+    background-color: #F6F6F6;
+    border-radius: 8px;
+    padding-top: 8px;
+}
 .VPRightBarWalletAccount_22 {
     color: #FFA200;
     font-size: 20px;
@@ -1922,12 +2109,18 @@
     color: #E6E6E6;
     font-size: 20px;
 }
-
+.VPRightBarWalletAccount_23_white {
+    color: #0D2A53;
+    font-size: 20px;
+}
 .VPRightBarWalletAccount_24 {
     color: #E6E6E6;
     font-size: 18px;
 }
-
+.VPRightBarWalletAccount_24_white {
+    color: #0D2A53;
+    font-size: 18px;
+}
 .VPRightBarWalletAccount_25 {
     color: #FFA200;
     font-size: 20px;
@@ -1944,7 +2137,11 @@
     font-size: 15px;
     font-weight: medium;
 }
-
+.VPRightBarWalletAccount_28_white {
+    color: #0D2A53;
+    font-size: 15px;
+    font-weight: medium;
+}
 .VPRightBarWalletAccount_29 {
     color: #4DD5FF;
     font-size: 20px;
@@ -1956,14 +2153,27 @@
     font-size: 20px;
     font-weight: bold;
 }
-
+.VPRightBarWalletAccount_30_white {
+    color: #0D2A53;
+    font-size: 20px;
+    font-weight: bold;
+}
 .VPRightBarWalletAccount_31 {
     color: #E6E6E6;
     font-size: 15px;
 }
-
+.VPRightBarWalletAccount_31_white {
+    color: #0D2A53;
+    font-size: 15px;
+}
 .VPRightBarWalletAccount_32 {
     color: #E6E6E6;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.VPRightBarWalletAccount_32_white {
+    color: #0D2A53;
     font-size: 20px;
     font-weight: bold;
     margin-left: 5px;
@@ -1982,17 +2192,31 @@
     margin-top: 20px;
     padding-top: 13px;
 }
+.VPRightBarWalletAccount_40_white {
+    background-color: #F6F6F6;
+    height: 103px;
+    border-radius: 8px;
+    padding-left: 11.1px;
+    margin-top: 20px;
+    padding-top: 13px;
+}
 
 .VPRightBarWalletAccount_34 {
     color: #E6E6E6;
     font-size: 15px;
 }
-
+.VPRightBarWalletAccount_34_white {
+    color: #0D2A53;
+    font-size: 15px;
+}
 .VPRightBarWalletAccount_35 {
     color: #E6E6E6;
     font-size: 20px;
 }
-
+.VPRightBarWalletAccount_35_white {
+    color: #0D2A53;
+    font-size: 20px;
+}
 .VPRightBarWalletAccount_36 {
     color: #4DD5FF;
     font-size: 20px;
@@ -2007,7 +2231,14 @@
     border-radius: 6px;
     font-size: 20px;
 }
-
+.Account_Renew_button_white {
+    color: #00659D;
+    border-color: #00659D;
+    width: 148px;
+    height: 46px;
+    border-radius: 6px;
+    font-size: 20px;
+}
 .Admin_Logo_text {
     color: #E6E6E6;
     font-size: 20px;
@@ -2025,15 +2256,22 @@
     font-size: 15px;
     font-weight: medium;
 }
-
+.VPVP_1_white {
+    color: #0D2A53;
+    font-size: 15px;
+    font-weight: medium;
+}
 .VPVP_2 {
     color: #E6E6E6;
     font-size: 32px;
     font-weight: medium;
 }
-
+.VPVP_2_white {
+    color: #0D2A53;
+    font-size: 32px;
+    font-weight: medium;
+}
 .VPVP_3 {
-    color: #E6E6E6;
     font-size: 20px;
     font-weight: medium;
 }
@@ -2047,7 +2285,15 @@
     font-size: 20px;
     margin-left: 10px;
 }
-
+.VPVP_Subscribe_button_white {
+    color: #00659D;
+    border-color: #00659D;
+    width: 116.31px;
+    height: 44.73px;
+    border-radius: 6px;
+    font-size: 20px;
+    margin-left: 10px;
+}
 .VPVP_Follow_button {
     color: #0CC6FF;
     border-color: #0CC6FF;
@@ -2263,6 +2509,13 @@
     font-size: 20px;
     font-weight: medium;
 }
+.VPRightBarWalletTransactionPending_3_white {
+    color: #0D2A53;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+    font-weight: medium;
+}
 
 .VPRightBarWalletTransactionPending_4 {
     color: #E6E6E6;
@@ -2272,7 +2525,14 @@
     grid-gap: 10px;
     margin-top: 10px;
 }
-
+.VPRightBarWalletTransactionPending_4_white {
+    color: #0D2A53;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+    grid-gap: 10px;
+    margin-top: 10px;
+}
 .VPRightBarWalletTransactionPending_5 {
     width: 13.3%;
     padding: 0px !important;
@@ -2308,12 +2568,20 @@
     text-align: center;
     margin-top: 85px;
 }
-
+.VPRightBarWalletTransactionPending_11_white {
+    color: #0D2A53;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 85px;
+}
 .VPRightBarWalletTransactionPending_12 {
     color: #37FF80;
     font-size: 18px;
 }
-
+.VPRightBarWalletTransactionPending_12_white {
+    color: #00659D;
+    font-size: 18px;
+}
 #Terms_white .modal-content {
     background: #FFFFFF;
 }

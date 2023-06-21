@@ -8,11 +8,11 @@ import VPRightBarSub4Card2 from "./VPRightBarSub4Card2";
 import VPRightBarSub4Card3 from "./VPRightBarSub4Card3";
 import VPRightBarSub4Card_UK from "../../assets/indir.png";
 import VPRightBarSub4Card_Italy from "../../assets/indir (2).png";
-import VPRightBarSub4Card_Turkey from "../../assets/Roundel_flag_of_Turkey.svg.png";
-import VPRightBarSub4Card_Spain from "../../assets/indir (3).png";
+import VPRightBarSub4Card_Turkey from "../../assets/Roundel_flag_of_Turkey.svg_blue.png";
+import VPRightBarSub4Card_Spain from "../../assets/indir (3)-blue.png";
 import VPRightBarSub4Card_Germany from "../../assets/indir (4).png";
-import VPRightBarSub4Card_France from "../../assets/indir (5).png";
-import VPRightBarSub4Card_Poland from "../../assets/indir (6).png";
+import VPRightBarSub4Card_France from "../../assets/indir (5)-blue.png";
+import VPRightBarSub4Card_Poland from "../../assets/indir (6)-blue.png";
 const VPRigthBarSub4 = ({checkedBall, setCheckedBall}) => {    
     return (
         <div className="VPRigthBarSub4_out">
