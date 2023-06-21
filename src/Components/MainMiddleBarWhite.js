@@ -2,12 +2,12 @@ import React from "react";
 import "../Css/Components.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
-import MainMiddleBarFooter from "./MainMiddleBarFooter";
 import HighLightMiddleExpertWhite from "./highlight/HighLightMiddleExpertWhite";
 import MainMiddleBarMiddleWhite from "./MainMiddleBarMiddleWhite";
 import MainMiddleBarButtonGroupWhite from "./MainMiddleBarButtonGroupWhite";
 import MainMiddleBarBodyWhite from "./MainMiddleBarBodyWhite";
 import HighLightAvatarWhite from "./highlight/HighLightAvatarWhite";
+import MainMiddleBarFooterWhite from "./MainMiddleBarFooterWhite";
 const MainMiddleBarWhite = ({ checkedForYou, setCheckedForYou }) => {
     return (
         <div className="MainMiddleBar_out_white">
@@ -23,7 +23,7 @@ const MainMiddleBarWhite = ({ checkedForYou, setCheckedForYou }) => {
 
             </div>
             <MainMiddleBarBodyWhite checkedForYou={checkedForYou} setCheckedForYou={setCheckedForYou} />
-            <MainMiddleBarFooter />
+            <MainMiddleBarFooterWhite />
         </div>
 
 

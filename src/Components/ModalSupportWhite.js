@@ -13,7 +13,7 @@ const ModalSupportWhite = () => {
                     Department
                 </div>
                 <div className="crypto_dropdown">
-                    <select class="form-select form-select-lg mb-3 white" id="select-out" aria-label=".form-select-lg example">
+                    <select class="form-select form-select-lg mb-3 white3" id="select-out" aria-label=".form-select-lg example" style={{backgroundColor: "#F6F6F6", color: "#0D2A53"}}>
                         <option value="" hidden disabled selected>Select Department</option>
                         <option value="0" className="Selected_item">All</option>
                         <option value="1" className="Selected_item">Manchester United  - Arsenal</option>

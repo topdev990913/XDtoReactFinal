@@ -5,6 +5,7 @@
     padding-right: 30px;
     margin-top: 20px;
 }
+
 .VP_MC_EP_out_white {
     background-color: #FFFFFF;
     height: 752px;
@@ -12,6 +13,7 @@
     padding-right: 30px;
     margin-top: 20px;
 }
+
 .VP_MC_EP_out_star {
     background-color: #0D2A53;
     height: 402px;
@@ -19,6 +21,7 @@
     padding-right: 30px;
     margin-top: 20px;
 }
+
 .VP_MC_EP_out_star_white {
     background-color: #FFFFFF;
     height: 402px;
@@ -43,6 +46,7 @@
     background-color: #0B2447;
     font-size: 18px;
 }
+
 .VP_EP_LEFT_Text_field_white {
     color: #0D2A53;
     width: 118.06px;
@@ -50,22 +54,27 @@
     background-color: #F6F6F6;
     font-size: 18px;
 }
+
 .VP_EP_LEFT_Text2 {
     color: #D2DB08;
     font-size: 35px;
 }
+
 .VP_EP_LEFT_Text2_white {
     color: #00659D;
     font-size: 35px;
 }
+
 .VP_EP_LEFT_Text3 {
     color: #D2DB08;
     font-size: 20px;
 }
+
 .VP_EP_LEFT_Text3_white {
     color: #00659D;
     font-size: 20px;
 }
+
 .VP_EP_LEFT_Text5 {
     color: #37FF80;
     font-size: 35px;
@@ -75,18 +84,22 @@
     color: #E6E6E6;
     font-size: 20px;
 }
+
 .VP_EP_Middle_1_white {
     color: #0D2A53;
     font-size: 20px;
 }
+
 .VP_EP_Middle_2 {
     color: #E6E6E6;
     font-size: 15px;
 }
+
 .VP_EP_Middle_2_white {
     color: #0D2A53;
     font-size: 15px;
 }
+
 .VP_EP_Middle {
     text-align: center;
 }
@@ -95,6 +108,7 @@
     color: #E6E6E6;
     font-size: 17px;
 }
+
 .VP_EP_Right_1_white {
     color: #0D2A53;
     font-size: 17px;
@@ -124,19 +138,23 @@
     font-size: 18px;
     margin-top: 76.3px;
 }
+
 .VP_EP_LEFT_Text6_white {
     color: #0D2A53;
     font-size: 18px;
     margin-top: 76.3px;
 }
+
 .VP_EP_LEFT_Text7 {
     color: #E6E6E6;
     font-size: 25px;
 }
+
 .VP_EP_LEFT_Text7_white {
     color: #0D2A53;
     font-size: 25px;
 }
+
 .PieChatBack {
     position: absolute;
 }
@@ -190,6 +208,7 @@
     padding-right: 10px;
     margin-top: 90px;
 }
+
 .VP_EP_LEFT_SUB_out_white {
     height: 42.61px;
     background-color: #F6F6F6;
@@ -198,6 +217,7 @@
     padding-right: 10px;
     margin-top: 90px;
 }
+
 .VP_EP_LEFT_SUB_out_1 {
     height: 42.61px;
     background-color: #0B2447;
@@ -206,6 +226,7 @@
     padding-right: 10px;
     margin-top: 7px;
 }
+
 .VP_EP_LEFT_SUB_out_1_white {
     height: 42.61px;
     background-color: #F6F6F6;
@@ -214,14 +235,17 @@
     padding-right: 10px;
     margin-top: 7px;
 }
+
 .VP_EP_LEFT_SUB_1 {
     color: #E6E6E6;
     font-size: 17px;
 }
+
 .VP_EP_LEFT_SUB_1_white {
     color: #0D2A53;
     font-size: 17px;
 }
+
 .VP_MC_EP_About_out {
     background-color: #0D2A53;
     height: 147px;
@@ -229,6 +253,7 @@
     padding-right: 30px;
     margin-top: 20px;
 }
+
 .VP_MC_EP_About_out_white {
     background-color: #FFFFFF;
     height: 147px;
@@ -236,26 +261,31 @@
     padding-right: 30px;
     margin-top: 20px;
 }
+
 .VP_MC_EP_About_1 {
     color: #E6E6E6;
     font-size: 22px;
     font-weight: medium;
     padding-top: 14.2px;
 }
+
 .VP_MC_EP_About_1_white {
     color: #0D2A53;
     font-size: 22px;
     font-weight: medium;
     padding-top: 14.2px;
 }
+
 .VP_MC_EP_About_2 {
     color: #E6E6E6;
     font-size: 20px;
 }
+
 .VP_MC_EP_About_2_white {
     color: #0D2A53;
     font-size: 20px;
 }
+
 .VP_Right_TopBar_out {
     height: 77px;
     margin-top: 20px;
@@ -265,6 +295,7 @@
     padding-left: 10px;
     padding-right: 10px;
 }
+
 .VP_Right_TopBar_out_white {
     height: 77px;
     margin-top: 20px;
@@ -274,6 +305,7 @@
     padding-left: 10px;
     padding-right: 10px;
 }
+
 .VP_Right_TopBar_1 {
     color: #D2DB08;
     font-size: 20px;
@@ -285,21 +317,25 @@
     font-size: 20px;
     margin-left: 10px;
 }
+
 .VP_Right_TopBar_1_1_white {
     color: #0D2A53;
     font-size: 20px;
     margin-left: 10px;
 }
+
 .VP_Right_TopBar_2 {
     color: #E6E6E6;
     font-size: 20px;
     margin-left: 10px;
 }
+
 .VP_Right_TopBar_2_white {
     color: #0D2A53;
     font-size: 20px;
     margin-left: 10px;
 }
+
 .VP_Right_TopBar_2_1 {
     color: #D2DB08;
     font-size: 20px;
@@ -315,8 +351,23 @@
     margin-top: 15px;
 }
 
+.VP_Right_TopBar_Button1_white {
+    width: 170px;
+    height: 46px;
+    border-radius: 6px;
+    font-size: 18px;
+    color: #00659D;
+    border-color: #00659D;
+    margin-top: 15px;
+}
+
 .VP_Right_TopBar_Button1_1 {
     display: none;
+}
+
+#comment_white .form-select {
+    background-color: #F6F6F6;
+    color: #0D2A53;
 }
 
 .VP_Right_TopBar_Button2 {
@@ -325,6 +376,17 @@
     border-radius: 6px;
     font-size: 18px;
     color: #37FF80;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.VP_Right_TopBar_Button2_white {
+    width: 170px;
+    height: 46px;
+    border-radius: 6px;
+    font-size: 18px;
+    color: #3F77DB;
+    border-color: #3F77DB;
     margin-top: 15px;
     margin-left: 20px;
 }
@@ -346,6 +408,7 @@
     margin-top: 20px;
     margin-left: 20px;
 }
+
 .VPRightBarSubTopBar_out_white {
     height: 77px;
     background-color: #FFFFFF;
@@ -355,6 +418,7 @@
     margin-top: 20px;
     margin-left: 20px;
 }
+
 .VPRightBarSubTopBar_1 {
     color: #D2DB08;
     font-size: 20px;
@@ -368,14 +432,23 @@
     margin-top: 20px;
     cursor: pointer;
 }
+
 .VPRightBarSubTopBar_1_1_white {
     color: #0D2A53;
     font-size: 20px;
     margin-top: 20px;
     cursor: pointer;
 }
+
 .VPRightBarSubTopBar_1_uncomment {
     color: #E6E6E6;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.VPRightBarSubTopBar_1_uncomment_white {
+    color: #0D2A53;
     font-size: 20px;
     margin-top: 20px;
     cursor: pointer;
@@ -388,6 +461,7 @@
     cursor: pointer;
     margin-left: 24.3px;
 }
+
 .VPRightBarSubTopBar_2_white {
     color: #0D2A53;
     margin-top: 20px;
@@ -395,8 +469,17 @@
     cursor: pointer;
     margin-left: 24.3px;
 }
+
 .VPRightBarSubTopBar_2_1 {
     color: #D2DB08;
+    margin-top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 24.3px;
+}
+
+.VPRightBarSubTopBar_2_1_white {
+    color: #0D2A53;
     margin-top: 20px;
     font-size: 20px;
     cursor: pointer;
@@ -417,7 +500,6 @@
     margin-left: 237px;
     margin-top: 30px;
 }
-
 .VPRigthBarSub1_out {
     background-color: #0D2A53;
     height: 322px;
@@ -427,6 +509,7 @@
     margin-top: 20px;
     margin-left: 20px;
 }
+
 .VPRigthBarSub1_out_white {
     background-color: #FFFFFF;
     height: 322px;
@@ -436,16 +519,19 @@
     margin-top: 20px;
     margin-left: 20px;
 }
+
 .VPRigthBarSub1_1 {
     color: #E6E6E6;
     font-size: 17px;
     padding-top: 22px;
 }
+
 .VPRigthBarSub1_1_white {
     color: #0D2A53;
     font-size: 17px;
     padding-top: 22px;
 }
+
 .VPRigthBarSub1_2 {
     height: 163px;
     background: #0B2447;
@@ -454,6 +540,7 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .VPRigthBarSub1_2_white {
     height: 163px;
     background: #F6F6F6;
@@ -462,12 +549,14 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .VPRigthBarSub1_3 {
     color: #E6E6E6;
     font-size: 20px;
     margin-top: 20.5px;
     margin-left: 5px;
 }
+
 .VPRigthBarSub1_3_white {
     color: #0D2A53;
     font-size: 20px;
@@ -483,10 +572,12 @@
     color: #E6E6E6;
     font-size: 20px;
 }
+
 .VPRigthBarSub1_4_white {
     color: #0D2A53;
     font-size: 20px;
 }
+
 .RightBar_VP {
     justify-content: center;
 }
@@ -504,21 +595,25 @@
     color: #E6E6E6;
     font-size: 20px;
 }
+
 .VPRigthBarSub1_6_white {
     margin-top: -134px;
     color: #0D2A53;
     font-size: 20px;
 }
+
 .VPRigthBarSub1_7 {
     margin-top: 21px;
     color: #E6E6E6;
     font-size: 20px;
 }
+
 .VPRigthBarSub1_7_white {
     margin-top: 21px;
     color: #0D2A53;
     font-size: 20px;
 }
+
 .VPRigthBarSub2_out {
     height: 355px;
     border-radius: 8px;
@@ -529,6 +624,7 @@
     margin-top: 20px;
     margin-left: 20px;
 }
+
 .VPRigthBarSub2_out_white {
     height: 355px;
     border-radius: 8px;
@@ -539,31 +635,37 @@
     margin-top: 20px;
     margin-left: 20px;
 }
+
 .VPRigthBarSub2_1 {
     color: #E6E6E6;
     font-size: 25px;
     font-weight: medium;
 }
+
 .VPRigthBarSub2_1_white {
     color: #0D2A53;
     font-size: 25px;
     font-weight: medium;
 }
+
 .VPRigthBarSub2_1_white {
     color: #0D2A53;
     font-size: 25px;
     font-weight: medium;
 }
+
 .VPRigthBarSub2_2 {
     color: #4DD5FF;
     font-size: 25px;
     font-weight: medium;
 }
+
 .VPRigthBarSub2_2_white {
     color: #3F77DB;
     font-size: 25px;
     font-weight: medium;
 }
+
 .VPRightBarHighlight_out {
     height: 76px;
     background-color: #0B2447;
@@ -573,6 +675,7 @@
     padding-right: 5px;
     margin-top: 10px;
 }
+
 .VPRightBarHighlight_out_white {
     height: 76px;
     background-color: #F6F6F6;
@@ -588,11 +691,13 @@
     font-size: 17px;
     font-weight: medium;
 }
+
 .VPRightBarHighlight_2_white {
     color: #0D2A53;
     font-size: 17px;
     font-weight: medium;
 }
+
 .VPRightBarHighlight_2_1 {
     color: #E6E6E6;
     font-size: 17px;
@@ -623,6 +728,7 @@
     color: #E6E6E6;
     font-size: 13px;
 }
+
 .VPRightBarHighlight_3_white {
     color: #0D2A53;
     font-size: 13px;
@@ -632,10 +738,12 @@
     color: #E6E6E6;
     font-size: 16px;
 }
+
 .VPRightBarHighlight_4_white {
     color: #0D2A53;
     font-size: 16px;
 }
+
 .VPRightBarHighlight_4_1 {
     color: #E6E6E6;
     font-size: 15px;
@@ -666,6 +774,7 @@
     padding-top: 15px;
     margin-top: 20px;
 }
+
 .VPRigthBarSub3_out_white {
     height: 447px;
     background-color: #FFFFFF;
@@ -676,6 +785,7 @@
     padding-top: 15px;
     margin-top: 20px;
 }
+
 .VPRigthBarSub3_1 {
     text-align: center;
 }
@@ -686,12 +796,14 @@
     font-weight: bold;
     margin-top: -10px;
 }
+
 .VPRigthBarSub3_2_white {
     color: #0D2A53;
     font-size: 25px;
     font-weight: bold;
     margin-top: -10px;
 }
+
 .Support_Button {
     width: 231px;
     height: 46px;
@@ -701,6 +813,7 @@
     font-size: 20px;
     margin-top: 28px;
 }
+
 .Support_Button_white {
     width: 231px;
     height: 46px;
@@ -711,6 +824,7 @@
     margin-top: 28px;
     border: none;
 }
+
 .HighlightLogo {
     margin-top: -5px;
 }
@@ -720,11 +834,13 @@
     font-size: 20px;
     margin-top: 20.6px;
 }
+
 .VPRigthBarSub3_3_white {
     color: #0D2A53;
     font-size: 20px;
     margin-top: 20.6px;
 }
+
 .VPRigthBarSub3_4 {
     height: 44px;
     background-color: #0B2447;
@@ -734,6 +850,7 @@
     justify-content: space-between;
     cursor: pointer;
 }
+
 .VPRigthBarSub3_4_white {
     height: 44px;
     background-color: #F6F6F6;
@@ -743,38 +860,45 @@
     justify-content: space-between;
     cursor: pointer;
 }
+
 .VPRigthBarSub3_5 {
     color: #E6E6E6;
     font-size: 20px;
     margin-left: 4.3px;
 }
+
 .VPRigthBarSub3_5_white {
     color: #0D2A53;
     font-size: 20px;
     margin-left: 4.3px;
 }
+
 .VPRigthBarSub3_6 {
     color: #E6E6E6;
     font-size: 16px;
     margin-left: 92.3px;
 }
+
 .VPRigthBarSub3_6_white {
     color: #0D2A53;
     font-size: 16px;
     margin-left: 92.3px;
 }
+
 .VPRigthBarSub3_7 {
     position: absolute;
     color: #E6E6E6;
     margin-left: 346px;
     margin-top: 10px;
 }
+
 .VPRigthBarSub3_7_white {
     position: absolute;
     color: #0D2A53;
     margin-left: 346px;
     margin-top: 10px;
 }
+
 .Modal_field_out {
     background-color: #0B2447;
     height: 44.5px;
@@ -784,8 +908,23 @@
     align-items: center;
 }
 
+.Modal_field_out_white {
+    background-color: #F6F6F6;
+    height: 44.5px;
+    border-radius: 8px;
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+}
+
 .Modal_field_Text_1 {
     color: #E6E6E6;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.Modal_field_Text_1_white {
+    color: #0D2A53;
     font-size: 20px;
     margin-left: 40px;
 }
@@ -801,14 +940,36 @@
     border-radius: 8px;
 }
 
+.Modal_field_Text_2_white {
+    width: 66px;
+    height: 34px;
+    background-color: #FFFFFF;
+    color: #0D2A53;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 49px;
+    border-radius: 8px;
+}
+
 .Modal_field_Text_3 {
     color: #E6E6E6;
     font-size: 20px;
     margin-left: 10px;
 }
 
+.Modal_field_Text_3_white {
+    color: #0D2A53;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
 .Modal_field_Text_4 {
     color: #E6E6E6;
+    font-size: 20px;
+}
+
+.Modal_field_Text_4_white {
+    color: #0D2A53;
     font-size: 20px;
 }
 
@@ -828,12 +989,27 @@
     border: none;
 }
 
+.Add_comment_out_white {
+    width: 516px;
+    height: 167.5px;
+    border-radius: 8px;
+    background-color: #F6F6F6;
+    margin-top: 10px;
+    color: #0B2447;
+    border: none;
+}
+
 .Add_comment_out:focus-visible {
     border: none;
 }
 
 .Modal_field_Text_6 {
     color: #E6E6E6;
+    font-size: 15px;
+}
+
+.Modal_field_Text_6_white {
+    color: #0D2A53;
     font-size: 15px;
 }
 
@@ -850,8 +1026,19 @@
     font-size: 20px;
 }
 
+.Modal_field_Text_8_white {
+    color: #0D2A53;
+    font-size: 20px;
+}
+
 .Modal_field_Text_9 {
     color: #D2DB08;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.Modal_field_Text_9_white {
+    color: #00659D;
     font-size: 20px;
     cursor: pointer;
 }
@@ -861,16 +1048,23 @@
     font-size: 18px;
 }
 
+.Modal_field_Text_10_white {
+    color: #0D2A53;
+    font-size: 18px;
+}
+
 .Terms_modal_1 {
     color: #D2DB08;
     font-size: 30px;
     margin-top: 17.1px;
 }
+
 .Terms_modal_1_white {
     color: #00659D;
     font-size: 30px;
     margin-top: 17.1px;
 }
+
 .Terms_modal_2 {
     height: 506px;
 }
@@ -879,10 +1073,12 @@
     color: #E6E6E6;
     font-size: 19px;
 }
+
 .Terms_modal_3_white {
     color: #0D2A53;
     font-size: 19px;
 }
+
 .modal_out1.modal-content {
     width: 595.38px;
     height: 693.5px;
@@ -897,7 +1093,14 @@
     margin-left: 20px;
     padding-top: 17px;
 }
-
+.VPRigthBarSub4_out_white {
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    height: 725px;
+    border-radius: 8px;
+    margin-left: 20px;
+    padding-top: 17px;
+}
 .VPRigthBarSub41_out {
     margin-top: 20px;
     width: 769px;
@@ -918,6 +1121,7 @@
     padding-left: 20px;
     padding-top: 17px;
 }
+
 .VPRightBarSubscriber1_out_white {
     margin-top: 20px;
     background-color: #FFFFFF;
@@ -928,6 +1132,7 @@
     padding-left: 20px;
     padding-top: 17px;
 }
+
 .VPRightBarWallet_out {
     margin-top: 20px;
     background-color: #0D2A53;
@@ -953,14 +1158,24 @@
     margin-right: 25.7px;
     cursor: pointer;
 }
-
+.VPRigthBarSub4_1_1_white {
+    color: #0D2A53;
+    font-size: 20px;
+    margin-right: 25.7px;
+    cursor: pointer;
+}
 .VPRigthBarSub4_2 {
     color: #E6E6E6;
     font-size: 20px;
     margin-right: 56.4px;
     cursor: pointer;
 }
-
+.VPRigthBarSub4_2_white {
+    color: #0D2A53;
+    font-size: 20px;
+    margin-right: 56.4px;
+    cursor: pointer;
+}
 .VPRigthBarSub4_2_1 {
     color: #D2DB08;
     font-size: 20px;
@@ -974,7 +1189,12 @@
     color: #E6E6E6;
     font-size: 25px;
 }
-
+.VPRigthBarSub4_3_white {
+    padding-left: 39.5px;
+    padding-right: 30px;
+    color: #0D2A53;
+    font-size: 25px;
+}
 .VPRigthBarSub4_4 {
     padding-left: 39.5px;
     padding-right: 60px;
@@ -989,9 +1209,20 @@
     font-size: 25px;
     margin-top: 40.7px;
 }
-
+.VPRigthBarSub4_5_white {
+    padding-left: 39.5px;
+    padding-right: 30px;
+    color: #0D2A53;
+    font-size: 25px;
+    margin-top: 40.7px;
+}
 .VPRigthBarSub4_6 {
     color: #E6E6E6;
+    font-size: 15px;
+    margin-right: 13.5px;
+}
+.VPRigthBarSub4_6_white {
+    color: #0D2A53;
     font-size: 15px;
     margin-right: 13.5px;
 }
@@ -1031,7 +1262,14 @@
     color: #E6E6E6;
     font-size: 36px;
 }
-
+.VPRightBarSub4Card_1_white {
+    position: absolute;
+    padding-left: 53px;
+    margin-top: 45px;
+    margin-left: -16px;
+    color: #0D2A53;
+    font-size: 36px;
+}
 .VPRightBarSub4Card_2 {
     position: absolute;
     padding-left: 53px;
@@ -1040,13 +1278,28 @@
     color: #E6E6E6;
     font-size: 17px;
 }
-
+.VPRightBarSub4Card_2_white {
+    position: absolute;
+    padding-left: 53px;
+    margin-top: 98px;
+    margin-left: -16px;
+    color: #0D2A53;
+    font-size: 17px;
+}
 .VPRightBarSub4Card_2_1 {
     position: absolute;
     padding-left: 53px;
     margin-top: 98px;
     margin-left: -27px;
     color: #E6E6E6;
+    font-size: 17px;
+}
+.VPRightBarSub4Card_2_1_white {
+    position: absolute;
+    padding-left: 53px;
+    margin-top: 98px;
+    margin-left: -27px;
+    color: #0D2A53;
     font-size: 17px;
 }
 
@@ -1058,10 +1311,17 @@
     color: #E6E6E6;
     font-size: 17px;
 }
-
+.VPRightBarSub4Card_2_2_white {
+    position: absolute;
+    padding-left: 53px;
+    margin-top: 98px;
+    margin-left: -2px;
+    color: #0D2A53;
+    font-size: 17px;
+}
 .VPRigthBarSub4_8 {
-    padding-left: 72.4px;
-    padding-right: 60.4px;
+    padding-left: 40.4px;
+    padding-right: 80.4px;
 }
 
 .VPRigthBarSub4_9 {
@@ -1071,7 +1331,13 @@
     font-size: 25px;
     margin-top: 29px;
 }
-
+.VPRigthBarSub4_9_white {
+    padding-left: 39.5px;
+    padding-right: 30px;
+    color: #0D2A53;
+    font-size: 25px;
+    margin-top: 29px;
+}
 .VPRigthBarSub4_10 {
     padding-left: 42.4px;
     padding-right: 61.1px;
@@ -1099,7 +1365,18 @@
     margin-top: 10px;
     margin-left: -30px;
 }
-
+.VPRigthBarSub4_11_white {
+    width: 167px;
+    height: 30px;
+    border-radius: 22px;
+    background-color: #F6F6F6;
+    color: #0D2A53;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 10px;
+    margin-left: -30px;
+}
 .VPRigthBarSub4_12 {
     width: 108px;
     height: 30px;
@@ -1112,7 +1389,18 @@
     margin-top: 10px;
     margin-left: -30px;
 }
-
+.VPRigthBarSub4_12_white {
+    width: 108px;
+    height: 30px;
+    border-radius: 22px;
+    background-color: #F6F6F6;
+    color: #0D2A53;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 10px;
+    margin-left: -30px;
+}
 .VPRigthBarSub4_13 {
     width: 124px;
     height: 30px;
@@ -1125,7 +1413,18 @@
     margin-top: 10px;
     margin-left: -30px;
 }
-
+.VPRigthBarSub4_13_white {
+    width: 124px;
+    height: 30px;
+    border-radius: 22px;
+    background-color: #F6F6F6;
+    color: #0D2A53;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 10px;
+    margin-left: -30px;
+}
 .VPRigthBarSub4_14 {
     width: 111px;
     height: 30px;
@@ -1138,7 +1437,18 @@
     margin-top: 10px;
     margin-left: -30px;
 }
-
+.VPRigthBarSub4_14_white {
+    width: 111px;
+    height: 30px;
+    border-radius: 22px;
+    background-color: #F6F6F6;
+    color: #0D2A53;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 10px;
+    margin-left: -30px;
+}
 .VPRigthBarSub4_15 {
     width: 136px;
     height: 30px;
@@ -1151,7 +1461,18 @@
     margin-top: 10px;
     margin-left: -30px;
 }
-
+.VPRigthBarSub4_15_white {
+    width: 136px;
+    height: 30px;
+    border-radius: 22px;
+    background-color: #F6F6F6;
+    color: #0D2A53;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 10px;
+    margin-left: -30px;
+}
 .VPRigthBarSub4_16 {
     width: 122px;
     height: 30px;
@@ -1191,6 +1512,16 @@
     margin-top: 10px;
 }
 
+.VP_Comment_static_Update_button_white {
+    color: #3F77DB;
+    width: 117px;
+    height: 47px;
+    border-radius: 6px;
+    font-size: 23px;
+    margin-top: 10px;
+    border-color: #3F77DB;
+}
+
 .VP_Comment_static_Update_button.btn-outline-info {
     border-color: #FFCC00;
 }
@@ -1201,6 +1532,18 @@
     background-color: transparent;
     color: #0CC6FF;
     border-color: #0CC6FF;
+    font-size: 20px;
+    border-radius: 6px;
+    margin-left: 294px;
+    margin-top: 12px;
+}
+
+.request_withdrawl_button_white {
+    width: 203px;
+    height: 46px;
+    background-color: transparent;
+    color: #00659D;
+    border-color: #00659D;
     font-size: 20px;
     border-radius: 6px;
     margin-left: 294px;
@@ -1670,11 +2013,13 @@
     font-size: 20px;
     font-weight: medium;
 }
+
 .Admin_Logo_text_white {
     color: #0D2A53;
     font-size: 20px;
     font-weight: medium;
 }
+
 .VPVP_1 {
     color: #E6E6E6;
     font-size: 15px;
@@ -1744,21 +2089,25 @@
     font-size: 17px;
     margin-top: 10px;
 }
+
 .VP_MC_EP_out_star_2_white {
     color: #3F77DB;
     font-size: 17px;
     margin-top: 10px;
 }
+
 .VP_MC_EP_out_star_2_1 {
     color: #E6E6E6;
     font-size: 17px;
     margin-top: 10px;
 }
+
 .VP_MC_EP_out_star_2_1_white {
     color: #0D2A53;
     font-size: 17px;
     margin-top: 10px;
 }
+
 .VP_MC_EP_out_star_1 {
     padding-top: 8.5px;
 }
@@ -1767,11 +2116,13 @@
     position: absolute;
     margin-top: -23px;
 }
+
 .white_back {
     position: absolute;
     margin-top: 29px;
     margin-left: -139px;
 }
+
 .camera_Star_Logo {
     position: absolute;
     margin-top: 36px;
@@ -1785,6 +2136,7 @@
     text-align: center;
     margin-top: 120px;
 }
+
 .VP_MC_EP_out_star_3 {
     color: #E6E6E6;
     font-size: 22px;
@@ -1792,6 +2144,7 @@
     text-align: center;
     margin-top: 120px;
 }
+
 .VP_MC_EP_out_star_3_white {
     color: #0D2A53;
     font-size: 22px;
@@ -1799,16 +2152,19 @@
     text-align: center;
     margin-top: 120px;
 }
+
 .VP_MC_EP_out_star_4 {
     color: #E6E6E6;
     font-size: 15px;
     text-align: center;
 }
+
 .VP_MC_EP_out_star_4_white {
     color: #0D2A53;
     font-size: 15px;
     text-align: center;
 }
+
 .VP_MC_EP_out_star_5 {
     justify-content: space-between;
 }
@@ -1818,20 +2174,24 @@
     color: #E6E6E6;
     font-size: 18px;
 }
+
 .VP_MC_EP_out_star_6_white {
     color: #0D2A53;
     font-size: 18px;
 }
+
 .VP_MC_EP_out_star_7 {
     color: #E6E6E6;
     font-size: 25px;
     font-weight: medium;
 }
+
 .VP_MC_EP_out_star_7_white {
     color: #0D2A53;
     font-size: 25px;
     font-weight: medium;
 }
+
 .VP_MC_EP_out_star_0 {
     text-align: center;
 }
@@ -1856,21 +2216,25 @@
     font-size: 25px;
     font-weight: bold;
 }
+
 .VPRightBarSubscriberTransaction_1_white {
     color: #0D2A53;
     font-size: 25px;
     font-weight: bold;
 }
+
 .VP_MC_EP_out_star_100 {
     color: #E6E6E6;
     font-size: 19px;
     font-weight: medium;
 }
+
 .VP_MC_EP_out_star_100_white {
     color: #0D2A53;
     font-size: 19px;
     font-weight: medium;
 }
+
 .VP_MC_EP_out_star_101 {
     grid-gap: 20px;
     margin-top: 40px;
@@ -1882,7 +2246,7 @@
     margin-top: 50px;
 }
 
-.VPRightBarWalletTransactionPending_1{
+.VPRightBarWalletTransactionPending_1 {
     color: #D2DB08;
     font-size: 20px;
     font-weight: medium;
@@ -1904,29 +2268,29 @@
     color: #E6E6E6;
     display: flex;
     justify-content: flex-start;
-    font-size: 20px;    
+    font-size: 20px;
     grid-gap: 10px;
     margin-top: 10px;
 }
 
 .VPRightBarWalletTransactionPending_5 {
     width: 13.3%;
-    padding: 0px!important;
+    padding: 0px !important;
 }
 
 .VPRightBarWalletTransactionPending_6 {
     width: 21.4%;
-    padding: 0px!important;
+    padding: 0px !important;
 }
 
 .VPRightBarWalletTransactionPending_7 {
     width: 16.4%;
-    padding: 0px!important;
+    padding: 0px !important;
 }
 
 .VPRightBarWalletTransactionPending_8 {
     width: 16.2%;
-    padding: 0px!important;
+    padding: 0px !important;
 }
 
 .VPRightBarWalletTransactionPending_9 {
@@ -1935,7 +2299,7 @@
 
 .VPRightBarWalletTransactionPending_10 {
     width: 16.2%;
-    padding: 0px!important;
+    padding: 0px !important;
 }
 
 .VPRightBarWalletTransactionPending_11 {
@@ -1948,4 +2312,19 @@
 .VPRightBarWalletTransactionPending_12 {
     color: #37FF80;
     font-size: 18px;
+}
+
+#Terms_white .modal-content {
+    background: #FFFFFF;
+}
+
+#PromoteMe_white .modal-content {
+    background-color: #FFFFFF;
+}
+
+#Withdrawal_white .modal-content {
+    background-color: #FFFFFF;
+    width: 567px;
+    height: 577.92px;
+    margin-top: 200px;
 }

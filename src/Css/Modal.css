@@ -24,7 +24,11 @@
     font-size: 52px;
     font-family: 'Coolvetica';
 }
-
+.modal_PromoteMe_1_white {
+    color: #00659D;
+    font-size: 52px;
+    font-family: 'Coolvetica';
+}
 .modal_PromoteMe_2 {
     color: #E6E6E6;
     font-size: 36px;
@@ -33,7 +37,14 @@
     padding-left: 30px;
     padding-right: 30px;
 }
-
+.modal_PromoteMe_2_white {
+    color: #00659D;
+    font-size: 36px;
+    font-family: 'Berlin Sans FB';
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 .modal_PromoteMe_3 {
     padding-left: 84px;
     color: #E6E6E6;
@@ -42,7 +53,14 @@
     font-weight: medium;
     margin-top: 20px;
 }
-
+.modal_PromoteMe_3_white {
+    padding-left: 84px;
+    color: #0D2A53;
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: medium;
+    margin-top: 20px;
+}
 .modal_PromoteMe_4 {
     padding-left: 30.4px;
     padding-right: 34.2px;

@@ -1141,7 +1141,11 @@ body.white {
     font-size: 20px;
     font-weight: medium;
 }
-
+.ModalWithdrawal_1_white {
+    color: #0D2A53;
+    font-size: 20px;
+    font-weight: medium;
+}
 .ModalWithdrawal_2 {
     width: 199px;
     height: 42.5px;
@@ -1153,7 +1157,17 @@ body.white {
     margin-top: 10px;
     border-radius: 8px;
 }
-
+.ModalWithdrawal_2_white {
+    width: 199px;
+    height: 42.5px;
+    text-align: center;
+    background-color: #F6F6F6;
+    font-size: 20px;
+    color: #0D2A53;
+    padding-top: 3px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
 .ModalWithdrawal_0 {
     justify-content: space-between;
     padding-left: 30px;
@@ -1169,7 +1183,14 @@ body.white {
     padding-right: 30px;
     margin-top: 30px;
 }
-
+.ModalWithdrawal_3_white {
+    color: #0D2A53;
+    font-size: 20px;
+    font-weight: medium;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
+}
 .ModalWithdrawal_4 {
     text-align: center;
     height: 42.5px;
@@ -1179,7 +1200,15 @@ body.white {
     border-radius: 8px;
     padding-top: 5px;
 }
-
+.ModalWithdrawal_4_white {
+    text-align: center;
+    height: 42.5px;
+    background-color: #F6F6F6;
+    color: #0D2A53;
+    font-size: 20px;
+    border-radius: 8px;
+    padding-top: 5px;
+}
 .ModalWithdrawal_5 {
     color: #E6E6E6;
     margin-top: 40.1px;
@@ -1187,12 +1216,21 @@ body.white {
     font-size: 20px;
     font-weight: medium;
 }
-
+.ModalWithdrawal_5_white {
+    color: #0D2A53;
+    margin-top: 40.1px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: medium;
+}
 .ModalWithdrawal_6 {
     color: #E6E6E6;
     font-size: 40px;
 }
-
+.ModalWithdrawal_6_white {
+    color: #0D2A53;
+    font-size: 40px;
+}
 .ModalWithdrawal_7 {
     font-size: 26px;
     margin-top: 10px;
@@ -1207,20 +1245,37 @@ body.white {
     font-size: 25px;
     margin-top: 40px;
 }
-
+.Withdrawal_button_white {
+    color: #00659D;
+    border-color: #00659D;
+    width: 160px;
+    height: 53px;
+    border-radius: 8px;
+    font-size: 25px;
+    margin-top: 40px;
+}
 .ModalWithdrawal_8 {
     text-align: center;
     font-size: 20px;
     color: #E6E6E6;
     margin-top: 10px;
 }
-
+.ModalWithdrawal_8_white {
+    text-align: center;
+    font-size: 20px;
+    color: #0D2A53;
+    margin-top: 10px;
+}
 .ModalWithdrawal_9 {
     color: #5BDEAA;
     font-size: 17px;
     text-align: center;
 }
-
+.ModalWithdrawal_9_white {
+    color: #00659D;
+    font-size: 17px;
+    text-align: center;
+}
 .css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked {
     color: #D2DB08 !important;
 }
@@ -1232,4 +1287,8 @@ body.white {
 .Toggle_theme {
     color: #E6E6E6;
     font-size: 20px;
+}
+
+#comment_white .modal-content {
+    background-color: #FFFFFF;
 }
