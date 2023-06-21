@@ -4,8 +4,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import hightlight_avatar from './assets/portrait-of-happy-and-cheerful-handsome-adult-man-2022-02-07-02-02-56-utc.png'
 import highlight_logo from './assets/MDI - crown-circle-outline.png'
-import white_back from '../../assets/Ellipse 84_1.png';
-const HighLightAvatar = () => {
+import white_back from '../../assets/Ellipse 84.png';
+const HighLightAvatarWhite = () => {
     return (
         <div className="HighLightAvatar_out">
             <img src={hightlight_avatar} alt="highlight_avatar" className="hightlight_avatar" />
@@ -14,4 +14,4 @@ const HighLightAvatar = () => {
         </div>
     );
 };
-export default HighLightAvatar;
+export default HighLightAvatarWhite;

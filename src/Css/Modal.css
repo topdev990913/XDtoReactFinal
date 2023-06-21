@@ -3,11 +3,17 @@
     font-size: 25px;
     font-weight: medium;
 }
-
+.modal_notification_1_white {
+    color: #3F77DB;
+    font-size: 25px;
+    font-weight: medium;
+}
 .modal_notification_2 {
     color: #E6E6E6;
 }
-
+.modal_notification_2_white {
+    color: #0D2A53;
+}
 .modal_PromoteMe {
     grid-gap: 40px;
     margin-top: -30px;
@@ -59,7 +65,19 @@
     align-items: center;
     justify-content: space-between;
 }
-
+.modal_PromoteMe_5_white {
+    width: 314.77px;
+    padding-left: 10px;
+    height: 40.95px;
+    background-color: #F6F6F6;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: medium;
+    color: #0D2A53;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .modal_PromoteMe_6 {
     width: 91.73px;
     height: 49.63px;
@@ -72,7 +90,18 @@
     align-items: center;
     padding-left: 15px;
 }
-
+.modal_PromoteMe_6_white {
+    width: 91.73px;
+    height: 49.63px;
+    background-color: #F6F6F6;
+    border-radius: 0px 16px 16px 0px;
+    color: #0D2A53;
+    font-size: 20px;
+    font-weight: medium;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
 .modal_PromoteMe_7 {
     display: flex;
     align-items: center;
@@ -105,6 +134,12 @@
     font-weight: medium;
     margin-top: 15px;
 }
+.modal_PromoteMe_12_white {
+    color: #0D2A53;
+    font-size: 25px;
+    font-weight: medium;
+    margin-top: 15px;
+}
 
 .modal_PromoteMe_13 {
     color: #E6E6E6;
@@ -112,7 +147,12 @@
     font-weight: medium;
     margin-top: -18px;
 }
-    
+.modal_PromoteMe_13_white {
+    color: #0D2A53;
+    font-size: 43px;
+    font-weight: medium;
+    margin-top: -18px;
+} 
 .modal_PromoteMe_14 {
     font-size: 22px;
 }
@@ -121,12 +161,18 @@
     font-size: 20px;
     color: #E6E6E6;
 }
-
+.modal_PromoteMe_15_white {
+    font-size: 20px;
+    color: #0D2A53;
+}
 .modal_PromoteMe_16 {
     color: #D2DB08;
     cursor: pointer;
 }
-
+.modal_PromoteMe_16_white {
+    color: #00659D;
+    cursor: pointer;
+}
 .HighLight_Checkout_button{
     color: #D2DB08;
     border-color: #D2DB08;
@@ -136,11 +182,24 @@
     font-size: 25px;
     margin-top: 38px;
 }
-
-
+.HighLight_Checkout_button_white{
+    color: #00659D;
+    border-color: #00659D;
+    width: 161px;
+    height: 53px;
+    border-radius: 8px;
+    font-size: 25px;
+    margin-top: 38px;
+}
 .modal_PromoteMe_17 {
     text-align: center;
     font-size: 15px;
     color: #E6E6E6;
+    margin-top: 28px;
+}
+.modal_PromoteMe_17_white {
+    text-align: center;
+    font-size: 15px;
+    color: #0D2A53;
     margin-top: 28px;
 }

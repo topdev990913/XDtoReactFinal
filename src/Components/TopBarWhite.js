@@ -6,7 +6,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import header_logo from '../assets/portrait-of-happy-and-cheerful-handsome-adult-man-2022-02-07-02-02-56-utc.png'
 import Modal from 'react-bootstrap/Modal';
 import "../Css/Modal.css"
-import ModalNotification from "./ModalNotification";
+import ModalNotificationWhite from "./ModalNotificationWhite";
 const TopBarWhite = ({ checked, setChecked }) => {
     const [show1, setShow1] = useState(false);
     const handleShow1 = () => setShow1(true);
@@ -33,8 +33,8 @@ const TopBarWhite = ({ checked, setChecked }) => {
                                 <path id="Path_106" data-name="Path 106" d="M3,8.59A16.573,16.573,0,0,1,7.188,3" transform="translate(1.5 1.5)" fill="none" stroke="#0d2a53" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
                             </svg>
 
-                            <Modal show={show1} onHide={handleClose1} dialogClassName="modal_out1" id="notification">
-                                <ModalNotification />
+                            <Modal show={show1} onHide={handleClose1} dialogClassName="modal_out1" id="notification_white">
+                                <ModalNotificationWhite />
                             </Modal>
                             <div className="header_dashboard_out_white" style={{ marginLeft: "10px" }}>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="97" height="27" viewBox="0 0 97 27">

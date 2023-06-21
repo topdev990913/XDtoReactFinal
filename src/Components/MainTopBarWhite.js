@@ -42,10 +42,10 @@ const MainTopBarWhite = ({ checkedForYou, setCheckedForYou }) => {
                         <DropdownToggle className="MainTopHeader_button_white" caret>
                             All
                         </DropdownToggle>
-                        <DropdownMenu className="Dropdown_style">
-                            <DropdownItem className="Dropdown_item_color">All</DropdownItem>
-                            <DropdownItem className="Dropdown_item_color">Football</DropdownItem>
-                            <DropdownItem className="Dropdown_item_color">Basketball</DropdownItem>
+                        <DropdownMenu className="Dropdown_style_white">
+                            <DropdownItem className="Dropdown_item_color_white">All</DropdownItem>
+                            <DropdownItem className="Dropdown_item_color_white">Football</DropdownItem>
+                            <DropdownItem className="Dropdown_item_color_white">Basketball</DropdownItem>
                         </DropdownMenu>
                     </ButtonDropdown>
                     {/* <Button type="submit" color="info" className="MainTopHeader_button" outline>All</Button> */}

@@ -14,7 +14,7 @@ function App() {
   }
   const [checkedFavourite, setCheckedFavourite] = useState(true);
   return (
-    <div>
+    <div className={checked?"body_background_white":"body_background"}>
       <Router>
         <Routes>
           <Route exact path="/" element={<Home checked={checked} setChecked={foo} checkedFavourite={checkedFavourite} setCheckedFavourite={setCheckedFavourite} />} />

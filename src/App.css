@@ -7,6 +7,18 @@
   pointer-events: none;
 }
 
+.body_background {
+  background-color: #0B2447;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.body_background_white  {
+  padding-left: 24px;
+  padding-right: 24px;
+  background-color: #F6F6F6;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -32,6 +44,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

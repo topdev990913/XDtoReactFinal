@@ -6,7 +6,14 @@
     align-items: center;
     margin-top: 23px;
 }
-
+.VPSubscriberCard_out_white {
+    background-color: #F6F6F6;
+    height: 60px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin-top: 23px;
+}
 .VPSubTransactionCard_out {
     background-color: #0B2447;
     height: 55px;
@@ -17,9 +24,26 @@
     justify-content: space-evenly;
     align-items: center;
 }
-
+.VPSubTransactionCard_out_white {
+    background-color: #F6F6F6;
+    height: 55px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin-top: 23px;
+    justify-content: space-evenly;
+    align-items: center;
+}
 .VPFavouriteCard_out {
     background-color: #0B2447;
+    height: 83px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.VPFavouriteCard_out_white {
+    background-color: #F6F6F6;
     height: 83px;
     border-radius: 8px;
     display: flex;
@@ -31,7 +55,10 @@
     color: #E6E6E6;
     font-size: 20px;
 }
-
+.VPSubscriberCard_1_white {
+    color: #0D2A53;
+    font-size: 20px;
+}
 .VPSubscriberCard_1_1 {
     font-size: 20px;
     color: #FF5757;
@@ -45,7 +72,15 @@
     color: #37FF80;
     text-align: center;
 }
-
+.VPSubscriberCard_2_white {
+    font-size: 18px;
+    width: 121px;
+    height: 31px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    color: #37FF80;
+    text-align: center;
+}
 .VPSubscriberCard_2_1 {
     font-size: 18px;
     width: 121px;
@@ -85,7 +120,15 @@
     color: #0CC6FF;
     text-align: center;
 }
-
+.VPSubscriberCard_2_3_white {
+    font-size: 18px;
+    width: 121px;
+    height: 31px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    color: #0CC6FF;
+    text-align: center;
+}
 .Favourite_Avatar {
     margin-top: 3px;
 }
@@ -94,12 +137,18 @@
     color: #E6E6E6;
     font-size: 20px;
 }
-
+.VPFavouriteCard_1_white {
+    color: #0D2A53;
+    font-size: 20px;
+}
 .VPFavouriteCard_2 {
     color: #D2DB08;
     font-size: 20px;
 }
-
+.VPFavouriteCard_2_white {
+    color: #00659D;
+    font-size: 20px;
+}
 .VPFavouriteCard_3 {
     color: #FFA200;
     font-size: 20px;
@@ -113,24 +162,42 @@
     border-radius: 6px;
     font-size: 18px;
 }
-
+.Favourite_ViewProfile_butoon_white {
+    color: #3F77DB;
+    border-color: #3F77DB;
+    width: 154px;
+    height: 34px;
+    border-radius: 6px;
+    font-size: 18px;
+}
 .VPSubTransactionCard_1 {
     color: #E6E6E6;
     font-size: 20px;
 }
-
+.VPSubTransactionCard_1_white {
+    color: #0D2A53;
+    font-size: 20px;
+}
 .VPSubTransactionCard_2{
     color: #4DD5FF;
     font-size: 20px;
     font-weight: medium;
 }
-
+.VPSubTransactionCard_2_white{
+    color: #3F77DB;
+    font-size: 20px;
+    font-weight: medium;
+}
 .VPSubTransactionCard_3{
     color: #E6E6E6;
     font-size: 20px;
     font-weight: bold;
 }
-
+.VPSubTransactionCard_3_white{
+    color: #0D2A53;
+    font-size: 20px;
+    font-weight: bold;
+}
 .VPSubTransactionCard_4 {
     font-size: 13px;
 }

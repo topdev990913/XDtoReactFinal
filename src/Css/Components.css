@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --bs-background: #0B2447;
     --bs-background-white: #F6F6F6;
     --padding-x: 24px;
@@ -12,7 +12,7 @@ body {
 
 body.white {
     background-color: var(--bs-background-white);
-}
+} */
 
 /* TopBar CSS */
 .header_style {
@@ -166,6 +166,15 @@ body.white {
     padding-right: 5px;
 }
 
+.Dropdown_style_white {
+    margin-left: -6px;
+    margin-top: -49px;
+    background-color: #F6F6F6;
+    color: #FFFFFF;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 .dropdown-toggle::after {
     display: none;
 }
@@ -175,6 +184,13 @@ body.white {
     display: flex;
     justify-content: center;
     background-color: #0D2A53;
+    margin-top: 5px;
+}
+.Dropdown_item_color_white {
+    color: #0D2A53;
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
     margin-top: 5px;
 }
 
@@ -516,10 +532,22 @@ body.white {
     color: #E6E6E6;
     font-size: 21px;
 }
-
+.Footer_text_white {
+    color: #0D2A53;
+    font-size: 21px;
+}
 /* MainBarEdit */
 .MainBar_Edit_out {
     background-color: #0D2A53;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 929px;
+}
+.MainBar_Edit_out_white {
+    background-color: #FFFFFF;
     align-items: center;
     margin-top: 20px;
     border-radius: 8px;
@@ -548,7 +576,13 @@ body.white {
     margin-top: 20px;
     padding-top: 26px;
 }
-
+.MainBarEdit_Header_white {
+    color: #0D2A53;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding-top: 26px;
+}
 .MainBar_Edit_Search {
     justify-content: space-between;
     margin-top: 15px;
@@ -564,6 +598,16 @@ body.white {
     padding-left: 20px;
     padding-right: 20px;
 }
+.MainBar_Edit_Search_Comments_white {
+    justify-content: space-between;
+    margin-top: 15px;
+    height: 77px;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 .searchBar_Style {
     width: 223px;
@@ -572,6 +616,14 @@ body.white {
     background-color: transparent;
     border: 2px solid #E6E6E6;
     color: #E6E6E6;
+}
+.searchBar_Style_white {
+    width: 223px;
+    height: 44px;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 2px solid #0D2A53;
+    color: #0D2A53;
 }
 
 .MainBar_Edit_Highlight_Card_out {
@@ -593,11 +645,28 @@ body.white {
     border-radius: 8px;
     margin-left: 10px;
 }
-
+.MainTopHeader_button_Comment_white {
+    width: 85px;
+    height: 44px;
+    color: #0D2A53;
+    background-color: transparent;
+    border-color: #0D2A53;
+    border-radius: 8px;
+    margin-left: 10px;
+}
 /* Filter Modal Css */
 .modal-content {
     background-clip: none;
     background-color: #0D2A53;
+    width: 567px;
+    height: 862px;
+    padding-left: 23.92px;
+    padding-right: 23.92px;
+}
+
+#white .modal-content {
+    background-clip: none;
+    background-color: #FFFFFF;
     width: 567px;
     height: 862px;
     padding-left: 23.92px;
@@ -621,7 +690,16 @@ body.white {
     font-size: 20px;
     font-weight: medium;
 }
-
+.Filter_Modal_Label_white {
+    color: #0D2A53;
+    font-size: 20px;
+    font-weight: medium;
+}
+.Filter_Modal_Label_white {
+    color: #0D2A53;
+    font-size: 20px;
+    font-weight: medium;
+}
 .form-select {
     background-image: none;
     border: none;
@@ -629,7 +707,13 @@ body.white {
     color: #E6E6E6;
     text-align: center;
 }
-
+.white .form-select {
+    background-image: none;
+    border: none;
+    background-color: #F6F6F6;
+    color: #0D2A53;
+    text-align: center;
+}
 .form-select:focus-visible {
     background-image: none;
     border: none;
@@ -640,6 +724,23 @@ body.white {
     border: none;
 }
 
+#white .form-select {
+    background-image: none;
+    border: none;
+    background-color: #F6F6F6;
+    color: #0D2A53;
+    text-align: center;
+}
+
+.form-select_white:focus-visible {
+    background-image: none;
+    border: none;
+}
+
+.form-select_white:focus {
+    background-image: none;
+    border: none;
+}
 .Filter_Modal_Label {
     margin-top: 0.5px;
 }
@@ -658,6 +759,20 @@ body.white {
     font-family: 'Roboto';
 }
 
+#TermsUse_white .modal-content{
+    background-color: #FFFFFF;
+}
+.modal_Footer_Button_white {
+    width: 160px;
+    height: 53px;
+    color: #3F77DB;
+    border-radius: 8px;
+    padding: 0 19px;
+    font-size: 22px;
+    font-family: 'Roboto';
+    border-color: #3F77DB;
+}
+
 .modal_Footer_Button.btn-outline-info {
     border-color: #D2DB08;
 }
@@ -668,7 +783,13 @@ body.white {
     margin-left: 579px;
     margin-top: 100px;
 }
-
+#notification_white .modal-content {
+    width: 473px;
+    height: 553px;
+    margin-left: 579px;
+    margin-top: 100px;
+    background-color: #FFFFFF;
+}
 #PromoteMe .modal-content {
     width: 567px;
     height: 851px;
@@ -680,13 +801,22 @@ body.white {
     height: 696px;
     margin-top: 131px;
 }
-
+#ModalSupport_white .modal-content {
+    width: 567px;
+    height: 696px;
+    margin-top: 131px;
+    background-color: #FFFFFF;
+}
 .ModalSupport_1 {
     background-color: transparent;
     color: #E6E6E6;
     margin-top: 17px;
 }
-
+.ModalSupport_1_white {
+    background-color: transparent;
+    color: #0D2A53;
+    margin-top: 17px;
+}
 .subject_out {
     background-color: transparent;
     width: 100%;
@@ -701,7 +831,20 @@ body.white {
 .subject_out:focus-visible {
     border: none;
 }
+.subject_out_white {
+    background-color: transparent;
+    width: 100%;
+    border-radius: 8px;
+    background-color: #F6F6F6;
+    color: #0D2A53;
+    border: none;
+    height: 42.5px;
+    margin-top: 10px;
+}
 
+.subject_out_white:focus-visible {
+    border: none;
+}
 .message_out {
     background-color: transparent;
     width: 100%;
@@ -716,7 +859,20 @@ body.white {
 .message_out:focus-visible {
     border: none;
 }
+.message_out_white {
+    background-color: transparent;
+    width: 100%;
+    border-radius: 8px;
+    background-color: #F6F6F6;
+    color: #0D2A53;
+    border: none;
+    height: 168px;
+    margin-top: 10px;
+}
 
+.message_out_white:focus-visible {
+    border: none;
+}
 .Support_send_button {
     width: 160px;
     height: 53px;
@@ -726,7 +882,15 @@ body.white {
     font-size: 25px;
     margin-top: 49.5px;
 }
-
+.Support_send_button_white {
+    width: 160px;
+    height: 53px;
+    color: #00659D;
+    border-color: #00659D;
+    border-radius: 8px;
+    font-size: 25px;
+    margin-top: 49.5px;
+}
 .ModalSupport_2 {
     color: #E6E6E6;
     font-size: 18px;
@@ -734,13 +898,24 @@ body.white {
     padding: 0;
     margin-top: 19px;
 }
-
+.ModalSupport_2_white {
+    color: #0D2A53;
+    font-size: 18px;
+    text-align: center;
+    padding: 0;
+    margin-top: 19px;
+}
 #Financial .modal-content {
     width: 567px;
     height: 606px;
     margin-top: 150px;
 }
-
+#Financial_white .modal-content {
+    width: 567px;
+    height: 606px;
+    margin-top: 150px;
+    background-color: #FFFFFF;
+}
 #Withdrawal .modal-content {
     width: 567px;
     height: 577.92px;
@@ -755,9 +930,16 @@ body.white {
     color: #D2DB08;
     font-size: 20px;
 }
-
+.ModalFinancial_2_white {
+    color: #00659D;
+    font-size: 20px;
+}
 .ModalFinancial_3 {
     color: #E6E6E6;
+    font-size: 20px;
+}
+.ModalFinancial_3_white {
+    color: #0D2A53;
     font-size: 20px;
 }
 
@@ -765,7 +947,10 @@ body.white {
     color: #4DD5FF;
     font-size: 20px;
 }
-
+.ModalFinancial_4_white {
+    color: #00659D;
+    font-size: 20px;
+}
 .ModalFinancial_5 {
     background-color: #0B2447;
     height: 168px;
@@ -776,7 +961,16 @@ body.white {
     padding-top: 10px;
     margin-top: 30px;
 }
-
+.ModalFinancial_5_white {
+    background-color: #F6F6F6;
+    height: 168px;
+    color: #0D2A53;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-top: 30px;
+}
 .Financail_reply_button {
     color: #D2DB08;
     border-color: #D2DB08;
@@ -785,7 +979,14 @@ body.white {
     border-radius: 8px;
     font-size: 25px;
 }
-
+.Financail_reply_button_white {
+    color: #00659D;
+    border-color: #00659D;
+    width: 183px;
+    height: 53px;
+    border-radius: 8px;
+    font-size: 25px;
+}
 .Financial_CloseRequest_button {
     color: #FF7171;
     border-color: #FF7171;
@@ -794,13 +995,17 @@ body.white {
     border-radius: 8px;
     font-size: 25px;
 }
-
 #Reply .modal-content {
     width: 567px;
     height: 829px;
     margin-top: 50px;
 }
-
+#Reply_white .modal-content {
+    width: 567px;
+    height: 829px;
+    margin-top: 50px;
+    background-color: #FFFFFF;
+}
 .modal-content {
     z-index: 10000000000;
 }
@@ -809,7 +1014,11 @@ body.white {
     width: 567px;
     height: 906px;
 }
-
+#Renew_white .modal-content {
+    width: 567px;
+    height: 906px;
+    background-color: #FFFFFF;
+}
 #Renew1 .modal-content {
     width: 567px;
     height: 745px;
@@ -829,12 +1038,30 @@ body.white {
     font-size: 18px;
     text-align: center;
 }
-
+.ModalRenew_2_white {
+    width: 118.06px;
+    height: 29.92px;
+    background-color: #F6F6F6;
+    color: #0D2A53;
+    font-size: 18px;
+    text-align: center;
+}
 .ModalRenew_3 {
     color: #D2DB08;
     font-size: 40px;
     text-align: center;
     margin-top: -10px;
+}
+.ModalRenew_3_white {
+    color: #00659D;
+    font-size: 40px;
+    text-align: center;
+    margin-top: -10px;
+}
+.white_back{
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 131px;
 }
 
 .ModalRenew_4 {
@@ -866,12 +1093,19 @@ body.white {
     font-size: 22px;
     font-weight: medium;
 }
-
+.ModalRenew_7_white {
+    color: #0D2A53;
+    font-size: 22px;
+    font-weight: medium;
+}
 .ModalRenew_9 {
     color: #E6E6E6;
     font-size: 15px;
 }
-
+.ModalRenew_9_white {
+    color: #0D2A53;
+    font-size: 15px;
+}
 .ModalRenew_11 {
     grid-gap: 10px
 }
@@ -895,7 +1129,13 @@ body.white {
     padding-left: 72px;
     margin-top: 20px;
 }
-
+.ModalRenew_14_white {
+    color: #0D2A53;
+    font-size: 25px;
+    font-weight: medium;
+    padding-left: 72px;
+    margin-top: 20px;
+}
 .ModalWithdrawal_1 {
     color: #E6E6E6;
     font-size: 20px;
