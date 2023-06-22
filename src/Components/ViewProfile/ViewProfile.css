@@ -1356,18 +1356,25 @@
     margin-top: 29px;
 }
 .VPRigthBarSub4_10 {
-    padding-left: 42.4px;
-    padding-right: 61.1px;
+    padding-left: 93.4px;
+    padding-right: 73.1px;
     display: flex;
-    justify-content: space-evenly;
-    margin-left: -32px;
+    justify-content: space-between;
+    margin-top: 20px;
 }
-
-.VPRigthBarSub4_17 {
-    padding-left: 42.4px;
-    padding-right: 61.1px;
+.VPRigthBarSub4_10_1 {
+    padding-left: 114.4px;
+    padding-right: 34.4px;
     display: flex;
-    margin-left: -32px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.VPRigthBarSub4_17 {
+    padding-left: 94.4px;
+    padding-right: 443.1px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 
 .VPRigthBarSub4_11 {
@@ -1538,9 +1545,7 @@
     margin-top: 10px;
     margin-left: -30px;
 }
-.VPRightBarSub4Card_UK {
-    z-index: 100000;
-}
+
 
 .VP_Comment_static_Update_button {
     color: #FFCC00;
@@ -2373,7 +2378,10 @@
     margin-top: 29px;
     margin-left: -139px;
 }
-
+.VPRightBarSub4Card_UK {
+    position: absolute;
+    margin-left: -58px;
+}
 .white_back_star {
     position: absolute;
     margin-top: 29px;

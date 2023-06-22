@@ -234,8 +234,8 @@ const VPRightBarSub4White = ({ checkedBall, setCheckedBall }) => {
                     </div>
                 </div>
             </div>
-            <div className="VPRigthBarSub4_10">
-                <div className="d-flex" style={{ marginLeft: "59px" }}>
+            <div className="VPRigthBarSub4_10_1">
+                <div className="d-flex">
                     <img src={VPRightBarSub4Card_Germany} alt="VPRightBarSub4Card_UK" className="VPRightBarSub4Card_UK" />
                     <div className="VPRigthBarSub4_15_white">
                         Bundesliga 28
@@ -260,7 +260,7 @@ const VPRightBarSub4White = ({ checkedBall, setCheckedBall }) => {
                     </div>
                 </div>
             </div>
-            <div className="VPRigthBarSub4_17" style={{ marginLeft: "-14px" }}>
+            <div className="VPRigthBarSub4_17">
                 <div className="d-flex">
                     <img src={VPRightBarSub4Card_Turkey} alt="VPRightBarSub4Card_UK" className="VPRightBarSub4Card_UK" />
                     <div className="VPRigthBarSub4_13_white">
