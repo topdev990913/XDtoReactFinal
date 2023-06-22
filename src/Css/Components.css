@@ -593,15 +593,17 @@ body.white {
 .Champion_text_1 {
     /* position: absolute; */
     color: #E6E6E6;
-    margin-top: -100px;
-    margin-left: 40px;
+    margin-top: -103px;
+    margin-left: 35px;
+    font-size: 20px;
 }
 
 .Champion_text_1_white {
     /* position: absolute; */
     color: #0D2A53;
-    margin-top: -100px;
-    margin-left: 40px;
+    margin-top: -103px;
+    margin-left: 35px;
+    font-size: 20px;
 
 }
 

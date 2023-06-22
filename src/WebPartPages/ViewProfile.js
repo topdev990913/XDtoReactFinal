@@ -50,7 +50,7 @@ import VPRightBarWalletTransactionWhite from "../Components/ViewProfile/VPRightB
 import VPRigthBarFavourite1White from "../Components/ViewProfile/VPRigthBarFavourite1White";
 import VPRightBarWalletAccountWhite from "../Components/ViewProfile/VPRightBarWalletAccountWhite";
 import VPRigthBarFavourite2White from "../Components/ViewProfile/VPRigthBarFavourite2White";
-const ViewProfile = ({ checkedFavourite, setCheckedFavourite, checked, setChecked }) => {
+const ViewProfile = ({ checkedFavourite, setCheckedFavourite, checked, setChecked, checkedMainOption, setCheckedMainOption }) => {
     const [checkedWallet, setCheckedWallet] = useState(true)
     const [checkedSubscriber, setCheckedSubscriber] = useState(true);
     const [checkedComment, setCheckedComment] = useState(1);
@@ -141,7 +141,7 @@ const ViewProfile = ({ checkedFavourite, setCheckedFavourite, checked, setChecke
                     <TopBarWhite checked={checked} setChecked={setChecked}/>
                     <div className="d-flex">
                         <div className="SideBar_Home_out">
-                            <SideBarWhite />
+                            <SideBarWhite checkedMainOption={checkedMainOption} setCheckedMainOption={setCheckedMainOption}/>
                         </div>
                         <div className="ViewProfile_Mycomments_1">
                             {checkedSubComment === 3 && checkedBall === true ?
@@ -177,7 +177,7 @@ const ViewProfile = ({ checkedFavourite, setCheckedFavourite, checked, setChecke
                     <TopBar checked={checked} setChecked={setChecked}/>
                     <div className="d-flex">
                         <div className="SideBar_Home_out">
-                            <SideBar />
+                            <SideBar checkedMainOption={checkedMainOption} setCheckedMainOption={setCheckedMainOption}/>
                         </div>
                         <div className="ViewProfile_Mycomments_1">
                             {checkedSubComment === 3 && checkedBall === true ?

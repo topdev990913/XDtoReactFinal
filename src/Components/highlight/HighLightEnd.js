@@ -8,7 +8,7 @@ const HighLightEnd = () => {
     return (
         <div className="HighLightEnd_out">
             <div className="d-flex justify-content-end HighLightEnd_1">
-                <Link to="/FavoriteViewProfile">
+                <Link to="/MyFavorite">
                     <svg xmlns="http://www.w3.org/2000/svg" width="28.406" height="26.885" viewBox="0 0 28.406 26.885">
                         <path id="Path_273" data-name="Path 273" d="M15.47,23.05,7.155,27.387,8.743,18.2,2.007,11.7l9.3-1.337L15.46,2l4.157,8.358,9.3,1.337L22.177,18.2l1.588,9.186Z" transform="translate(-1.257 -1.252)" fill="none" stroke="#e6e6e6" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
                     </svg>
