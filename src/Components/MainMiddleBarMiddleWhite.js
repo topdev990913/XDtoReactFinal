@@ -2,9 +2,9 @@ import React from "react";
 import '../Css/Components.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
-const MainMiddleBarMiddleWhite = () => {
+const MainMiddleBarMiddleWhite = ({ checkedForYou, setCheckedForYou }) => {
     return (
-        <div className="MainMiddleBarMiddle_out">
+        <div className={checkedForYou===2?"MainMiddleBarMiddle_out_none":"MainMiddleBarMiddle_out"}>
             <div>
                 <div className="MainMiddleBarMiddle_1_1_white">
                     Success Rate

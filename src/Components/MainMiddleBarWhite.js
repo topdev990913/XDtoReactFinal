@@ -17,7 +17,7 @@ const MainMiddleBarWhite = ({ checkedForYou, setCheckedForYou }) => {
                         <HighLightAvatarWhite />
                         <HighLightMiddleExpertWhite />
                     </div>
-                    <MainMiddleBarMiddleWhite />
+                    <MainMiddleBarMiddleWhite checkedForYou={checkedForYou} setCheckedForYou={setCheckedForYou}/>
                 </div>
                 <MainMiddleBarButtonGroupWhite checkedForYou={checkedForYou} setCheckedForYou={setCheckedForYou} />
 

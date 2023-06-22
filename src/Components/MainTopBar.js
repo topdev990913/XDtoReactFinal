@@ -58,7 +58,7 @@ const MainTopBar = ({ checkedForYou, setCheckedForYou }) => {
                             <path id="Path_560" data-name="Path 560" d="M15,20.581l3.581,3.581L25.742,17" transform="translate(10.887 12.468)" fill="none" stroke="#4dd5ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
                         </g>
                     </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="27" viewBox="0 0 100 27" onClick={() => { setCheckedForYou(2) }}>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="27" viewBox="0 0 100 27">
                         <text id="Only_Public" data-name="Only Public" transform="translate(0 22)" fill="#E6E6E6" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Only Public</tspan></text>
                     </svg>
                     {checkedForYou === 1 ?

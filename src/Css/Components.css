@@ -49,6 +49,7 @@ body.white {
     font-family: 'Roboto';
     left: 1173px;
 }
+
 .header_button_white:hover {
     background-color: transparent;
     border-color: #A237FF;
@@ -67,6 +68,7 @@ body.white {
     color: #A237FF;
     box-shadow: none;
 }
+
 .header_button.btn-outline-info {
     border-color: #D2DB08;
 }
@@ -347,7 +349,17 @@ body.white {
     margin-top: 20px;
     flex-grow: 0.1;
 }
-
+.Asp_none{
+    margin-left: -20px;
+}
+.MainMiddleBarMiddle_out_none {
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    flex-grow: 0.0465;
+    margin-left: -0.1px;
+}
 .MainMiddleBarMiddle_1_1 {
     color: #E6E6E6;
     font-size: 19px;
@@ -382,6 +394,7 @@ body.white {
 
 .MainMiddleBarButtonGroup_out_none {
     display: none;
+    margin-left: 10px;
 }
 
 .MainMiddleBarButton_1 {
@@ -391,19 +404,31 @@ body.white {
     color: #77FFA9;
     border-radius: 6px;
 }
+
+.MainMiddleBarButton_1_none {
+    display: none;
+}
+
+.MainMiddleBarButton_2_none {
+    display: none;
+}
+
 .MainMiddleBarButton_1:hover {
     background-color: transparent;
     color: #77FFA9;
 }
+
 .MainMiddleBarButton_1:active {
     background-color: transparent;
     color: #77FFA9;
 }
+
 .MainMiddleBarButton_1:focus {
     background-color: transparent;
     color: #77FFA9;
     box-shadow: none;
 }
+
 .MainMiddleBarButton_1_white {
     width: 134px;
     height: 47px;
@@ -412,19 +437,23 @@ body.white {
     border-radius: 6px;
     border-color: #00659D;
 }
+
 .MainMiddleBarButton_1_white:hover {
     background-color: transparent;
     color: #00659D;
 }
+
 .MainMiddleBarButton_1_white:active {
     background-color: transparent;
     color: #00659D;
 }
+
 .MainMiddleBarButton_1_white:focus {
     background-color: transparent;
     color: #00659D;
     box-shadow: none;
 }
+
 .MainMiddleBarButton_1.btn-outline-info {
     border-color: #77FFA9;
 }
@@ -436,6 +465,7 @@ body.white {
     color: #4DD5FF;
     border-radius: 6px;
 }
+
 .MainMiddleBarButton_2:hover {
     width: 134px;
     height: 47px;
@@ -444,6 +474,7 @@ body.white {
     border-radius: 6px;
     background-color: transparent;
 }
+
 .MainMiddleBarButton_2:active {
     width: 134px;
     height: 47px;
@@ -452,6 +483,7 @@ body.white {
     border-radius: 6px;
     background-color: transparent;
 }
+
 .MainMiddleBarButton_2:focus {
     width: 134px;
     height: 47px;
@@ -461,6 +493,7 @@ body.white {
     background-color: transparent;
     box-shadow: none;
 }
+
 .MainMiddleBarButton_2_white {
     width: 134px;
     height: 47px;
@@ -469,17 +502,21 @@ body.white {
     border-radius: 6px;
     border-color: #3F77DB;
 }
+
 .MainMiddleBarButton_2_white:hover {
     background-color: transparent;
 }
+
 .MainMiddleBarButton_2_white:active {
     background-color: transparent;
     box-shadow: none;
 }
+
 .MainMiddleBarButton_2_white:focus {
     background-color: transparent;
     box-shadow: none;
 }
+
 .MainMiddleBarButton_2.btn-outline-info {
     border-color: #4DD5FF;
 }
@@ -702,14 +739,17 @@ body.white {
     padding-left: 20px;
     padding-right: 20px;
 }
+
 .search_Icon {
     position: absolute;
     margin-top: 6px;
     margin-left: 7px;
 }
+
 .search_Icon_none {
     display: none;
 }
+
 .searchBar_Style {
     width: 223px;
     height: 44px;
@@ -872,10 +912,12 @@ body.white {
 #TermsUse_white .modal-content {
     background-color: #FFFFFF;
 }
+
 #TermsUse_white1 .modal-content {
     background-color: #FFFFFF;
     margin-left: 8px;
 }
+
 .modal_Footer_Button_white {
     width: 160px;
     height: 53px;
