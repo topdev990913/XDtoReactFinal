@@ -9,7 +9,7 @@ const VPRightBarHighlight111White = () => {
         <div className="VPRightBarHighlight_out_white">
             <img src={RightBarhighlightLogo_back} alt="RightBarhighlightLogo" className="RightBarhighlightLogo_back" />
             <img src={RightBarhighlightLogo} alt="RightBarhighlightLogo" className="RightBarhighlightLogo1" />
-            <div className="VPRightBarHighlight_1" style={{ marginLeft: "78px" }}>
+            <div className="VPRightBarHighlight_1" style={{ marginLeft: "70px", paddingTop: "10px" }}>
                 <div className="d-flex display_highlight">
                     <div className="VPRightBarHighlight_2_win">
                         You're Win!

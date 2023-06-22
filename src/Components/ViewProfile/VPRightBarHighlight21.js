@@ -7,7 +7,7 @@ const VPRightBarHighlight21 = () => {
     return (
         <div className="VPRightBarHighlight_out">
             <img src={RightBarhighlightLogo} alt="RightBarhighlightLogo" className="RightBarhighlightLogo" />
-            <div className="VPRightBarHighlight_1">
+            <div className="VPRightBarHighlight_1" style={{marginLeft: "6.5px", marginTop: "1px"}}>
                 <div className="d-flex display_highlight">
                     <div className="VPRightBarHighlight_2_New">
                         New Subscription!

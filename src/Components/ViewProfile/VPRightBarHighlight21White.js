@@ -7,7 +7,7 @@ const VPRightBarHighlight21White = () => {
     return (
         <div className="VPRightBarHighlight_out_white">
             <img src={RightBarhighlightLogo} alt="RightBarhighlightLogo" className="RightBarhighlightLogo" />
-            <div className="VPRightBarHighlight_1">
+            <div className="VPRightBarHighlight_1" style={{paddingTop: "5px"}}>
                 <div className="d-flex display_highlight">
                     <div className="VPRightBarHighlight_2_New">
                         New Subscription!

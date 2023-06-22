@@ -665,7 +665,9 @@
     font-size: 25px;
     font-weight: medium;
 }
-
+.VPRightBarHighlight_1 {
+    margin-top: -10px;
+}
 .VPRightBarHighlight_out {
     height: 76px;
     background-color: #0B2447;
@@ -674,6 +676,7 @@
     padding-left: 5px;
     padding-right: 5px;
     margin-top: 10px;
+    align-items: center;
 }
 
 .VPRightBarHighlight_out_white {
@@ -684,6 +687,7 @@
     padding-left: 5px;
     padding-right: 5px;
     margin-top: 10px;
+    align-items: center;
 }
 
 .VPRightBarHighlight_2 {
@@ -755,13 +759,18 @@
 
 .RightBarhighlightLogo_back {
     position: absolute;
+    width: 72px;
+    padding-top: 5px;
 }
-
+.RightBarhighlightLogo {
+    width: 72px;
+    margin-top: 7px;
+}
 .RightBarhighlightLogo1 {
     position: absolute;
-    padding-left: 53px;
+    padding-left: 47px;
     margin-left: -33px;
-    margin-top: 20px;
+    margin-top: -7px;
 }
 
 .VPRigthBarSub3_out {

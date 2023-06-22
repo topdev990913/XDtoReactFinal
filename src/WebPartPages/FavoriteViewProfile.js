@@ -32,7 +32,7 @@ import VPRightBarSubTopBarViewProfileWhite from "../Components/ViewProfile/VPRig
 import VPRigthBarSub1White from "../Components/ViewProfile/VPRigthBarSub1White";
 import VPRigthBarSub1GreenWhite from "../Components/ViewProfile/VPRigthBarSub1GreenWhite";
 import VPRigthBarSub1YellowWhite from "../Components/ViewProfile/VPRigthBarSub1YellowWhite";
-const FavoriteViewProfile = ({ checked, setChecked }) => {
+const FavoriteViewProfile = ({ checked, setChecked, checkedFavourite, setCheckedFavourite }) => {
     const [checkedVPball, setCheckedVpball] = useState(1);
     const [checkedVPSubTopBar, setCheckedVPSubTopBar] = useState(1);
     const displaycase = () => {

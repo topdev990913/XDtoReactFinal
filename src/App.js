@@ -20,7 +20,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home checked={checked} setChecked={foo} checkedFavourite={checkedFavourite} setCheckedFavourite={setCheckedFavourite} />} />
           <Route exact path="/ViewProfile" element={<ViewProfile checked={checked} setChecked={foo} checkedFavourite={checkedFavourite} setCheckedFavourite={setCheckedFavourite} />} />
-          <Route exact path="/FavoriteViewProfile" element={<FavoriteViewProfile checked={checked} setChecked={foo}/>} />
+          <Route exact path="/FavoriteViewProfile" element={<FavoriteViewProfile checked={checked} setChecked={foo} checkedFavourite={checkedFavourite} setCheckedFavourite={setCheckedFavourite} />} />
           {checked ?
             <Route exact path="/PendingPage" element={<PendingPageWhite />} />
             :
