@@ -2368,7 +2368,17 @@
     margin-top: 29px;
     margin-left: -139px;
 }
+.white_back2 {
+    position: absolute;
+    margin-top: 29px;
+    margin-left: -139px;
+}
 
+.white_back_star {
+    position: absolute;
+    margin-top: 29px;
+    margin-left: -141px;
+}
 .camera_Star_Logo {
     position: absolute;
     margin-top: 36px;

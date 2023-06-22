@@ -5,6 +5,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import User_Profile_Blue_Logo from '../../assets/user-edit-Green.png';
 import User_Star_Logo from '../../assets/portrait-of-happy-and-cheerful-handsome-adult-man-2022-02-07-02-02-56-utc199.png';
 import camera_Star_Logo from '../../assets/camera-plus.png';
+import white_back_star from '../../assets/Ellipse 1_dark.png'
 import { Button } from "reactstrap";
 const MyCommentsEditProfileStar = () => {
     return (
@@ -15,6 +16,7 @@ const MyCommentsEditProfileStar = () => {
             </div>
             <div className="d-flex justify-content-center">
                 <img src={User_Star_Logo} alt="User_Star_Logo" className="User_Star_Logo" />
+                <img src={white_back_star} alt="white_back_star" className="white_back_star" />
                 <img src={camera_Star_Logo} alt="camera_Star_Logo" className="camera_Star_Logo" />
             </div>
             <div className="VP_MC_EP_out_star_3">
