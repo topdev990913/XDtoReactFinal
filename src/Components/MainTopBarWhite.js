@@ -66,11 +66,19 @@ const MainTopBarWhite = ({ checkedForYou, setCheckedForYou }) => {
                     </svg>
 
                     <div className="position-relative" style={{ marginLeft: "10px" }}>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
-                            <circle id="Ellipse_135" data-name="Ellipse 135" cx="17" cy="17" r="17" fill="#0d2a53" />
+                        {checkedForYou === 1 ?
+                            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" onClick={() => { setCheckedForYou(2) }}>
+                                <circle id="Ellipse_135" data-name="Ellipse 135" cx="17" cy="17" r="17" fill="#0d2a53" />
 
-                            <circle id="Ellipse_137" data-name="Ellipse 137" cx="17" cy="17" r="14" fill="#F6F6F6" />
-                        </svg>
+                                <circle id="Ellipse_137" data-name="Ellipse 137" cx="17" cy="17" r="14" fill="#F6F6F6" />
+                            </svg>
+                            :
+                            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" onClick={() => { setCheckedForYou(1) }}>
+                                <circle id="Ellipse_135" data-name="Ellipse 135" cx="17" cy="17" r="17" fill="#3F77DB" />
+
+                                <circle id="Ellipse_137" data-name="Ellipse 137" cx="17" cy="17" r="14" fill="#F6F6F6" />
+                            </svg>
+                        }
                     </div>
                 </div>
             </div>

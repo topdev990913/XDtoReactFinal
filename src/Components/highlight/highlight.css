@@ -194,7 +194,31 @@
     font-size: 18px;
     color: #FFA200;
 }
-
+.highlightMiddle_expert_button:hover {
+    width: 117.03px;
+    height: 30.28px;
+    border-radius: 18px;
+    font-size: 18px;
+    color: #FFA200;
+    background-color: transparent;
+}
+.highlightMiddle_expert_button:active {
+    width: 117.03px;
+    height: 30.28px;
+    border-radius: 18px;
+    font-size: 18px;
+    color: #FFA200;
+    background-color: transparent;
+}
+.highlightMiddle_expert_button:focus {
+    width: 117.03px;
+    height: 30.28px;
+    border-radius: 18px;
+    font-size: 18px;
+    color: #FFA200;
+    background-color: transparent;
+    box-shadow: none;
+}
 .highlightMiddle_expert_button.btn-outline-info {
     border-color: #FFA200;
 }

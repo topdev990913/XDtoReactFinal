@@ -5,7 +5,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import {
     ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem
 } from 'reactstrap';
-const MainTopBar = ({checkedForYou, setCheckedForYou}) => {
+const MainTopBar = ({ checkedForYou, setCheckedForYou }) => {
     const [dropdownOpen, setDropdownOpen] = useState(false);
     const toggle = () => setDropdownOpen(!dropdownOpen);
     console.log("checkedForyou", checkedForYou);
@@ -58,15 +58,24 @@ const MainTopBar = ({checkedForYou, setCheckedForYou}) => {
                             <path id="Path_560" data-name="Path 560" d="M15,20.581l3.581,3.581L25.742,17" transform="translate(10.887 12.468)" fill="none" stroke="#4dd5ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
                         </g>
                     </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="27" viewBox="0 0 100 27">
-                        <text id="Only_Public" data-name="Only Public" transform="translate(0 22)" fill="#e6e6e6" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Only Public</tspan></text>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="27" viewBox="0 0 100 27" onClick={() => { setCheckedForYou(2) }}>
+                        <text id="Only_Public" data-name="Only Public" transform="translate(0 22)" fill="#E6E6E6" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Only Public</tspan></text>
                     </svg>
-                    <div className="position-relative" style={{ marginLeft: "10px" }}>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
-                            <circle id="Ellipse_135" data-name="Ellipse 135" cx="17" cy="17" r="17" fill="#e6e6e6" />
-                            <circle id="Ellipse_137" data-name="Ellipse 137" cx="17" cy="17" r="14" fill="#0b2447" />
-                        </svg>
-                    </div>
+                    {checkedForYou === 1 ?
+                        <div className="position-relative" style={{ marginLeft: "10px" }} onClick={() => { setCheckedForYou(2) }}>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+                                <circle id="Ellipse_135" data-name="Ellipse 135" cx="17" cy="17" r="17" fill="#e6e6e6" />
+                                <circle id="Ellipse_137" data-name="Ellipse 137" cx="17" cy="17" r="14" fill="#0b2447" />
+                            </svg>
+                        </div>
+                        :
+                        <div className="position-relative" style={{ marginLeft: "10px" }} onClick={() => { setCheckedForYou(1) }}>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+                                <circle id="Ellipse_135" data-name="Ellipse 135" cx="17" cy="17" r="17" fill="#4DD5FF" />
+                                <circle id="Ellipse_137" data-name="Ellipse 137" cx="17" cy="17" r="14" fill="#0b2447" />
+                            </svg>
+                        </div>
+                    }
                 </div>
             </div>
         </div>

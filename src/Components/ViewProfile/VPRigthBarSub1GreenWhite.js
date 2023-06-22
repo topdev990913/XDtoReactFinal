@@ -55,12 +55,12 @@ const VPRigthBarSub1GreenWhite = () => {
                 <div className="d-flex justify-content-end" style={{ marginTop: "25px" }}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="262.29" height="43.773" viewBox="0 0 262.29 43.773">
                         <rect id="Rectangle_1306" data-name="Rectangle 1306" width="262.29" height="43.773" rx="6" fill="#37FF80" />
-                        <svg xmlns="http://www.w3.org/2000/svg" width="186" height="27" viewBox="0 0 186 27">
-                            <text id="FT_-_Home_-_2.5_Over" data-name="FT - Home - 2.5 Over" transform="translate(0 22)" fill="#FFFFFF" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="10" y="5">FT-Home-2.5 Over</tspan></text>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="186" height="40" viewBox="0 0 186 27">
+                            <text id="FT_-_Home_-_2.5_Over" data-name="FT - Home - 2.5 Over" transform="translate(0 22)" fill="#FFFFFF" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="22" y="0">FT-Home-2.5 Over</tspan></text>
                         </svg>
                         <rect id="Rectangle_2376" data-name="Rectangle 2376" x="200" y="4" width="3" height="36" fill="#F6F6F6" />
-                        <svg xmlns="http://www.w3.org/2000/svg" width="460" height="27" viewBox="0 0 37 27">
-                            <text id="_2.40" data-name="2.40" transform="translate(0 27)" fill="#FFFFFF" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">2.40</tspan></text>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="460" height="40" viewBox="0 0 37 40">
+                            <text id="_2.40" data-name="2.40" transform="translate(0 30)" fill="#FFFFFF" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">2.40</tspan></text>
                         </svg>
                     </svg>
                 </div>

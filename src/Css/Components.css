@@ -374,7 +374,19 @@ body.white {
     color: #77FFA9;
     border-radius: 6px;
 }
-
+.MainMiddleBarButton_1:hover {
+    background-color: transparent;
+    color: #77FFA9;
+}
+.MainMiddleBarButton_1:active {
+    background-color: transparent;
+    color: #77FFA9;
+}
+.MainMiddleBarButton_1:focus {
+    background-color: transparent;
+    color: #77FFA9;
+    box-shadow: none;
+}
 .MainMiddleBarButton_1_white {
     width: 134px;
     height: 47px;
@@ -383,7 +395,19 @@ body.white {
     border-radius: 6px;
     border-color: #00659D;
 }
-
+.MainMiddleBarButton_1_white:hover {
+    background-color: transparent;
+    color: #00659D;
+}
+.MainMiddleBarButton_1_white:active {
+    background-color: transparent;
+    color: #00659D;
+}
+.MainMiddleBarButton_1_white:focus {
+    background-color: transparent;
+    color: #00659D;
+    box-shadow: none;
+}
 .MainMiddleBarButton_1.btn-outline-info {
     border-color: #77FFA9;
 }
@@ -395,7 +419,31 @@ body.white {
     color: #4DD5FF;
     border-radius: 6px;
 }
-
+.MainMiddleBarButton_2:hover {
+    width: 134px;
+    height: 47px;
+    font-size: 17px;
+    color: #4DD5FF;
+    border-radius: 6px;
+    background-color: transparent;
+}
+.MainMiddleBarButton_2:active {
+    width: 134px;
+    height: 47px;
+    font-size: 17px;
+    color: #4DD5FF;
+    border-radius: 6px;
+    background-color: transparent;
+}
+.MainMiddleBarButton_2:focus {
+    width: 134px;
+    height: 47px;
+    font-size: 17px;
+    color: #4DD5FF;
+    border-radius: 6px;
+    background-color: transparent;
+    box-shadow: none;
+}
 .MainMiddleBarButton_2_white {
     width: 134px;
     height: 47px;
@@ -404,7 +452,17 @@ body.white {
     border-radius: 6px;
     border-color: #3F77DB;
 }
-
+.MainMiddleBarButton_2_white:hover {
+    background-color: transparent;
+}
+.MainMiddleBarButton_2_white:active {
+    background-color: transparent;
+    box-shadow: none;
+}
+.MainMiddleBarButton_2_white:focus {
+    background-color: transparent;
+    box-shadow: none;
+}
 .MainMiddleBarButton_2.btn-outline-info {
     border-color: #4DD5FF;
 }

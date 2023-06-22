@@ -7,6 +7,7 @@ import header_logo from '../assets/portrait-of-happy-and-cheerful-handsome-adult
 import Modal from 'react-bootstrap/Modal';
 import "../Css/Modal.css"
 import ModalNotification from "./ModalNotification";
+import { Link } from "react-router-dom";
 const TopBar = ({ checked, setChecked }) => {
     const [show1, setShow1] = useState(false);
     const handleShow1 = () => setShow1(true);
@@ -43,9 +44,11 @@ const TopBar = ({ checked, setChecked }) => {
                                 <ModalNotification />
                             </Modal>
                             <div className="header_dashboard_out" style={{ marginLeft: "10px" }}>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="97" height="27" viewBox="0 0 97 27">
-                                    <text id="Dashboard" transform="translate(0 22)" fill="#e6e6e6" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Dashboard</tspan></text>
-                                </svg>
+                                <Link to="/ViewProfile">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="97" height="27" viewBox="0 0 97 27">
+                                        <text id="Dashboard" transform="translate(0 22)" fill="#e6e6e6" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Dashboard</tspan></text>
+                                    </svg>
+                                </Link>
                             </div>
                             <img src={header_logo} alt="header_logo" className="header_logo" />
                         </Form>
