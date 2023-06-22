@@ -6,6 +6,8 @@ import HighLightEditMainBar from "./highlight/HighLightEditMainBar";
 import {
     ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem
 } from 'reactstrap';
+import search_Icon from '../assets/search.png';
+import $ from 'jquery';
 const MainBarEdit = () => {
     const [dropdownOpen, setDropdownOpen] = useState(false);
     const [dropdownOpen1, setDropdownOpen1] = useState(false);
@@ -13,13 +15,16 @@ const MainBarEdit = () => {
     const toggle = () => setDropdownOpen(!dropdownOpen);
     const toggle1 = () => setDropdownOpen1(!dropdownOpen1);
     const toggle2 = () => setDropdownOpen2(!dropdownOpen2);
+    const [checkedInput, setCheckedInput] = useState(true);
+    console.log("checkedInput", checkedInput)
     return (
         <div className="MainBar_Edit_out">
             <div className="MainBarEdit_Header">
-                    Editor
+                Editor
             </div>
             <div className="d-flex MainBar_Edit_Search">
-                <input type="text" alt="search" className="searchBar_Style" placeholder="Correo electrónico" />
+                <input type="text" alt="search" className="searchBar_Style" placeholder="" onClick={() => {setCheckedInput(false)}}/>
+                <img src={search_Icon} alt="search_Icon" className={$(".searchBar_Style").is(":focus")?"search_Icon_none":"search_Icon"} />
                 <div className="d-flex">
                     <ButtonDropdown isOpen={dropdownOpen} toggle={toggle}>
                         <DropdownToggle className="MainTopHeader_button" caret>

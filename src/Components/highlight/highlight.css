@@ -3,6 +3,7 @@
     height: 101px;
     display: flex;
     vertical-align: center;
+    margin-left: 26px;
 }
 
 .HighLightAvatar_out_VP {
@@ -54,14 +55,14 @@
 .HighLightMiddle_1 {
     font-size: 29px;
     color: #D2DB08;
-    font-family: 'Roboto';
+    font-family: Light;
     margin-top: 10px;
 }
 
 .HighLightMiddle_1_white {
     font-size: 29px;
     color: #00659D;
-    font-family: 'Roboto';
+    font-family: Light;
     margin-top: 10px;
 }
 
@@ -80,13 +81,13 @@
 .HighLightMiddle_2_origin {
     font-size: 18px;
     color: #E6E6E6;
-    font-family: 'Roboto';
+    font-family: Light;
 }
 
 .HighLightMiddle_2_origin_white {
     font-size: 18px;
     color: #0D2A53;
-    font-family: 'Roboto';
+    font-family: Light;
 }
 
 .HighLightMiddle_2_Edit {
@@ -104,51 +105,55 @@
 }
 
 .HighLightMiddle_3 {
-    font-size: 20px;
+    font-size: 16px;
     color: #E6E6E6;
-    font-family: 'Roboto';
+    font-family: Light;
     margin-top: 5px;
 }
 
 .HighLightMiddle_3_white {
-    font-size: 20px;
+    font-size: 16px;
     color: #0D2A53;
-    font-family: 'Roboto';
+    font-family: Light;
     margin-top: 5px;
 }
 
 .HighLightMiddle_3_Edit {
-    font-size: 20px;
+    font-size: 16px;
     color: #E6E6E6;
-    font-family: 'Roboto';
+    font-family: Light;
     margin-top: 1px;
 }
 
 .HighLightMiddle_3_Edit_white {
     font-size: 20px;
     color: #0D2A53;
-    font-family: 'Roboto';
+    font-family: Light;
     margin-top: 1px;
 }
 
 .highlight_number {
     color: #4DD5FF;
     font-size: 20px;
+    font-family: Light;
 }
 
 .highlight_number_white {
     color: #3F77DB;
     font-size: 20px;
+    font-family: Light;
 }
 
 .highlight_number_Edit {
     color: #4DD5FF;
     font-size: 29px;
+    font-family: Light;
 }
 
 .highlight_number_Edit_white {
     color: #3F77DB;
     font-size: 29px;
+    font-family: Light;
 }
 
 .HighLightEnd_out {
@@ -161,9 +166,12 @@
 
 .HighLightEnd_2 {
     justify-content: space-evenly;
-    margin-top: 14.5px;
+    margin-top: 10.5px;
 }
-
+.HighLightEnd_2_1 {
+    justify-content: space-evenly;
+    margin-top: 6.5px;
+}
 .HighLightEnd_3 {
     margin-top: 0px;
 }

@@ -8,10 +8,12 @@ import HighLightAvatarWhite from "./highlight/HighLightAvatarWhite";
 const LeftBarHighlightCardWhite = () => {
     return (
         <div className="LeftBarHighlightCard_out_white">
-            <HighLightAvatarWhite />
+            <div style={{ marginLeft: "10px", marginTop: "8px" }}>
+                <HighLightAvatarWhite />
+            </div>
             <HighLightMiddleWhite />
             <HighLightEndWhite />
-        </div>
+        </div >
 
 
     );

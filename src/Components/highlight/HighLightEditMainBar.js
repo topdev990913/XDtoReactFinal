@@ -60,10 +60,12 @@ const HighLightEditMainBar = () => {
                 <Link to="/ViewProfile"><Button type="submit" color="info" className="highlight_button_Edit" outline>View Profile</Button></Link>
             </div>
             <div className="EditMainBar_7">
-                <svg id="star" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
-                    <path id="Path_272" data-name="Path 272" d="M0,0H40V40H0Z" fill="none" />
-                    <path id="Path_273" data-name="Path 273" d="M18.154,27.2,8.181,32.4l1.905-11L2.007,13.609l11.149-1.6L18.143,2,23.13,12.008l11.149,1.6L26.2,21.4l1.905,11Z" transform="translate(1.844 1.839)" fill="none" stroke="#e6e6e6" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
-                </svg>
+                <Link to="/FavoriteViewProfile">
+                    <svg id="star" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+                        <path id="Path_272" data-name="Path 272" d="M0,0H40V40H0Z" fill="none" />
+                        <path id="Path_273" data-name="Path 273" d="M18.154,27.2,8.181,32.4l1.905-11L2.007,13.609l11.149-1.6L18.143,2,23.13,12.008l11.149,1.6L26.2,21.4l1.905,11Z" transform="translate(1.844 1.839)" fill="none" stroke="#e6e6e6" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+                    </svg>
+                </Link>
             </div>
         </div>
 

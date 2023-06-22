@@ -3,17 +3,20 @@ import "./highlight.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import { Button } from "reactstrap";
+import { Link } from "react-router-dom";
 const HighLightEndWhite = () => {
     return (
         <div className="HighLightEnd_out">
             <div className="d-flex justify-content-end HighLightEnd_1">
-                <svg id="star" xmlns="http://www.w3.org/2000/svg" width="33.165" height="33.165" viewBox="0 0 33.165 33.165">
-                    <path id="Path_272" data-name="Path 272" d="M0,0H33.165V33.165H0Z" fill="none" />
-                    <path id="Path_273" data-name="Path 273" d="M15.47,23.05,7.155,27.387,8.743,18.2,2.007,11.7l9.3-1.337L15.46,2l4.157,8.358,9.3,1.337L22.177,18.2l1.588,9.186Z" transform="translate(1.111 1.109)" fill="none" stroke="#0d2a53" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
-                </svg>
+                <Link to="/FavoriteViewProfile">
+                    <svg id="star" xmlns="http://www.w3.org/2000/svg" width="33.165" height="33.165" viewBox="0 0 33.165 33.165">
+                        <path id="Path_272" data-name="Path 272" d="M0,0H33.165V33.165H0Z" fill="none" />
+                        <path id="Path_273" data-name="Path 273" d="M15.47,23.05,7.155,27.387,8.743,18.2,2.007,11.7l9.3-1.337L15.46,2l4.157,8.358,9.3,1.337L22.177,18.2l1.588,9.186Z" transform="translate(1.111 1.109)" fill="none" stroke="#0d2a53" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+                    </svg>
+                </Link>
 
             </div>
-            <div className="d-flex HighLightEnd_2">
+            <div className="d-flex HighLightEnd_2_1">
                 <svg id="ball-football_1_" data-name="ball-football (1)" xmlns="http://www.w3.org/2000/svg" width="32.928" height="32.928" viewBox="0 0 32.928 32.928">
                     <path id="Path_54" data-name="Path 54" d="M0,0H32.928V32.928H0Z" transform="translate(0 0)" fill="none" />
                     <path id="Path_55" data-name="Path 55" d="M15.288,15.288,3,15.288A12.288,12.288,0,1,0,15.288,3,12.288,12.288,0,0,0,3,15.288" transform="translate(1.176 1.176)" fill="none" stroke="#00c936" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
@@ -30,7 +33,9 @@ const HighLightEndWhite = () => {
                 </svg>
             </div>
             <div className="HighLightEnd_3">
-                <Button type="submit" color="info" className="highlight_button_White" outline>Subscribe</Button>
+                <Link to="/FavoriteViewProfile">
+                    <Button type="submit" color="info" className="highlight_button_White" outline>Subscribe</Button>
+                </Link>
             </div>
         </div>
     );

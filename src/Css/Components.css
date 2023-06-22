@@ -49,7 +49,24 @@ body.white {
     font-family: 'Roboto';
     left: 1173px;
 }
+.header_button_white:hover {
+    background-color: transparent;
+    border-color: #A237FF;
+    color: #A237FF;
+}
 
+.header_button_white:active {
+    background-color: transparent;
+    border-color: #A237FF;
+    color: #A237FF;
+}
+
+.header_button_white:focus {
+    background-color: transparent;
+    border-color: #A237FF;
+    color: #A237FF;
+    box-shadow: none;
+}
 .header_button.btn-outline-info {
     border-color: #D2DB08;
 }
@@ -683,7 +700,14 @@ body.white {
     padding-left: 20px;
     padding-right: 20px;
 }
-
+.search_Icon {
+    position: absolute;
+    margin-top: 6px;
+    margin-left: 7px;
+}
+.search_Icon_none {
+    display: none;
+}
 .searchBar_Style {
     width: 223px;
     height: 44px;

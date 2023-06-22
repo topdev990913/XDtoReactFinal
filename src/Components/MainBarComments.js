@@ -8,7 +8,9 @@ import {
 import Modal from 'react-bootstrap/Modal';
 import MainMiddleBar from "./MainMiddleBar";
 import TurkeyLogo from "../assets/Roundel_flag_of_Turkey.svg.png";
+import $ from 'jquery';
 import UnitedKingdomLogo from "../assets/Flag_of_the_United_Kingdom_(3-5).svg.png";
+import search_Icon from '../assets/search.png';
 const MainBarComments = () => {
     const [dropdownOpen, setDropdownOpen] = useState(false);
     const toggle = () => setDropdownOpen(!dropdownOpen);
@@ -21,11 +23,14 @@ const MainBarComments = () => {
     const [StartedChecked, setStartedChecked] = useState(false);
     const [WinningChecked, setWinningChecked] = useState(false);
     const [LoseChecked, setLoseChecked] = useState(false);
+    const [checkedInput, setCheckedInput] = useState(true);
+    console.log("checkedInput", checkedInput)
     console.log(publicChecked, SubscriberChecked, FinishedChecked, StartedChecked, WinningChecked, LoseChecked)
     return (
         <div className="MainBar_Comment_out">
             <div className="d-flex MainBar_Edit_Search_Comments">
-                <input type="text" alt="search" className="searchBar_Style" placeholder="Correo electrónico" />
+                <input type="text" alt="search" className="searchBar_Style" placeholder="" onClick={() => {setCheckedInput(false)}} />
+                <img src={search_Icon} alt="search_Icon" className={$(".searchBar_Style").is(":focus")?"search_Icon_none":"search_Icon"} />
                 <div className="d-flex">
                     <ButtonDropdown isOpen={dropdownOpen} toggle={toggle}>
                         <DropdownToggle className="MainTopHeader_button" caret>
@@ -65,13 +70,6 @@ const MainBarComments = () => {
                                             <select class="form-select form-select-lg mb-3" id="Select_out" aria-label=".form-select-lg example">
                                                 <option value="" hidden disabled selected>Select</option>
                                                 <option value="0" className="Selected_item">All</option>
-                                                <option value="1" className="Selected_item d-flex">
-                                                    <svg id="search" xmlns="http://www.w3.org/2000/svg" width="32.59" height="32.59" viewBox="0 0 32.59 32.59">
-                                                        <path id="Path_107" data-name="Path 107" d="M0,0H32.59V32.59H0Z" fill="none" />
-                                                        <path id="Path_108" data-name="Path 108" d="M12.472,12.472,3,12.472A9.472,9.472,0,1,0,12.472,3,9.472,9.472,0,0,0,3,12.472" transform="translate(1.059 1.059)" fill="none" stroke="#e6e6e6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" />
-                                                        <path id="Path_109" data-name="Path 109" d="M23.119,23.119,15,15" transform="translate(5.411 5.411)" fill="none" stroke="#e6e6e6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" />
-                                                    </svg>
-                                                </option>
                                                 <option value="2" className="Selected_item d-flex">
                                                     <img src={TurkeyLogo} alt="TurkeyLogo" />
                                                     Turkey
@@ -151,18 +149,8 @@ const MainBarComments = () => {
                                         <div className="crypto_dropdown">
                                             <select class="form-select form-select-lg mb-3" id="Select_out" aria-label=".form-select-lg example">
                                                 <option value="" hidden disabled selected>Select</option>
-                                                <option value="0" className="Selected_item">$ USD</option>
-                                                <option value="1" className="Selected_item">₹ INR</option>
-                                                <option value="2" className="Selected_item"> د.إ AED</option>
-                                                <option value="3" className="Selected_item">A$ AUD</option>
-                                                <option value="4" className="Selected_item">S$ SGD</option>
-                                                <option value="5" className="Selected_item">C$ CAD</option>
-                                                <option value="6" className="Selected_item">RM MYR</option>
-                                                <option value="7" className="Selected_item">€ EUR</option>
-                                                <option value="8" className="Selected_item">₤ GBP</option>
-                                                <option value="9" className="Selected_item">ر.ق QAR </option>
-                                                <option value="10" className="Selected_item"> ر.س SAR</option>
-                                                <option value="11" className="Selected_item">HK$ HKD</option>
+                                                <option value="0" className="Selected_item">Full Time</option>
+                                                <option value="1" className="Selected_item">Goal</option>
                                             </select>
                                         </div>
                                     </Col>

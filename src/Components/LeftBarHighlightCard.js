@@ -8,7 +8,9 @@ import HighLightEnd from "./highlight/HighLightEnd";
 const LeftBarHighlightCard = () => {
     return (
         <div className="LeftBarHighlightCard_out">
-            <HighLightAvatar />
+            <div style={{ marginLeft: "10px", marginTop: "8px" }}>
+                <HighLightAvatar />
+            </div>
             <HighLightMiddle />
             <HighLightEnd />
         </div>
