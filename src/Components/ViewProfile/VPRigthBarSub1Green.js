@@ -19,7 +19,7 @@ const VPRigthBarSub1Green = () => {
                     <div className="VPRigthBarSub1_3">
                         Süper Lig
                     </div>
-                    <svg id="world-check" xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42" style={{marginLeft: "428px", marginTop: "11px"}}>
+                    <svg id="world-check" xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42" style={{marginLeft: "459px", marginTop: "11px"}}>
                         <path id="Path_554" data-name="Path 554" d="M0,0H42V42H0Z" fill="none" />
                         <path id="Path_555" data-name="Path 555" d="M34.164,20.348A15.629,15.629,0,1,0,17.736,34.232" transform="translate(2.371 2.371)" fill="none" stroke="#4dd5ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
                         <path id="Path_556" data-name="Path 556" d="M3.6,9H32.71" transform="translate(2.845 6.75)" fill="none" stroke="#4dd5ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
@@ -28,7 +28,7 @@ const VPRigthBarSub1Green = () => {
                         <path id="Path_559" data-name="Path 559" d="M12.5,3a28.88,28.88,0,0,1,4.137,20.879" transform="translate(9.314 2.371)" fill="none" stroke="#4dd5ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
                         <path id="Path_560" data-name="Path 560" d="M15,20.581l3.581,3.581L25.742,17" transform="translate(10.887 12.468)" fill="none" stroke="#4dd5ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
                     </svg>
-                    <svg id="square-rounded-check" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" style={{marginLeft: "47px", marginTop: "11px"}}>
+                    <svg id="square-rounded-check" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" style={{marginLeft: "16px", marginTop: "11px"}}>
                         <path id="Path_161" data-name="Path 161" d="M0,0H40V40H0Z" fill="none" />
                         <path id="Path_162" data-name="Path 162" d="M9,15.288l5.288,5.288L24.863,10" transform="translate(3.069 4.712)" fill="none" stroke="#37ff80" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
                         <path id="Path_163" data-name="Path 163" d="M17.988,3C29.979,3,32.977,6,32.977,17.988s-3,14.988-14.988,14.988S3,29.979,3,17.988,6,3,17.988,3Z" transform="translate(2.012 2.012)" fill="none" stroke="#37ff80" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />

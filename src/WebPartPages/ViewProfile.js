@@ -19,7 +19,6 @@ import VPRigthBarSub1Green from "../Components/ViewProfile/VPRigthBarSub1Green";
 import VPRigthBarSub1Yellow from "../Components/ViewProfile/VPRigthBarSub1Yellow";
 import VPRigthBarSub4 from "../Components/ViewProfile/VPRightBarSub4";
 import VPRigthBarSub4White from "../Components/ViewProfile/VPRightBarSub4White";
-import MyCommentsEditProfile1 from "../Components/ViewProfile/MyCommentsEditProfile1";
 import VPAbout1 from "../Components/ViewProfile/VPAbout1";
 import VPRightBarSubTopBarSubscriber from "../Components/ViewProfile/VPRightBarSubTopBarSubscriber";
 import VPRightBarSubscriber1 from "../Components/ViewProfile/VPRightBarSubscriber1";
@@ -34,7 +33,6 @@ import TopBarWhite from "../Components/TopBarWhite";
 import SideBarWhite from "../Components/SideBarWhite";
 import MyCommentsEditProfileWhite from "../Components/ViewProfile/MyCommentsEditProfileWhite";
 import VPAboutWhite from "../Components/ViewProfile/VPAboutWhite";
-import MyCommentsEditProfile1White from "../Components/ViewProfile/MyCommentsEditProfile1White";
 import VPAbout1White from "../Components/ViewProfile/VPAbout1White";
 import VPRightTopBarWhite from "../Components/ViewProfile/VPRightTopBarWhite";
 import VPRightBarSubTopBarWhite from "../Components/ViewProfile/VPRightBarSubTopBarWhite";
@@ -146,7 +144,7 @@ const ViewProfile = ({ checkedFavourite, setCheckedFavourite, checked, setChecke
                         <div className="ViewProfile_Mycomments_1">
                             {checkedSubComment === 3 && checkedBall === true ?
                                 <>
-                                    <MyCommentsEditProfile1White checkedBall={checkedBall} setCheckedBall={setCheckedBall} checkedSubComment={checkedSubComment} setCheckedSubComment={setCheckedSubComment} />
+                                    <MyCommentsEditProfileWhite checkedBall={checkedBall} setCheckedBall={setCheckedBall} checkedSubComment={checkedSubComment} setCheckedSubComment={setCheckedSubComment} />
                                     <VPAbout1White checkedBall={checkedBall} setCheckedBall={setCheckedBall} checkedSubComment={checkedSubComment} setCheckedSubComment={setCheckedSubComment} />
                                 </>
                                 :
@@ -182,7 +180,7 @@ const ViewProfile = ({ checkedFavourite, setCheckedFavourite, checked, setChecke
                         <div className="ViewProfile_Mycomments_1">
                             {checkedSubComment === 3 && checkedBall === true ?
                                 <>
-                                    <MyCommentsEditProfile1 checkedBall={checkedBall} setCheckedBall={setCheckedBall} checkedSubComment={checkedSubComment} setCheckedSubComment={setCheckedSubComment} />
+                                    <MyCommentsEditProfile checkedBall={checkedBall} setCheckedBall={setCheckedBall} checkedSubComment={checkedSubComment} setCheckedSubComment={setCheckedSubComment} />
                                     <VPAbout1 checkedBall={checkedBall} setCheckedBall={setCheckedBall} checkedSubComment={checkedSubComment} setCheckedSubComment={setCheckedSubComment} />
                                 </>
                                 :

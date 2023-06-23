@@ -26,7 +26,7 @@ const ModalSupport = () => {
                 <div className="ModalSupport_1">
                     Message
                 </div>
-                <input type="text" alt="search" className="message_out" />
+                <input type="text" alt="search" className="message_out" id="Support" />
                 <div className="d-flex justify-content-center">
                     <Button type="submit" className="Support_send_button" outline>Send</Button>
                 </div>

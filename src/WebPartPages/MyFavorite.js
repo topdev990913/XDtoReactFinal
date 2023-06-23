@@ -74,7 +74,7 @@ const MyFavorite = ({ checkedFavourite, setCheckedFavourite, checked, setChecked
             <VPRigthBarFavourite2White />
         </>
     }
-    
+
     return (<>
         {checked ?
             <>
@@ -113,25 +113,25 @@ const MyFavorite = ({ checkedFavourite, setCheckedFavourite, checked, setChecked
                         <SideBar checkedMainOption={checkedMainOption} setCheckedMainOption={setCheckedMainOption} />
                     </div>
                     <div className="ViewProfile_Mycomments_1">
-                {checkedCommentStar === 1 ?
-                    <MyCommentsEditProfileStar />
-                    :
-                    <MyCommentsEditProfileStar1 />
-                }
-            </div>
-            <div className="ViewProfile_Mycomments_2">
-                <VPRightTopBarStar checkedCommentStar={checkedCommentStar} setCheckedCommentStar={setCheckedCommentStar} />
-                <div className="d-flex">
-                    <div className="VP_RightBarSub1_out">
-                        {displaystarsubtopbar()}
-                        {displaysubtitle1()}
+                        {checkedCommentStar === 1 ?
+                            <MyCommentsEditProfileStar />
+                            :
+                            <MyCommentsEditProfileStar1 />
+                        }
                     </div>
-                    <div className="VP_RightBarSub2_out">
-                        <VPRigthBarSub2 />
-                        <VPRigthBarSub3 />
+                    <div className="ViewProfile_Mycomments_2">
+                        <VPRightTopBarStar checkedCommentStar={checkedCommentStar} setCheckedCommentStar={setCheckedCommentStar} />
+                        <div className="d-flex">
+                            <div className="VP_RightBarSub1_out">
+                                {displaystarsubtopbar()}
+                                {displaysubtitle1()}
+                            </div>
+                            <div className="VP_RightBarSub2_out">
+                                <VPRigthBarSub2 />
+                                <VPRigthBarSub3 />
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
                 </div>
             </>
         }

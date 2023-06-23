@@ -904,9 +904,24 @@ body.white {
     border-radius: 8px;
     padding: 0 19px;
     font-size: 22px;
-    font-family: 'Roboto';
+    font-family: Light;
 }
-
+.modal_Footer_Button:hover {
+    color: #D2DB08;
+    font-family: Light;
+    background-color: transparent;
+}
+.modal_Footer_Button:active {
+    color: #D2DB08;
+    font-family: Light;
+    background-color: transparent;
+}
+.modal_Footer_Button:focus {
+    color: #D2DB08;
+    font-family: Light;
+    background-color: transparent;
+    box-shadow: none;
+}
 #TermsUse_white .modal-content {
     background-color: #FFFFFF;
 }
@@ -923,10 +938,28 @@ body.white {
     border-radius: 8px;
     padding: 0 19px;
     font-size: 22px;
-    font-family: 'Roboto';
+    font-family: Light;
     border-color: #3F77DB;
 }
-
+.modal_Footer_Button_white:hover {
+    color: #3F77DB;
+    font-family: Light;
+    border-color: #3F77DB;
+    background-color: transparent;
+}
+.modal_Footer_Button_white:active {
+    color: #3F77DB;
+    font-family: Light;
+    border-color: #3F77DB;
+    background-color: transparent;
+}
+.modal_Footer_Button_white:focus {
+    color: #3F77DB;
+    font-family: Light;
+    border-color: #3F77DB;
+    background-color: transparent;
+    box-shadow: none;
+}
 .modal_Footer_Button.btn-outline-info {
     border-color: #D2DB08;
 }
