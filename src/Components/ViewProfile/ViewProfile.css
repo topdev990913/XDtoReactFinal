@@ -1112,16 +1112,16 @@
 }
 .VPRigthBarSub41_out {
     margin-top: 20px;
-    width: 769px;
     background-color: #0D2A53;
     height: 725px;
     border-radius: 8px;
     margin-left: 20px;
     padding-top: 17px;
+    /* padding-left: 30px;
+    padding-right: 30px; */
 }
 .VPRigthBarSub41_out_white {
     margin-top: 20px;
-    width: 769px;
     background-color: #FFFFFF;
     height: 725px;
     border-radius: 8px;

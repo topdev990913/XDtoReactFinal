@@ -13,7 +13,10 @@ const VPRightTopBar = ({ checkedComment, setCheckedComment }) => {
     const handleShow2 = () => setShow2(true);
     const handleClose2 = () => setShow2(false);
     const [show1, setShow1] = useState(false);
-    const handleShow1 = () => setShow1(true);
+    const handleShow1 = () => {
+        setShow1(true);
+        setShow(false)
+    }
     const handleClose1 = () => setShow1(false);
     console.log("checkedComment", checkedComment)
     return (
@@ -284,7 +287,6 @@ const VPRightTopBar = ({ checkedComment, setCheckedComment }) => {
                                                             <path id="Path_613" data-name="Path 613" d="M0,0V28.8" transform="translate(-1206.459 4691.447) rotate(-90)" fill="none" stroke="#e6e6e6" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" />
                                                         </g>
                                                     </svg>
-
                                                 </div>
                                             </Row>
                                             <Row>

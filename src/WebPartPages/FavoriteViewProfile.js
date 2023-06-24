@@ -113,7 +113,7 @@ const FavoriteViewProfile = ({ checked, setChecked, checkedFavourite, setChecked
                 </>
                 :
                 <>
-                    <TopBarViewProfile checked={checked} setChecked={setChecked}/>
+                    <TopBarViewProfile checked={checked} setChecked={setChecked} />
                     <div className="d-flex">
                         <div className="SideBar_Home_out">
                             <SideBar />
