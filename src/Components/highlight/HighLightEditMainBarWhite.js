@@ -57,7 +57,7 @@ const HighLightEditMainBarWhite = () => {
                 256
             </div>
             <div className="EditMainBar_8">
-                <Link to="/ViewProfile"><Button type="submit" color="info" className="highlight_button_Edit_white" outline>View Profile</Button></Link>
+                <Button type="submit" color="info" className="highlight_button_Edit_white" outline>View Profile</Button>
             </div>
             <div className="EditMainBar_7">
                 <Link to="/FavoriteViewProfile">

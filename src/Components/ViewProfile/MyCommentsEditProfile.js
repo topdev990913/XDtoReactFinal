@@ -6,6 +6,7 @@ import HighLightAvatarVP from "../highlight/HighLightAvatarVP";
 import PieChatBack from '../../assets/Path 160.png';
 import PieChatProgress from '../../assets/Path 159.png';
 import { Button, Col } from "reactstrap";
+import { Link } from "react-router-dom";
 const MyCommentsEditProfile = ({ checkedBall, setCheckedBall }) => {
     return (
         <div className="VP_MC_EP_out">
@@ -66,17 +67,19 @@ const MyCommentsEditProfile = ({ checkedBall, setCheckedBall }) => {
                     </div>
                 </div>
                 <div className="VP_EP_Right">
-                    <div className="d-flex justify-content-center align-items-center" style={{ marginTop: "10px" }}>
-                        <svg id="user-edit" xmlns="http://www.w3.org/2000/svg" width="41.568" height="41.569" viewBox="0 0 41.568 41.569">
-                            <path id="Path_150" data-name="Path 150" d="M0,0H41.568V41.569H0Z" fill="none" />
-                            <path id="Path_151" data-name="Path 151" d="M8,9.928A6.928,6.928,0,1,0,14.928,3,6.928,6.928,0,0,0,8,9.928" transform="translate(5.856 2.196)" fill="none" stroke="#e6e6e6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                            <path id="Path_152" data-name="Path 152" d="M6,25.392V21.928A6.928,6.928,0,0,1,12.928,15H18.99" transform="translate(4.392 10.98)" fill="none" stroke="#e6e6e6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                            <path id="Path_153" data-name="Path 153" d="M20.924,16.06A3.637,3.637,0,0,1,26.068,21.2L20.2,27.128H15v-5.2Z" transform="translate(10.98 10.977)" fill="none" stroke="#4dd5ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                        </svg>
-                        <div className="VP_EP_Right_1" style={{ marginLeft: "5px" }}>
-                            Edit Profile
+                    <Link to="/EditProfilePage">
+                        <div className="d-flex justify-content-center align-items-center" style={{ marginTop: "10px" }}>
+                            <svg id="user-edit" xmlns="http://www.w3.org/2000/svg" width="41.568" height="41.569" viewBox="0 0 41.568 41.569">
+                                <path id="Path_150" data-name="Path 150" d="M0,0H41.568V41.569H0Z" fill="none" />
+                                <path id="Path_151" data-name="Path 151" d="M8,9.928A6.928,6.928,0,1,0,14.928,3,6.928,6.928,0,0,0,8,9.928" transform="translate(5.856 2.196)" fill="none" stroke="#e6e6e6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                                <path id="Path_152" data-name="Path 152" d="M6,25.392V21.928A6.928,6.928,0,0,1,12.928,15H18.99" transform="translate(4.392 10.98)" fill="none" stroke="#e6e6e6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                                <path id="Path_153" data-name="Path 153" d="M20.924,16.06A3.637,3.637,0,0,1,26.068,21.2L20.2,27.128H15v-5.2Z" transform="translate(10.98 10.977)" fill="none" stroke="#4dd5ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                            </svg>
+                            <div className="VP_EP_Right_1" style={{ marginLeft: "5px" }}>
+                                Edit Profile
+                            </div>
                         </div>
-                    </div>
+                    </Link>
                     <div className="VP_EP_LEFT_Text_field" style={{ marginTop: "10px" }}>
                         Score Points
                     </div>

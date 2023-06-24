@@ -50,7 +50,9 @@ const TopBar = ({ checked, setChecked }) => {
                                     </svg>
                                 </Link>
                             </div>
-                            <img src={header_logo} alt="header_logo" className="header_logo" />
+                            <Link to="/ViewProfile">
+                                <img src={header_logo} alt="header_logo" className="header_logo" />
+                            </Link>
                         </Form>
                     </Col>
                 </Row>

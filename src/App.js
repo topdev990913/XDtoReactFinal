@@ -9,6 +9,7 @@ import FavoriteViewProfile from "./WebPartPages/FavoriteViewProfile";
 import PendingPage from "./WebPartPages/PendingPage";
 import PendingPageWhite from "./WebPartPages/PendingPageWhite";
 import MyFavorite from "./WebPartPages/MyFavorite";
+import EditProfilePage from "./WebPartPages/EditProfilePage";
 function App() {
   const [checkedMainOption, setCheckedMainOption] = useState(1)
   const [checked, setChecked] = useState(false);
@@ -29,6 +30,7 @@ function App() {
             <Route exact path="/PendingPage" element={<PendingPage />} />
           }
           <Route exact path="/MyFavorite" element={<MyFavorite  checked={checked} setChecked={foo} checkedFavourite={checkedFavourite} setCheckedFavourite={setCheckedFavourite} />} />
+          <Route exact path="/EditProfilePage" element={<EditProfilePage checkedMainOption={checkedMainOption} setCheckedMainOption={setCheckedMainOption} checked={checked} setChecked={foo} checkedFavourite={checkedFavourite} setCheckedFavourite={setCheckedFavourite} /> } />
         </Routes>
       </Router>
     </div>
