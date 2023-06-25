@@ -108,7 +108,12 @@
     color: #E6E6E6;
     font-size: 17px;
 }
-
+a {
+    color: transparent;
+}
+a:hover {
+    color: transparent;
+}
 .VP_EP_Right_1_white {
     color: #0D2A53;
     font-size: 17px;

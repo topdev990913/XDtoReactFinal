@@ -67,7 +67,6 @@ const MyCommentsEditProfile = ({ checkedBall, setCheckedBall }) => {
                     </div>
                 </div>
                 <div className="VP_EP_Right">
-                    <Link to="/EditProfilePage">
                         <div className="d-flex justify-content-center align-items-center" style={{ marginTop: "10px" }}>
                             <svg id="user-edit" xmlns="http://www.w3.org/2000/svg" width="41.568" height="41.569" viewBox="0 0 41.568 41.569">
                                 <path id="Path_150" data-name="Path 150" d="M0,0H41.568V41.569H0Z" fill="none" />
@@ -79,7 +78,6 @@ const MyCommentsEditProfile = ({ checkedBall, setCheckedBall }) => {
                                 Edit Profile
                             </div>
                         </div>
-                    </Link>
                     <div className="VP_EP_LEFT_Text_field" style={{ marginTop: "10px" }}>
                         Score Points
                     </div>

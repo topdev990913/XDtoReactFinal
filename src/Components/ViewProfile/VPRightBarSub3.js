@@ -26,13 +26,13 @@ const VPRigthBarSub3 = () => {
                 </div>
                 <Button type="button" className="Support_Button" onClick={handleShow2} inline>Create Support Ticket</Button>
                 <Modal show={show2} onHide={handleClose2} dialogClassName="modal_out" id="ModalSupport">
-                        <ModalSupport />
+                    <ModalSupport />
                 </Modal>
             </div>
             <div className="VPRigthBarSub3_3">
                 Support Requests
             </div>
-            <div className="VPRigthBarSub3_4" onClick={handleShow1}>
+            <div className="VPRigthBarSub3_4">
                 <div className="d-flex" style={{ alignItems: "center" }}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="9" height="27" viewBox="0 0 9 27" style={{ marginLeft: "10px" }}>
                         <rect id="Rectangle_937" data-name="Rectangle 937" width="9" height="27" fill="#f8ff61" />
@@ -54,9 +54,7 @@ const VPRigthBarSub3 = () => {
                     Waiting
                 </div>
             </div>
-            <Modal show={show1} onHide={handleClose1} dialogClassName="modal_out1" id="Financial">
-                <ModalFinancial />
-            </Modal>
+
             <div className="VPRigthBarSub3_4">
                 <div className="d-flex" style={{ alignItems: "center" }}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="9" height="27" viewBox="0 0 9 27" style={{ marginLeft: "10px" }}>
@@ -79,7 +77,7 @@ const VPRigthBarSub3 = () => {
                     Closed
                 </div>
             </div>
-            <div className="VPRigthBarSub3_4">
+            <div className="VPRigthBarSub3_4" onClick={handleShow1}>
                 <div className="d-flex" style={{ alignItems: "center" }}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="9" height="27" viewBox="0 0 9 27" style={{ marginLeft: "10px" }}>
                         <rect id="Rectangle_939" data-name="Rectangle 939" width="9" height="27" fill="#4dd5ff" />
@@ -102,6 +100,9 @@ const VPRigthBarSub3 = () => {
                     Progress
                 </div>
             </div>
+            <Modal show={show1} onHide={handleClose1} dialogClassName="modal_out1" id="Financial">
+                <ModalFinancial />
+            </Modal>
         </div>
     );
 };
