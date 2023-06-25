@@ -6,7 +6,7 @@ import PieChatBack from '../../assets/Path 160_white.png';
 import PieChatProgress from '../../assets/Path 159.png';
 import { Button, Col } from "reactstrap";
 import HighLightAvatarVPWhite from "../highlight/HighLightAvatarVPWhite";
-const MyCommentsEditProfileWhite = ({ checkedBall, setCheckedBall }) => {
+const MyCommentsEditProfileWhite = ({ checkedBall, setCheckedBall, checkedComment, setCheckedComment}) => {
     return (
         <div className="VP_MC_EP_out_white">
             <div className="d-flex display_VP">

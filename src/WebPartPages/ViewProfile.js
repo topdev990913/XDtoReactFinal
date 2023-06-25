@@ -49,6 +49,11 @@ import VPRigthBarFavourite1White from "../Components/ViewProfile/VPRigthBarFavou
 import VPRightBarWalletAccountWhite from "../Components/ViewProfile/VPRightBarWalletAccountWhite";
 import VPRigthBarFavourite2White from "../Components/ViewProfile/VPRigthBarFavourite2White";
 const ViewProfile = ({ checkedFavourite, setCheckedFavourite, checked, setChecked, checkedMainOption, setCheckedMainOption }) => {
+    const [checkedEditProfile, setCheckedEditProfile] = useState(false)
+    const handleEditProfile = () => {
+        setCheckedEditProfile(true);
+        setCheckedSubComment(3)
+    }
     const [checkedWallet, setCheckedWallet] = useState(true)
     const [checkedSubscriber, setCheckedSubscriber] = useState(true);
     const [checkedComment, setCheckedComment] = useState(1);
@@ -136,10 +141,10 @@ const ViewProfile = ({ checkedFavourite, setCheckedFavourite, checked, setChecke
         <>
             {checked ?
                 <>
-                    <TopBarWhite checked={checked} setChecked={setChecked}/>
+                    <TopBarWhite checked={checked} setChecked={setChecked} />
                     <div className="d-flex">
                         <div className="SideBar_Home_out">
-                            <SideBarWhite checkedMainOption={checkedMainOption} setCheckedMainOption={setCheckedMainOption}/>
+                            <SideBarWhite checkedMainOption={checkedMainOption} setCheckedMainOption={setCheckedMainOption} />
                         </div>
                         <div className="ViewProfile_Mycomments_1">
                             {checkedSubComment === 3 && checkedBall === true ?
@@ -172,20 +177,20 @@ const ViewProfile = ({ checkedFavourite, setCheckedFavourite, checked, setChecke
                 </>
                 :
                 <>
-                    <TopBar checked={checked} setChecked={setChecked}/>
+                    <TopBar checkedEditProfile={checkedEditProfile} setCheckedEditProfile={handleEditProfile} checked={checked} setChecked={setChecked} />
                     <div className="d-flex">
                         <div className="SideBar_Home_out">
-                            <SideBar checkedMainOption={checkedMainOption} setCheckedMainOption={setCheckedMainOption}/>
+                            <SideBar checkedMainOption={checkedMainOption} setCheckedMainOption={setCheckedMainOption} />
                         </div>
                         <div className="ViewProfile_Mycomments_1">
                             {checkedSubComment === 3 && checkedBall === true ?
                                 <>
-                                    <MyCommentsEditProfile checkedBall={checkedBall} setCheckedBall={setCheckedBall} checkedSubComment={checkedSubComment} setCheckedSubComment={setCheckedSubComment} />
+                                    <MyCommentsEditProfile checkedEditProfile={checkedEditProfile} setCheckedEditProfile={handleEditProfile} checkedBall={checkedBall} setCheckedBall={setCheckedBall} checkedSubComment={checkedSubComment} setCheckedSubComment={setCheckedSubComment} />
                                     <VPAbout1 checkedBall={checkedBall} setCheckedBall={setCheckedBall} checkedSubComment={checkedSubComment} setCheckedSubComment={setCheckedSubComment} />
                                 </>
                                 :
                                 <>
-                                    <MyCommentsEditProfile />
+                                    <MyCommentsEditProfile checkedEditProfile={checkedEditProfile} setCheckedEditProfile={handleEditProfile} checkedSubComment={checkedSubComment} setCheckedSubComment={setCheckedSubComment} />
                                     <VPAbout />
                                 </>
                             }

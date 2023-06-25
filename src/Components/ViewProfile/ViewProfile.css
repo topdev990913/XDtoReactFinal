@@ -108,6 +108,10 @@
     color: #E6E6E6;
     font-size: 17px;
 }
+.VP_EP_Right_1_blue {
+    color: #4DD5FF;
+    font-size: 17px;
+}
 a {
     color: transparent;
 }
@@ -1568,6 +1572,9 @@ a:hover {
     border-radius: 6px;
     font-size: 23px;
     margin-top: 10px;
+}
+.VP_Comment_static_Update_button_none {
+    display: none;
 }
 
 .VP_Comment_static_Update_button_white {
