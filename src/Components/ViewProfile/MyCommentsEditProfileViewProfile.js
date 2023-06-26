@@ -65,7 +65,7 @@ const MyCommentsEditProfileViewProfile = ({ checkedBall, setCheckedBall }, { che
                         <Button type="submit" color="info" className="VP_EP_Button" outline>expert</Button>
                     </div>
                 </div>
-                <div className="VP_EP_Right_viewProfile">
+                <div className="VP_EP_Right_viewProfile">                   
                     <div className="VP_EP_LEFT_Text_field" style={{ marginTop: "10px" }}>
                         Score Points
                     </div>
@@ -147,7 +147,7 @@ const MyCommentsEditProfileViewProfile = ({ checkedBall, setCheckedBall }, { che
                     </Col>
                 </div>
             </div>
-            <div className="d-flex justify-content-center" style={{marginTop: "8px"}}>
+            <div className="d-flex justify-content-center" style={{ marginTop: "8px" }}>
                 <div className="d-flex align-items-center">
                     <div className="VPVP_1">
                         Month
@@ -155,7 +155,7 @@ const MyCommentsEditProfileViewProfile = ({ checkedBall, setCheckedBall }, { che
                     <div className="VPVP_2">
                         /29.90
                     </div>
-                    <div className="VPVP_3" style={{marginLeft: "5px"}}>
+                    <div className="VPVP_3" style={{ marginLeft: "5px" }}>
                         ₺
                     </div>
                     <Button type="submit" className="VPVP_Subscribe_button" outline>Subscribe</Button>

@@ -48,7 +48,10 @@ import VPRightBarWalletTransactionWhite from "../Components/ViewProfile/VPRightB
 import VPRigthBarFavourite1White from "../Components/ViewProfile/VPRigthBarFavourite1White";
 import VPRightBarWalletAccountWhite from "../Components/ViewProfile/VPRightBarWalletAccountWhite";
 import VPRigthBarFavourite2White from "../Components/ViewProfile/VPRigthBarFavourite2White";
-const ViewProfile = ({ checkedFavourite, setCheckedFavourite, checked, setChecked, checkedMainOption, setCheckedMainOption }) => {
+import VPRightBarWalletTransactionPending from "../Components/ViewProfile/VPRightBarWalletTransactionPending";
+import VPRightBarWalletTransactionPendingWhite from "../Components/ViewProfile/VPRightBarWalletTransactionPendingWhite";
+const ViewProfile = ({ checkedFavourite, setCheckedFavourite, checked, setChecked, checkedMainOption, setCheckedMainOption, checkedViewProfileGo, setCheckedViewProfileGo }) => {
+    const [checkedPending, setCheckedPending] =useState(true)
     const [checkedEditProfile, setCheckedEditProfile] = useState(false)
     const handleEditProfile = () => {
         setCheckedEditProfile(true);
@@ -71,13 +74,14 @@ const ViewProfile = ({ checkedFavourite, setCheckedFavourite, checked, setChecke
         if (checkedComment === 1 & checkedSubComment === 3) return <VPRigthBarSub4 checkedBall={checkedBall} setCheckedBall={setCheckedBall} />
         if (checkedComment === 2 & checkedSubscriber === true) return <VPRightBarSubscriber1 checkedComment={checkedComment} setCheckedComment={setCheckedComment} checkedSubscriber={checkedSubscriber} setCheckedSubscriber={setCheckedSubscriber} />
         if (checkedComment === 2 & checkedSubscriber === false) return <VPRightBarSubscriber2 checkedComment={checkedComment} setCheckedComment={setCheckedComment} checkedSubscriber={checkedSubscriber} setCheckedSubscriber={setCheckedSubscriber} />
-        if (checkedComment === 3 & checkedWallet === true) return <VPRightBarWalletTransaction checkedComment={checkedComment} setCheckedComment={setCheckedComment} checkedWallet={checkedWallet} setCheckedWallet={setCheckedWallet} />
+        if (checkedComment === 3 & checkedWallet === true & checkedPending === true) return <VPRightBarWalletTransaction checkedPending={checkedPending} setCheckedPending={setCheckedPending} checkedComment={checkedComment} setCheckedComment={setCheckedComment} checkedWallet={checkedWallet} setCheckedWallet={setCheckedWallet} />
+        if (checkedComment === 3 & checkedWallet === true & checkedPending === false) return <VPRightBarWalletTransactionPending checkedPending={checkedPending} setCheckedPending={setCheckedPending} checkedComment={checkedComment} setCheckedComment={setCheckedComment} checkedWallet={checkedWallet} setCheckedWallet={setCheckedWallet} />
         if (checkedComment === 3 & checkedWallet === false) return <VPRightBarWalletAccount checkedComment={checkedComment} setCheckedComment={setCheckedComment} checkedWallet={checkedWallet} setCheckedWallet={setCheckedWallet} />
         if (checkedComment === 4 & checkedFavourite === true) return <>
             <VPRigthBarFavourite1 checkedComment={checkedComment} setCheckedComment={setCheckedComment} checkedFavourite={checkedFavourite} setCheckedFavourite={setCheckedFavourite} />
             <VPRigthBarFavourite1 checkedComment={checkedComment} setCheckedComment={setCheckedComment} checkedFavourite={checkedFavourite} setCheckedFavourite={setCheckedFavourite} />
         </>
-        if (checkedComment === 4 & checkedFavourite === false) return <VPRigthBarFavourite2 checkedComment={checkedComment} setCheckedComment={setCheckedComment} checkedFavourite={checkedFavourite} setCheckedFavourite={setCheckedFavourite} />
+        if (checkedComment === 4 & checkedFavourite === false) return <VPRigthBarFavourite2  checkedViewProfileGo={checkedViewProfileGo} setCheckedViewProfileGo={setCheckedViewProfileGo} checkedComment={checkedComment} setCheckedComment={setCheckedComment} checkedFavourite={checkedFavourite} setCheckedFavourite={setCheckedFavourite} />
     }
     const displaySubCommentwhite = () => {
         if (checkedComment === 1 & checkedSubComment === 1) return <>
@@ -91,8 +95,9 @@ const ViewProfile = ({ checkedFavourite, setCheckedFavourite, checked, setChecke
         if (checkedComment === 1 & checkedSubComment === 3) return <VPRigthBarSub4White checkedBall={checkedBall} setCheckedBall={setCheckedBall} />
         if (checkedComment === 2 & checkedSubscriber === true) return <VPRightBarSubscriber1White checkedComment={checkedComment} setCheckedComment={setCheckedComment} checkedSubscriber={checkedSubscriber} setCheckedSubscriber={setCheckedSubscriber} />
         if (checkedComment === 2 & checkedSubscriber === false) return <VPRightBarSubscriber2White checkedComment={checkedComment} setCheckedComment={setCheckedComment} checkedSubscriber={checkedSubscriber} setCheckedSubscriber={setCheckedSubscriber} />
-        if (checkedComment === 3 & checkedWallet === true) return <VPRightBarWalletTransactionWhite checkedComment={checkedComment} setCheckedComment={setCheckedComment} checkedWallet={checkedWallet} setCheckedWallet={setCheckedWallet} />
-        if (checkedComment === 3 & checkedWallet === false) return <VPRightBarWalletAccountWhite checkedComment={checkedComment} setCheckedComment={setCheckedComment} checkedWallet={checkedWallet} setCheckedWallet={setCheckedWallet} />
+        if (checkedComment === 3 & checkedWallet === true & checkedPending === true) return <VPRightBarWalletTransactionWhite checkedPending={checkedPending} setCheckedPending={setCheckedPending} checkedComment={checkedComment} setCheckedComment={setCheckedComment} checkedWallet={checkedWallet} setCheckedWallet={setCheckedWallet} />
+        if (checkedComment === 3 & checkedWallet === true & checkedPending === false) return <VPRightBarWalletTransactionPendingWhite checkedPending={checkedPending} setCheckedPending={setCheckedPending} checkedComment={checkedComment} setCheckedComment={setCheckedComment} checkedWallet={checkedWallet} setCheckedWallet={setCheckedWallet} />
+       if (checkedComment === 3 & checkedWallet === false) return <VPRightBarWalletAccountWhite checkedComment={checkedComment} setCheckedComment={setCheckedComment} checkedWallet={checkedWallet} setCheckedWallet={setCheckedWallet} />
         if (checkedComment === 4 & checkedFavourite === true) return <>
             <VPRigthBarFavourite1White checkedComment={checkedComment} setCheckedComment={setCheckedComment} checkedFavourite={checkedFavourite} setCheckedFavourite={setCheckedFavourite} />
             <VPRigthBarFavourite1White checkedComment={checkedComment} setCheckedComment={setCheckedComment} checkedFavourite={checkedFavourite} setCheckedFavourite={setCheckedFavourite} />
@@ -149,12 +154,12 @@ const ViewProfile = ({ checkedFavourite, setCheckedFavourite, checked, setChecke
                         <div className="ViewProfile_Mycomments_1">
                             {checkedSubComment === 3 && checkedBall === true ?
                                 <>
-                                    <MyCommentsEditProfileWhite checkedBall={checkedBall} setCheckedBall={setCheckedBall} checkedSubComment={checkedSubComment} setCheckedSubComment={setCheckedSubComment} />
+                                    <MyCommentsEditProfileWhite checkedEditProfile={checkedEditProfile} setCheckedEditProfile={handleEditProfile} checkedBall={checkedBall} setCheckedBall={setCheckedBall} checkedSubComment={checkedSubComment} setCheckedSubComment={setCheckedSubComment} />
                                     <VPAbout1White checkedBall={checkedBall} setCheckedBall={setCheckedBall} checkedSubComment={checkedSubComment} setCheckedSubComment={setCheckedSubComment} />
                                 </>
                                 :
                                 <>
-                                    <MyCommentsEditProfileWhite />
+                                    <MyCommentsEditProfileWhite checkedEditProfile={checkedEditProfile} setCheckedEditProfile={handleEditProfile} />
                                     <VPAboutWhite />
                                 </>
                             }

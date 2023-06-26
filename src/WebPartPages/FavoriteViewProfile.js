@@ -32,7 +32,8 @@ import VPRightBarSubTopBarViewProfileWhite from "../Components/ViewProfile/VPRig
 import VPRigthBarSub1White from "../Components/ViewProfile/VPRigthBarSub1White";
 import VPRigthBarSub1GreenWhite from "../Components/ViewProfile/VPRigthBarSub1GreenWhite";
 import VPRigthBarSub1YellowWhite from "../Components/ViewProfile/VPRigthBarSub1YellowWhite";
-const FavoriteViewProfile = ({ checked, setChecked, checkedFavourite, setCheckedFavourite }) => {
+// import MyCommentsEditProfile from "../Components/ViewProfile/MyCommentsEditProfile";
+const FavoriteViewProfile = ({ checked, setChecked, checkedFavourite, setCheckedFavourite, checkedViewProfileGo, setCheckedViewProfileGo, checkedMai }) => {
     const [checkedVPball, setCheckedVpball] = useState(1);
     const [checkedVPSubTopBar, setCheckedVPSubTopBar] = useState(1);
     const displaycase = () => {
@@ -46,6 +47,8 @@ const FavoriteViewProfile = ({ checked, setChecked, checkedFavourite, setChecked
             <MyCommentsEditProfileViewProfile2 checkedVPball={checkedVPball} setCheckedVpball={setCheckedVpball} checkedVPSubTopBar={checkedVPSubTopBar} setCheckedVPSubTopBar={setCheckedVPSubTopBar} />
         </>
     }
+
+    
     const displaycaseWhite = () => {
         if (checkedVPSubTopBar === 1) return <>
             <MyCommentsEditProfileViewProfileWhite checkedVPSubTopBar={checkedVPSubTopBar} setCheckedVPSubTopBar={setCheckedVPSubTopBar} />
@@ -119,6 +122,7 @@ const FavoriteViewProfile = ({ checked, setChecked, checkedFavourite, setChecked
                             <SideBar />
                         </div>
                         <div className="ViewProfile_Mycomments_1">
+                            {/* <MyCommentsEditProfile checkedVPball={checkedVPball} setCheckedVpball={setCheckedVpball} checkedVPSubTopBar={checkedVPSubTopBar} setCheckedVPSubTopBar={setCheckedVPSubTopBar} checkedViewProfileGo={checkedViewProfileGo} setCheckedViewProfileGo={setCheckedViewProfileGo} /> */}
                             {displaycase()}
                             <VPAbout />
                         </div>

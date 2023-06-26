@@ -6,10 +6,11 @@ import HighLightAvatarVP from "../highlight/HighLightAvatarVP";
 import PieChatBack from '../../assets/Path 160.png';
 import PieChatProgress from '../../assets/Path 159.png';
 import { Button, Col } from "reactstrap";
-const MyCommentsEditProfile = ({ checkedBall, setCheckedBall, checkedSubComment, setCheckedSubComment, checkedEditProfile, setCheckedEditProfile }) => {
-    
+const MyCommentsEditProfile = ({ checkedBall, setCheckedBall, checkedSubComment, setCheckedSubComment, checkedEditProfile, setCheckedEditProfile, checkedViewProfileGo, setCheckedViewProfileGo }) => {
+
     console.log("EditProfileCommentChecked", checkedSubComment)
     console.log("checkedEditProfile", checkedEditProfile)
+    console.log("second", checkedViewProfileGo)
     return (
         <div className="VP_MC_EP_out">
             <div className="d-flex display_VP">
@@ -69,7 +70,7 @@ const MyCommentsEditProfile = ({ checkedBall, setCheckedBall, checkedSubComment,
                     </div>
                 </div>
                 <div className="VP_EP_Right">
-                    <div className="d-flex justify-content-center align-items-center" style={{ marginTop: "10px" }} onClick={()=>{setCheckedEditProfile()}}>
+                    <div className="d-flex justify-content-center align-items-center" style={{ marginTop: "10px" }} onClick={() => { setCheckedEditProfile() }}>
                         {checkedEditProfile ? <>
                             <svg id="user-edit" xmlns="http://www.w3.org/2000/svg" width="41.568" height="41.569" viewBox="0 0 41.568 41.569">
                                 <path id="Path_150" data-name="Path 150" d="M0,0H41.568V41.569H0Z" fill="none" />

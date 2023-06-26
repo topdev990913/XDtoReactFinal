@@ -7,6 +7,7 @@ import Renew_avatar from '../assets/Renew_avatar.png';
 import Renew_crawn from '../assets/Renew_crawn.png';
 import white_back from '../assets/Ellipse 143.png';
 const ModalRenewWhite = () => {
+    const [checkedHighlight, setCheckedHighlight] = useState(3)
     const [show1, setShow1] = useState(false);
     const handleShow1 = () => {
         setShow1(true);
@@ -90,12 +91,21 @@ const ModalRenewWhite = () => {
                     Subscription Plans
                 </div>
                 <div className="d-flex modal_PromoteMe_4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="29.666" height="29.666" viewBox="0 0 29.666 29.666">
-                        <g id="Ellipse_58" data-name="Ellipse 58" fill="none" stroke="#00659D" stroke-width="2">
-                            <circle cx="14.833" cy="14.833" r="14.833" stroke="none" />
-                            <circle cx="14.833" cy="14.833" r="13.833" fill="none" />
-                        </g>
-                    </svg>
+                    {checkedHighlight === 1 ?
+                        <svg xmlns="http://www.w3.org/2000/svg" width="29.666" height="29.666" viewBox="0 0 29.666 29.666" onClick={() => { setCheckedHighlight(1) }}>
+                            <g id="Ellipse_60" data-name="Ellipse 60" fill="#00659D" stroke="#00659D" stroke-width="2">
+                                <circle cx="14.833" cy="14.833" r="14.833" stroke="none" />
+                                <circle cx="14.833" cy="14.833" r="13.833" fill="none" />
+                            </g>
+                        </svg>
+                        :
+                        <svg xmlns="http://www.w3.org/2000/svg" width="29.666" height="29.666" viewBox="0 0 29.666 29.666" onClick={() => { setCheckedHighlight(1) }}>
+                            <g id="Ellipse_58" data-name="Ellipse 58" fill="none" stroke="#00659D" stroke-width="2">
+                                <circle cx="14.833" cy="14.833" r="14.833" stroke="none" />
+                                <circle cx="14.833" cy="14.833" r="13.833" fill="none" />
+                            </g>
+                        </svg>
+                    }
                     <div className="modal_PromoteMe_5_white">
                         1 Month
                     </div>
@@ -104,12 +114,21 @@ const ModalRenewWhite = () => {
                     </div>
                 </div>
                 <div className="d-flex modal_PromoteMe_4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="29.666" height="29.666" viewBox="0 0 29.666 29.666">
-                        <g id="Ellipse_58" data-name="Ellipse 58" fill="none" stroke="#00659D" stroke-width="2">
-                            <circle cx="14.833" cy="14.833" r="14.833" stroke="none" />
-                            <circle cx="14.833" cy="14.833" r="13.833" fill="none" />
-                        </g>
-                    </svg>
+                    {checkedHighlight === 2 ?
+                        <svg xmlns="http://www.w3.org/2000/svg" width="29.666" height="29.666" viewBox="0 0 29.666 29.666" onClick={() => { setCheckedHighlight(2) }}>
+                            <g id="Ellipse_60" data-name="Ellipse 60" fill="#00659D" stroke="#00659D" stroke-width="2">
+                                <circle cx="14.833" cy="14.833" r="14.833" stroke="none" />
+                                <circle cx="14.833" cy="14.833" r="13.833" fill="none" />
+                            </g>
+                        </svg>
+                        :
+                        <svg xmlns="http://www.w3.org/2000/svg" width="29.666" height="29.666" viewBox="0 0 29.666 29.666" onClick={() => { setCheckedHighlight(2) }}>
+                            <g id="Ellipse_58" data-name="Ellipse 58" fill="none" stroke="#00659D" stroke-width="2">
+                                <circle cx="14.833" cy="14.833" r="14.833" stroke="none" />
+                                <circle cx="14.833" cy="14.833" r="13.833" fill="none" />
+                            </g>
+                        </svg>
+                    }
                     <div className="modal_PromoteMe_5_white">
                         <div>3 Month</div>
                         <div className="modal_PromoteMe_9">20<span className="modal_PromoteMe_10">%</span><span className="modal_PromoteMe_11">Save!</span></div>
@@ -119,12 +138,21 @@ const ModalRenewWhite = () => {
                     </div>
                 </div>
                 <div className="d-flex modal_PromoteMe_4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="29.666" height="29.666" viewBox="0 0 29.666 29.666">
-                        <g id="Ellipse_60" data-name="Ellipse 60" fill="#00659D" stroke="#00659D" stroke-width="2">
-                            <circle cx="14.833" cy="14.833" r="14.833" stroke="none" />
-                            <circle cx="14.833" cy="14.833" r="13.833" fill="none" />
-                        </g>
-                    </svg>
+                    {checkedHighlight === 3 ?
+                        <svg xmlns="http://www.w3.org/2000/svg" width="29.666" height="29.666" viewBox="0 0 29.666 29.666" onClick={() => { setCheckedHighlight(3) }}>
+                            <g id="Ellipse_60" data-name="Ellipse 60" fill="#00659D" stroke="#00659D" stroke-width="2">
+                                <circle cx="14.833" cy="14.833" r="14.833" stroke="none" />
+                                <circle cx="14.833" cy="14.833" r="13.833" fill="none" />
+                            </g>
+                        </svg>
+                        :
+                        <svg xmlns="http://www.w3.org/2000/svg" width="29.666" height="29.666" viewBox="0 0 29.666 29.666" onClick={() => { setCheckedHighlight(3) }}>
+                            <g id="Ellipse_58" data-name="Ellipse 58" fill="none" stroke="#00659D" stroke-width="2">
+                                <circle cx="14.833" cy="14.833" r="14.833" stroke="none" />
+                                <circle cx="14.833" cy="14.833" r="13.833" fill="none" />
+                            </g>
+                        </svg>
+                    }
                     <div className="modal_PromoteMe_5_white">
                         <div>6 Month</div>
                         <div className="modal_PromoteMe_9">30<span className="modal_PromoteMe_10">%</span><span className="modal_PromoteMe_11">Save!</span></div>
@@ -134,12 +162,21 @@ const ModalRenewWhite = () => {
                     </div>
                 </div>
                 <div className="d-flex modal_PromoteMe_4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="29.666" height="29.666" viewBox="0 0 29.666 29.666">
-                        <g id="Ellipse_58" data-name="Ellipse 58" fill="none" stroke="#00659D" stroke-width="2">
-                            <circle cx="14.833" cy="14.833" r="14.833" stroke="none" />
-                            <circle cx="14.833" cy="14.833" r="13.833" fill="none" />
-                        </g>
-                    </svg>
+                    {checkedHighlight === 4 ?
+                        <svg xmlns="http://www.w3.org/2000/svg" width="29.666" height="29.666" viewBox="0 0 29.666 29.666" onClick={() => { setCheckedHighlight(4) }}>
+                            <g id="Ellipse_60" data-name="Ellipse 60" fill="#00659D" stroke="#00659D" stroke-width="2">
+                                <circle cx="14.833" cy="14.833" r="14.833" stroke="none" />
+                                <circle cx="14.833" cy="14.833" r="13.833" fill="none" />
+                            </g>
+                        </svg>
+                        :
+                        <svg xmlns="http://www.w3.org/2000/svg" width="29.666" height="29.666" viewBox="0 0 29.666 29.666" onClick={() => { setCheckedHighlight(4) }}>
+                            <g id="Ellipse_58" data-name="Ellipse 58" fill="none" stroke="#00659D" stroke-width="2">
+                                <circle cx="14.833" cy="14.833" r="14.833" stroke="none" />
+                                <circle cx="14.833" cy="14.833" r="13.833" fill="none" />
+                            </g>
+                        </svg>
+                    }
                     <div className="modal_PromoteMe_5_white">
                         <div>1 Year</div>
                         <div className="modal_PromoteMe_9">20<span className="modal_PromoteMe_10">%</span><span className="modal_PromoteMe_11">Save!</span></div>

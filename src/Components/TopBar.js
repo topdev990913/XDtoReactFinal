@@ -8,7 +8,7 @@ import Modal from 'react-bootstrap/Modal';
 import "../Css/Modal.css"
 import ModalNotification from "./ModalNotification";
 import { Link } from "react-router-dom";
-const TopBar = ({ checked, setChecked }) => {
+const TopBar = ({ checked, setChecked, checkedEditProfile, setCheckedEditProfile }) => {
     const [show1, setShow1] = useState(false);
     const handleShow1 = () => setShow1(true);
     const handleClose1 = () => setShow1(false);
@@ -45,9 +45,15 @@ const TopBar = ({ checked, setChecked }) => {
                             </Modal>
                             <div className="header_dashboard_out" style={{ marginLeft: "10px" }}>
                                 <Link to="/ViewProfile">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="97" height="27" viewBox="0 0 97 27">
-                                        <text id="Dashboard" transform="translate(0 22)" fill="#e6e6e6" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Dashboard</tspan></text>
-                                    </svg>
+                                    {checkedEditProfile ?
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="97" height="27" viewBox="0 0 97 27">
+                                            <text id="Dashboard" transform="translate(0 22)" fill="#d2db08" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Dashboard</tspan></text>
+                                        </svg>
+                                        :
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="97" height="27" viewBox="0 0 97 27">
+                                            <text id="Dashboard" transform="translate(0 22)" fill="#e6e6e6" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Dashboard</tspan></text>
+                                        </svg>
+                                    }
                                 </Link>
                             </div>
                             <Link to="/ViewProfile">

@@ -1573,6 +1573,15 @@ a:hover {
     font-size: 23px;
     margin-top: 10px;
 }
+
+.VP_Comment_static_Update_button_blue {
+    color: #3F77DB;
+    width: 117px;
+    height: 47px;
+    border-radius: 6px;
+    font-size: 23px;
+    margin-top: 10px;
+}
 .VP_Comment_static_Update_button_none {
     display: none;
 }
@@ -1719,12 +1728,14 @@ a:hover {
     font-size: 18px;
     font-weight: medium;
     margin-top: -10px;
+    cursor: pointer;
 }
 .VPRightBarWallet_13_white {
     color: #00659D;
     font-size: 18px;
     font-weight: medium;
     margin-top: -10px;
+    cursor: pointer;
 }
 .VPRightBarWallet_15 {
     justify-content: space-evenly;

@@ -2,19 +2,17 @@ import React from "react";
 import "./ViewProfile.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
-import { Link } from "react-router-dom";
-const VPRightBarWalletTransactionPending = ({ checkedWallet, setCheckedWallet }) => {
+const VPRightBarWalletTransactionPending = ({ checkedWallet, setCheckedWallet, checkedPending, setCheckedPending }) => {
+    console.log("first", checkedPending)
     return (
         <div className="VPRightBarWallet_out">
             <div className="d-flex" style={{ gridGap: "20px" }}>
-                <Link to="/ViewProfile">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32.8" height="29.657" viewBox="0 0 32.8 29.657">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32.8" height="29.657" viewBox="0 0 32.8 29.657" onClick={()=>{setCheckedPending(true)}}>
                         <g id="Group_323" data-name="Group 323" transform="translate(1208.459 -4676.619)">
                             <path id="Path_612" data-name="Path 612" d="M0,12,12,0,24,12" transform="translate(-1206.459 4703.447) rotate(-90)" fill="none" stroke="#e6e6e6" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" />
                             <path id="Path_613" data-name="Path 613" d="M0,0V28.8" transform="translate(-1206.459 4691.447) rotate(-90)" fill="none" stroke="#e6e6e6" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" />
                         </g>
                     </svg>
-                </Link>
                 <div className="VPRightBarWalletTransactionPending_1">
                     Pending Balance
                 </div>

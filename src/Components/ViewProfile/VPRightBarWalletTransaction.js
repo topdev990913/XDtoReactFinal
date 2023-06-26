@@ -3,8 +3,8 @@ import "./ViewProfile.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import { Button } from "reactstrap";
-import { Link } from "react-router-dom";
-const VPRightBarWalletTransaction = ({ checkedWallet, setCheckedWallet }) => {
+const VPRightBarWalletTransaction = ({ checkedWallet, setCheckedWallet, checkedPending, setCheckedPending }) => {
+    console.log("Pending", checkedPending)
     return (
         <div className="VPRightBarWallet_out">
             <div className="d-flex">
@@ -31,11 +31,9 @@ const VPRightBarWalletTransaction = ({ checkedWallet, setCheckedWallet }) => {
                             <div className="VPRightBarWallet_12">
                                 8.750<span className="VPRightBarWallet_14">₺</span>
                             </div>
-                            <Link to="/PendingPage">
-                                <div className="VPRightBarWallet_13">
-                                    Check
-                                </div>
-                            </Link>
+                            <div className="VPRightBarWallet_13" onClick={()=>{setCheckedPending(false)}}>
+                                Check
+                            </div>
                         </div>
                     </div>
                 </div>

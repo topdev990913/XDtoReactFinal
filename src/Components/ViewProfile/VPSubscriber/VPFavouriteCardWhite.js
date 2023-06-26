@@ -4,9 +4,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import Favourite_Avatar from '../../../assets/couple-of-lovers-hugging-on-the-beach-party-on-sum-2021-08-26-17-31-01-utc123456789.png';
 import { Button } from "reactstrap";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
-const VPFavouriteCardWhite = ({ checkedFavourite, setCheckedFavourite }) => {
+const VPFavouriteCardWhite = ({ checkedFavourite, setCheckedFavourite, checkedViewProfileGo, setCheckedViewProfileGo }) => {
     return (
         <div className="VPFavouriteCard_out_white">
             <img src={Favourite_Avatar} alt="Favourite_Avatar" className="Favourite_Avatar" />
@@ -33,7 +33,7 @@ const VPFavouriteCardWhite = ({ checkedFavourite, setCheckedFavourite }) => {
                 <path id="Path_62" data-name="Path 62" d="M12,3A11.432,11.432,0,0,0,23.433,14.432" transform="translate(3.046 0.811)" fill="none" stroke="#ff9100" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
                 <path id="Path_63" data-name="Path 63" d="M3,12A11.432,11.432,0,0,1,14.433,23.432" transform="translate(0.811 3.046)" fill="none" stroke="#ff9100" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
             </svg>
-            <Link to="/FavoriteViewProfile"><Button type="submit" className="Favourite_ViewProfile_butoon_white" outline style={{marginLeft: "65.7px"}}>View Profile</Button></Link>
+            <Link to="/FavoriteViewProfile"><Button type="submit" className="Favourite_ViewProfile_butoon_white" outline style={{marginLeft: "65.7px"}} onClick={()=>{setCheckedViewProfileGo(true)}}>View Profile</Button></Link>
             <svg id="star" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" style={{marginLeft: "10px"}}>
                 <path id="Path_272" data-name="Path 272" d="M0,0H35V35H0Z" fill="none" />
                 <path id="Path_273" data-name="Path 273" d="M16.215,24.215,7.44,28.792,9.116,19.1,2.007,12.233l9.81-1.411L16.2,2l4.388,8.82,9.81,1.411L23.294,19.1l1.676,9.695Z" transform="translate(1.284 1.281)" fill="none" stroke="#fc0" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
