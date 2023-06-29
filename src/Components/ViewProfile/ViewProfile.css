@@ -93,6 +93,7 @@
 .VP_EP_Middle_2 {
     color: #E6E6E6;
     font-size: 15px;
+    margin-left: 4px;
 }
 
 .VP_EP_Middle_2_white {
@@ -181,7 +182,7 @@ a:hover {
 
 .VP_EP_Middle_4 {
     position: absolute;
-    margin-top: 84px;
+    margin-top: 74px;
     margin-left: 292px;
 }
 
@@ -198,13 +199,13 @@ a:hover {
 }
 
 .VP_EP_Button {
-    width: 117.03px;
+    width: 117.02px;
     height: 30.28px;
     border-radius: 18px;
     font-size: 18px;
     color: #FFA200;
     margin-left: 77px;
-    margin-top: 146px;
+    margin-top: 141px;
     position: absolute;
     border-color: #FFA200;
 }

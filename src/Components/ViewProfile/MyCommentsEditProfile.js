@@ -41,7 +41,7 @@ const MyCommentsEditProfile = ({ checkedBall, setCheckedBall, checkedSubComment,
                 </div>
                 <div className="VP_EP_Middle">
                     <HighLightAvatarVP />
-                    <div className="d-flex align-items-center" style={{ marginTop: "79px" }}>
+                    <div className="d-flex align-items-center" style={{ marginTop: "79px", marginLeft: "4px" }}>
                         <div className="VP_EP_Middle_1">
                             melih1905
                         </div>

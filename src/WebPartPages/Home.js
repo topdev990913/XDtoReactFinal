@@ -192,7 +192,7 @@ const Home = ({ checkedFavourite, setCheckedFavourite, checked, setChecked, chec
                         <SideBarWhite checkedMainOption={checkedMainOption} setCheckedMainOption={setCheckedMainOption} />
                     </div>
                     {displaystarWhite()}
-                </div>
+                </div>  
             </>
             :
             <>
